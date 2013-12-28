@@ -1,0 +1,10 @@
+{
+  "color_scheme": "Packages/User/Color Schemes/search.tmTheme",
+  "spell_check": false,
+  "word_wrap": false,
+  "draw_indent_guides": false,
+  "line_numbers": false,
+  "margin": 8,
+  "gutter": false,
+  "highlight_line": true
+}

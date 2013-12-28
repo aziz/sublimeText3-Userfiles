@@ -1,0 +1,8 @@
+{
+	"hayaku_CSS_syntax_autoguess":
+	[
+		"selector {",
+		"  property: value;",
+		"}"
+	]
+}

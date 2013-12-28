@@ -1,0 +1,74 @@
+[
+// {
+//     "class": "sidebar_container",
+//     "layer0.tint": [53, 68, 71],
+//     "layer0.texture": "",
+//     "layer0.opacity": 1.0,
+//     "layer0.inner_margin": [1, 1, 2, 1],
+//     "content_margin": [0, 0, 1, 0]
+// },
+// {
+//     "class": "sidebar_tree",
+//     "row_padding": [8, 3],
+//     "layer0.tint": [0, 22, 27],
+//     "layer0.opacity": 1.0,
+//     "indent": 15,
+//     "indent_offset": 15,
+//     "indent_top_level": false
+// },
+// {
+//     "class": "sidebar_heading",
+//     "shadow_color": [0, 0, 0],
+// },
+// {
+//     "class": "sidebar_label",
+//     "color": [128, 142, 155],
+//     "shadow_color": [0, 0, 0]
+// },
+// {
+//     "class": "sidebar_label",
+//     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+//     "color": [255, 255, 255],
+//     "shadow_color": [34, 94, 145],
+//     "shadow_offset": [0, 1]
+// },
+
+
+// {
+//     "class": "disclosure_button_control",
+//     "settings": ["soda_folder_icons"],
+//     "layer0.texture": "Theme - Soda/Soda Dark/folder-closed.png"
+// },
+// {
+//     "class": "disclosure_button_control",
+//     "settings": ["soda_folder_icons"],
+//     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+//     "layer0.texture": "Theme - Soda/Soda Dark/folder-closed-hover.png"
+// },
+// {
+//     "class": "disclosure_button_control",
+//     "settings": ["soda_folder_icons"],
+//     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+//     "layer0.texture": "Theme - Soda/Soda Dark/folder-closed-selected.png"
+// },
+// {
+//     "class": "disclosure_button_control",
+//     "settings": ["soda_folder_icons"],
+//     "attributes": ["expanded"],
+//     "layer0.texture": "Theme - Soda/Soda Dark/folder-open.png"
+// },
+// {
+//     "class": "disclosure_button_control",
+//     "settings": ["soda_folder_icons"],
+//     "attributes": ["expanded"],
+//     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+//     "layer0.texture": "Theme - Soda/Soda Dark/folder-open-hover.png"
+// },
+// {
+//     "class": "disclosure_button_control",
+//     "settings": ["soda_folder_icons"],
+//     "attributes": ["expanded"],
+//     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+//     "layer0.texture": "Theme - Soda/Soda Dark/folder-open-selected.png"
+// },
+]

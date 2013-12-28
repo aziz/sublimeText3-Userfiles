@@ -1,0 +1,14 @@
+{
+	"extensions":
+	[
+		"markdown",
+		"mdown",
+		"md"
+	],
+	"font_face": "Menlo",
+	"font_size": 15,
+	"hyperlink_helper_link_format": "[{{{input}}}]{{#title?}}({{{url}}} \"{{{title}}}\"){{/title?}}{{^title?}}({{{url}}}){{/title?}}",
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"spell_check": false
+}

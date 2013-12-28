@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Sublime Search Results</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e7d9ff</string>
+				<key>caret</key>
+				<string>#813581</string>
+				<key>foreground</key>
+				<string>#260f4d</string>
+				<key>invisibles</key>
+				<string>#3B3A32</string>
+				<key>lineHighlight</key>
+				<string>#ae81ff30</string>
+				<key>selection</key>
+				<string>#ffa80030</string>
+				<key>findHighlight</key>
+				<string>#FF0000</string>
+				<key>findHighlightForeground</key>
+				<string>#ff0000</string>
+				<key>selectionBorder</key>
+				<string>#ff000000</string>
+				<key>activeGuide</key>
+				<string>#370737</string>
+				<key>bracketsForeground</key>
+				<string>#00000050</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+				<key>bracketContentsForeground</key>
+				<string>#00000050</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF50</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#333333</string>
+				<key>background</key>
+				<string>#FFD420AA</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+				<key>background</key>
+				<string>#80a0ff</string>
+				<key>fontstyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+	</array>
+	<key>uuid</key>
+	<string>edcc9b28-ac04-4b4a-8fa3-f4be3c0d3b02</string>
+</dict>
+</plist>

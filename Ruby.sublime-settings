@@ -1,0 +1,13 @@
+{
+	"extensions":
+	[
+		"rb",
+		"ru",
+		"Gemfile",
+		"Rakefile",
+		"Guardfile",
+		"Vagrantfile",
+		"jbuilder"
+	],
+	"indent_to_bracket": true
+}

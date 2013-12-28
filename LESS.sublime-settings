@@ -1,0 +1,12 @@
+{
+  "hayaku_CSS_syntax_autoguess": [
+    "selector {",
+    "  property: value;",
+    "}"
+  ],
+  "hayaku_CSS_prefixes_disable": true,
+	"extensions":
+	[
+		"less"
+	]
+}

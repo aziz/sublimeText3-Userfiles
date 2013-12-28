@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[!important]]></content>
+  <tabTrigger>!</tabTrigger>
+  <scope>source.css</scope>
+</snippet>
