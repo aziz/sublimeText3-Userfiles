@@ -5,7 +5,7 @@
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default.gutter-theme",
         "gutter_theme_excludes": [],
-        "lint_mode": "background",
+        "lint_mode": "load/save",
         "linters": {
             "coffeelint": {
                 "@disable": false,

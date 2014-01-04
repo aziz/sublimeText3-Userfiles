@@ -84,8 +84,6 @@
 			<string>entity</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#EFE900</string>
 			</dict>
@@ -97,8 +95,6 @@
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#FFAA00</string>
 			</dict>
@@ -696,8 +692,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#74CDFD</string>
-				<key>fontStyle</key>
-				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>

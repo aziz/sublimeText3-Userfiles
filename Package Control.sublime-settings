@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Abacus",
 		"Alignment",
 		"AngularJS",
 		"BeautifyRuby",
@@ -36,6 +37,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-ruby",
 		"TabsShortcuts",
+		"Theme - Glacier",
 		"Theme - Soda",
 		"Theme - Spacegray",
 		"Themr"
