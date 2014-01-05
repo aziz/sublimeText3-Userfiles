@@ -1,6 +1,6 @@
 {
-   "statusbar_branch": false
-  ,"statusbar_status": true
-  ,"git_command": "/usr/local/bin/git"
-  ,"statusbar_status_symbols" : {"modified": "≠", "added": "+", "deleted": "×", "untracked": "?", "conflicts": "‼", "renamed":"R", "copied":"C", "clean": "✔", "separator": " "}
+  "statusbar_branch": false,
+  "statusbar_status": false,
+  "git_command": "/usr/local/bin/git",
+  "statusbar_status_symbols" : {"modified": "≠", "added": "+", "deleted": "×", "untracked": "?", "conflicts": "‼", "renamed":"R", "copied":"C", "clean": "✔", "separator": " "}
 }
