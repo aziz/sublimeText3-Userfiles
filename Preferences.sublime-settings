@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
@@ -86,6 +87,7 @@
 	"scroll_past_end": true,
 	"show_full_path": false,
 	"soda_classic_tabs": false,
+	"soda_fade_sidebar": true,
 	"soda_folder_icons": true,
 	"soda_retina_fix": true,
 	"tab_size": 2,
@@ -93,6 +95,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"always_show_minimap_viewport": true,
 	"word_wrap": false
 }

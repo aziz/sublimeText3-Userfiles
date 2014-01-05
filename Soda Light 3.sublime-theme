@@ -6,7 +6,7 @@
     "layer0.texture": "",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [1, 1, 2, 1],
-    "content_margin": [0, -16, 1, 0]
+    "content_margin": [0, 0, 1, 0]
 },
 {
     "class": "sidebar_tree",
@@ -15,7 +15,8 @@
     "layer0.opacity": 1.0,
     "indent": 15,
     "indent_offset": 15,
-    "indent_top_level": false
+    "indent_top_level": false,
+    "dark_content": true
 },
 // Sidebar rows
 {
@@ -32,14 +33,42 @@
 },
 {
     "class": "sidebar_heading",
-    "color": [128, 142, 155],
+    "color": [128, 142, 155, 127],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0],
 },
 {
+    "class": "sidebar_heading",
+    "settings": ["soda_fade_sidebar"],
+    "color": [128, 142, 155, 60],
+    "shadow_offset": [0, 0],
+},
+{
+    "class": "sidebar_heading",
+    "settings": ["soda_fade_sidebar"],
+    "parents" :  [{"class": "sidebar_tree", "attributes": ["hover"]}],
+    "color": [128, 142, 155, 127],
+    "shadow_offset": [0, 0],
+},
+
+{
     "class": "sidebar_label",
-    "color": [128, 142, 155],
+    "settings": ["soda_fade_sidebar"],
+    "color": [128, 142, 155, 100],
     "shadow_color": [0, 0, 0]
+},
+{
+    "class": "sidebar_label",
+    "settings": ["!soda_fade_sidebar"],
+    "color": [128, 142, 155, 255],
+    "shadow_color": [0, 0, 0]
+},
+// File (hover)
+{
+    "class"   : "sidebar_label",
+    "settings": ["soda_fade_sidebar"],
+    "parents" :  [{"class": "sidebar_tree", "attributes": ["hover"]}],
+    "color"   : [128, 142, 155, 255]
 },
 {
     "class": "sidebar_label",
@@ -47,6 +76,17 @@
     "color": [255, 255, 255],
     "shadow_color": [34, 94, 145],
     "shadow_offset": [0, 1]
+},
+{
+    "class": "disclosure_button_control",
+    "settings": ["soda_fade_sidebar"],
+    "layer0.opacity": 0.5,
+},
+{
+    "class": "disclosure_button_control",
+    "settings": ["soda_fade_sidebar"],
+    "parents" :  [{"class": "sidebar_tree", "attributes": ["hover"]}],
+    "layer0.opacity": 1.0,
 },
 {
     "class": "disclosure_button_control",
@@ -326,4 +366,21 @@
         "shadow_color": [0, 22, 27],
         "shadow_offset": [0, -1]
     },
+//
+// GRID LAYOUT
+//
+    {
+        "class": "grid_layout_control",
+        "border_size": 1,
+        "border_color": [35,49,61]
+    },
+//
+// EMPTY WINDOW BACKGROUND
+//
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [0, 22, 27],
+        "layer0.opacity": 1.0
+    },
+
 ]
