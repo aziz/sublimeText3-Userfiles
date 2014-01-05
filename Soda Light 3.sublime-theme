@@ -6,7 +6,7 @@
     "layer0.texture": "",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [1, 1, 2, 1],
-    "content_margin": [0, 0, 1, 0]
+    "content_margin": [0, -16, 1, 0]
 },
 {
     "class": "sidebar_tree",
@@ -17,11 +17,24 @@
     "indent_offset": 15,
     "indent_top_level": false
 },
+// Sidebar rows
+{
+    "class": "tree_row",
+    "layer0.texture": "User/Theme/sidebar-row-selected.png",
+    "layer0.opacity": 0.0,
+    "layer0.inner_margin": [1, 1]
+},
+// Sidebar row selected
+{
+    "class": "tree_row",
+    "attributes": ["selected"],
+    "layer0.opacity": 1.0
+},
 {
     "class": "sidebar_heading",
-    "color": [0, 22, 27],
+    "color": [128, 142, 155],
     "shadow_color": [0, 0, 0],
-    "shadow_offset": [0, 0]
+    "shadow_offset": [0, 0],
 },
 {
     "class": "sidebar_label",
@@ -198,7 +211,6 @@
 //
 // TAB LABELS
 //
-
     {
         "class": "tab_label",
         "fade": true,
