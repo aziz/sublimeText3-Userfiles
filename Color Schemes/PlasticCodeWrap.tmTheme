@@ -63,7 +63,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1E9AE0</string>
+				<string>#1E9AE088</string>
 			</dict>
 		</dict>
 		<dict>
@@ -85,7 +85,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EFE900</string>
+				<string>#E8D500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -141,7 +141,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FB9A4B</string>
+				<!-- <string>#FB9A4B</string> -->
+				<string>#FD9ABC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,7 +287,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EFFFF</string>
+				<string>#9EFFFF99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -319,7 +320,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5FE461</string>
+				<string>#F6F080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -331,17 +332,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>css property-value;</string>
-			<key>scope</key>
-			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F6F080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -363,9 +353,35 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDF080</string>
+				<string>#FF3A83</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>css !important</string>
+			<key>scope</key>
+			<string>keyword.other.important.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
+				<string>#FF000050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css !important</string>
+			<key>scope</key>
+			<string>keyword.other.unit.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB939A</string>
+			</dict>
+		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>css constructor.argument</string>
@@ -374,7 +390,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EB939A</string>
+				<!-- <string>#EB939A</string> -->
+				<string>#FF0000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -537,7 +554,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#65A4A4</string>
+				<string>#65A4A488</string>
 			</dict>
 		</dict>
 		<dict>
@@ -647,7 +664,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#F7EFA1</string>
 			</dict>
 		</dict>
 		<dict>

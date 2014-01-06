@@ -43,9 +43,6 @@
 		".hg"
 	],
 	"font_face": "Monaco",
-	"font_options":
-	[
-	],
 	"font_size": 13.0,
 	"ignored_packages":
 	[
