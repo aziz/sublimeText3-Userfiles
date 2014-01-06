@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Sublime Search Results</string>
+	<string>Sublime Find Results</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#e7d9ff</string>
+				<string>#f7e9ff</string>
 				<key>caret</key>
 				<string>#813581</string>
 				<key>foreground</key>
@@ -44,6 +44,54 @@
 
 		<dict>
 			<key>scope</key>
+			<string>variable.total_files_count.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF55FF</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>string.query.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE18AE</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>variable.matched_count.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF55FF</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>variable.matched_files_count.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF55FF</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
 			<string>constant.numeric.line-number.find-in-files</string>
 			<key>settings</key>
 			<dict>
@@ -54,15 +102,39 @@
 
 		<dict>
 			<key>scope</key>
+			<string>match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFD42022</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>scope</key>
 			<string>constant.numeric.line-number.match.find-in-files</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#333333</string>
 				<key>background</key>
-				<string>#FFD420AA</string>
+				<string>#FFD42066</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>punctuation.line-number.match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD42011</string>
+				<key>background</key>
+				<string>#FFD42022</string>
+			</dict>
+		</dict>
+
 
 		<dict>
 			<key>scope</key>
@@ -75,6 +147,16 @@
 				<string>#80a0ff</string>
 				<key>fontstyle</key>
 				<string>bold</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>footer.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#33333333</string>
 			</dict>
 		</dict>
 

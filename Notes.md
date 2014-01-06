@@ -4,7 +4,10 @@
 * hover over labels on sidebar should highlight
 * transparent tabs
 
-- Groups and Layout (show open files)
+- Groups/Layout (show open files)
+- WorkSpace/Project
+- Abacus/Alignment
+
 # Shortcuts:
 
 # TODO:
