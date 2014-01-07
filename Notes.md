@@ -5,10 +5,12 @@
 - hover over labels on sidebar should highlight
 - transparent tabs
 
+
 - Groups/Layout (show open files)
 - WorkSpace/Project
 - Abacus/Alignment
 - orgmode
+- remember folds
 
 # Color Scheme:
 - less scheme colors should closely match css scheme colors

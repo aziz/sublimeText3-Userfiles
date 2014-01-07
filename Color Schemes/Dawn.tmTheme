@@ -434,7 +434,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#0E39FF</string>
+				<string>#0584FF</string>
 			</dict>
 		</dict>
 
@@ -449,7 +449,7 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#0E39FF44</string>
+				<string>#0584FF44</string>
 			</dict>
 		</dict>
 
