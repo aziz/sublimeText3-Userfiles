@@ -1,6 +1,9 @@
 {
     "parser": "github",
-    "css": "default"
+    // "enabled_extensions": ["default"],
+    "css": "default",
+    "enable_highlight": true,
+    "strip_yaml_front_matter": true
 }
 
 

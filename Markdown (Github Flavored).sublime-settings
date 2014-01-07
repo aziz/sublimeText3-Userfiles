@@ -6,6 +6,7 @@
 		"mdown",
 		"md"
 	],
+	"word_wrap": false,
 	"font_face": "consolas",
 	"font_size": 15,
 	"hyperlink_helper_link_format": "[{{{input}}}]{{#title?}}({{{url}}} \"{{{title}}}\"){{/title?}}{{^title?}}({{{url}}}){{/title?}}",

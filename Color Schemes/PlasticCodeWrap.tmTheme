@@ -9,50 +9,32 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<key>activeGuide</key>
+				<string>#28364299</string>
 				<key>background</key>
 				<string>#00161B</string>
 				<key>caret</key>
 				<string>#8BA7A7</string>
+				<key>findHighlight</key>
+				<string>#ffe792</string>
+				<key>findHighlightForeground</key>
+				<string>#ff0000</string>
 				<key>foreground</key>
 				<string>#F8F8F8</string>
+				<key>guide</key>
+				<string>#28364230</string>
+				<key>gutterForeground</key>
+				<string>#283642dd</string>
+				<key>inactiveSelection</key>
+				<string>#ff7e00</string>
 				<key>invisibles</key>
 				<string>#F3FFB51A</string>
 				<key>lineHighlight</key>
 				<string>#FFFFFF0D</string>
 				<key>selection</key>
 				<string>#C5DFE980</string>
-
-				<key>findHighlight</key>
-				<string>#ffe792</string>
-
-				<key>inactiveSelection</key>
-				<string>#ff7e00</string>
-<!--
-				<key>inactiveSelectionForeground</key>
-				<string>#00ff00</string>
--->
-				<key>gutterForeground</key>
-				<string>#283642dd</string>
-				<key>guide</key>
-				<string>#28364230</string>
-				<key>activeGuide</key>
-				<string>#28364299</string>
-
-<!--
-
-				<key>bracketsOptions</key>
-				<string>foreground underline</string>
-				<key>bracketContentsForeground</key>
-				<string>#ff0000</string>
-				<key>bracketContentsOptions</key>
-				<string>underline</string>
-
-				<key>tagsForeground</key>
-				<string>#ff0000</string>
-				<key>tagsOptions</key>
-				<string>underline</string>
--->
-
+				<key>selectionBorder</key>
+				<string>#C5DFE980</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +101,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#4EE161</string>
-				<!-- <string>#65BA3A</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -141,43 +122,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<!-- <string>#FB9A4B</string> -->
 				<string>#FD9ABC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid</string>
-			<key>scope</key>
-			<string>invalid</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#D8290DBF</string>
-				<key>foreground</key>
-				<string>#F8F8F8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Embedded Source</string>
-			<key>scope</key>
-			<string>text source</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#B0B3BA14</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Embedded Source (Bright)</string>
-			<key>scope</key>
-			<string>text.html.ruby source</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#B1B3BA21</string>
 			</dict>
 		</dict>
 		<dict>
@@ -195,7 +140,7 @@
 			<key>name</key>
 			<string>String embedded-source</string>
 			<key>scope</key>
-			<string>string.quoted source</string>
+			<string>string.quoted source, string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -204,18 +149,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String constant</string>
-			<key>scope</key>
-			<string>string constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String.regexp</string>
+			<string>String regexp</string>
 			<key>scope</key>
 			<string>string.regexp</string>
 			<key>settings</key>
@@ -237,7 +171,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Support.function</string>
+			<string>Support function</string>
 			<key>scope</key>
 			<string>support.function</string>
 			<key>settings</key>
@@ -248,7 +182,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Support.constant</string>
+			<string>Support constant</string>
 			<key>scope</key>
 			<string>support.constant</string>
 			<key>settings</key>
@@ -277,17 +211,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#AFC4DB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Meta.tag.A</string>
-			<key>scope</key>
-			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9EFFFF99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -336,13 +259,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css @at-rule</string>
+			<string>css @import</string>
 			<key>scope</key>
-			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+			<string>keyword.control.at-rule.import.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F6AA11</string>
+				<string>#f7f09d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -358,20 +281,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css !important</string>
-			<key>scope</key>
-			<string>keyword.other.important.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-				<key>background</key>
-				<string>#FF000050</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>css !important</string>
+			<string>css units</string>
 			<key>scope</key>
 			<string>keyword.other.unit.css</string>
 			<key>settings</key>
@@ -380,18 +290,347 @@
 				<string>#EB939A</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
-			<string>css constructor.argument</string>
+			<string>css !important</string>
 			<key>scope</key>
-			<string>meta.constructor.argument.css</string>
+			<string>keyword.other.important.css</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF000050</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Doctype/XML Processing</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<!-- <string>#EB939A</string> -->
-				<string>#FF0000</string>
+				<string>#73817D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>tag</string>
+			<key>scope</key>
+			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9EFFFF99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>html id</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB454</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>html class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDF080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>html punctuations tags</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#65A4A488</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>html entities</string>
+			<key>scope</key>
+			<string>constant.character.entity.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1E94B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS @at-rule</string>
+			<key>scope</key>
+			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6AA11</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS variables</string>
+			<key>scope</key>
+			<string>variable.other.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EE161</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS mixins</string>
+			<key>scope</key>
+			<string>entity.other.less.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS units</string>
+			<key>scope</key>
+			<string>source.css.less keyword.unit.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB939A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>angular</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.angular.html, source.angular.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF3A83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee instance var</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee brace</string>
+			<key>scope</key>
+			<string>meta.brace.round.coffee,meta.brace.square.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee embeded</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EE161</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee vars</string>
+			<key>scope</key>
+			<string>variable.assignment.coffee variable.assignment.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F7EFA1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee dots</string>
+			<key>scope</key>
+			<string>meta.delimiter.method.period.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFAA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee curleys</string>
+			<key>scope</key>
+			<string>meta.brace.curly.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee comment annotation</string>
+			<key>scope</key>
+			<string>comment.block.coffee storage.type.annotation.coffeescript </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#74CDFD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DA2000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF000050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DF940050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF4A5250</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff33</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF000050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Annotations</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.notes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFAA50</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF000050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>text source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B0B3BA14</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Source (Bright)</string>
+			<key>scope</key>
+			<string>text.html.ruby source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B1B3BA21</string>
 			</dict>
 		</dict>
 		<dict>
@@ -446,306 +685,22 @@
 				<string>#F8F8F8</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Annotations</string>
+			<string>Invalid</string>
 			<key>scope</key>
-			<string>sublimelinter.outline.notes</string>
+			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-			    <key>background</key>
-			    <string>#FFFFAA50</string>
-			</dict>
-	</dict>
-	<dict>
-	    <key>name</key>
-	    <string>SublimeLinter Outline</string>
-	    <key>scope</key>
-	    <string>sublimelinter.outline.illegal</string>
-	    <key>settings</key>
-	    <dict>
-	        <key>background</key>
-	        <string>#FF4A5250</string>
-	    </dict>
-	</dict>
-	<dict>
-	    <key>name</key>
-	    <string>SublimeLinter Underline</string>
-	    <key>scope</key>
-	    <string>sublimelinter.underline.illegal</string>
-	    <key>settings</key>
-	    <dict>
-	        <key>background</key>
-	        <string>#FF000050</string>
-	    </dict>
-	</dict>
-	<dict>
-	    <key>name</key>
-	    <string>SublimeLinter Warning Outline</string>
-	    <key>scope</key>
-	    <string>sublimelinter.outline.warning</string>
-	    <key>settings</key>
-	    <dict>
-	        <key>background</key>
-	        <string>#DF940050</string>
-	    </dict>
-	</dict>
-	<dict>
-	    <key>name</key>
-	    <string>SublimeLinter Warning Underline</string>
-	    <key>scope</key>
-	    <string>sublimelinter.underline.warning</string>
-	    <key>settings</key>
-	    <dict>
-	        <key>background</key>
-	        <string>#FF000050</string>
-	    </dict>
-	</dict>
-	<dict>
-	    <key>name</key>
-	    <string>SublimeLinter Violation Outline</string>
-	    <key>scope</key>
-	    <string>sublimelinter.outline.violation</string>
-	    <key>settings</key>
-	    <dict>
-	        <key>background</key>
-	        <string>#ffffff33</string>
-	    </dict>
-	</dict>
-	<dict>
-	    <key>name</key>
-	    <string>SublimeLinter Violation Underline</string>
-	    <key>scope</key>
-	    <string>sublimelinter.underline.violation</string>
-	    <key>settings</key>
-	    <dict>
-	        <key>background</key>
-	        <string>#FF000050</string>
-	    </dict>
-	</dict>
-			<dict>
-			<key>name</key>
-			<string>html id</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.id.html</string>
-			<key>settings</key>
-			<dict>
+				<key>background</key>
+				<string>#D8290DBF</string>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#F8F8F8</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>html class</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EDF080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>html punctuations tags</string>
-			<key>scope</key>
-			<string>punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#65A4A488</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS @import</string>
-			<key>scope</key>
-			<string>keyword.control.at-rule.import.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f7f09d</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS variables</string>
-			<key>scope</key>
-			<string>variable.other.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4EE161</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS variables</string>
-			<key>scope</key>
-			<string>entity.other.less.mixin</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS units</string>
-			<key>scope</key>
-			<string>source.css.less keyword.unit.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EB939A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Angular</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.angular.html, source.angular.embedded.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF3A83</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Entities</string>
-			<key>scope</key>
-			<string>constant.character.entity.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F1E94B</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>coffee instance var</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.instance.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>coffee brace</string>
-			<key>scope</key>
-			<string>meta.brace.round.coffee,meta.brace.square.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F6F080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>coffee embeded</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4EE161</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Coffee vars</string>
-			<key>scope</key>
-			<string>variable.assignment.coffee variable.assignment.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F7EFA1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Coffee dots</string>
-			<key>scope</key>
-			<string>meta.delimiter.method.period.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFAA00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Coffee curleys</string>
-			<key>scope</key>
-			<string>meta.brace.curly.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Coffee comment annotation</string>
-			<key>scope</key>
-			<string>comment.block.coffee storage.type.annotation.coffeescript </string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#74CDFD</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Doctype/XML Processing</string>
-			<key>scope</key>
-			<string>meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#73817D</string>
-			</dict>
-		</dict>
-		<dict>
-        <key>name</key>
-        <string>SublimeLinter Error</string>
-        <key>scope</key>
-        <string>sublimelinter.mark.error</string>
-        <key>settings</key>
-        <dict>
-            <key>foreground</key>
-            <string>#DA2000</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>SublimeLinter Gutter Mark</string>
-        <key>scope</key>
-        <string>sublimelinter.gutter-mark</string>
-        <key>settings</key>
-        <dict>
-            <key>foreground</key>
-            <string>#FFFFFF</string>
-        </dict>
-    </dict>
-    <dict>
-        <key>name</key>
-        <string>SublimeLinter Warning</string>
-        <key>scope</key>
-        <string>sublimelinter.mark.warning</string>
-        <key>settings</key>
-        <dict>
-            <key>foreground</key>
-            <string>#EDBA00</string>
-        </dict>
-    </dict>
 	</array>
 	<key>uuid</key>
 	<string>13E579BF-40AB-42E2-9EAB-0AD3EDD88532</string>
 </dict>
 </plist>
+
