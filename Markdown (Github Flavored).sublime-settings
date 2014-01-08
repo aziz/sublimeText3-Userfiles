@@ -1,16 +1,17 @@
 {
 	"color_scheme": "Packages/User/Color Schemes/Knockdown.tmTheme",
+	"enable_table_editor": true,
 	"extensions":
 	[
 		"markdown",
 		"mdown",
 		"md"
 	],
-	"word_wrap": false,
 	"font_face": "consolas",
 	"font_size": 15,
 	"hyperlink_helper_link_format": "[{{{input}}}]{{#title?}}({{{url}}} \"{{{title}}}\"){{/title?}}{{^title?}}({{{url}}}){{/title?}}",
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
-	"spell_check": false
+	"spell_check": false,
+	"word_wrap": false
 }

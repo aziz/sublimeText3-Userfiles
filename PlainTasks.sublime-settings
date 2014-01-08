@@ -1,3 +1,4 @@
 {
-  "indent_after_task": false
+	"enable_table_editor": true,
+	"indent_after_task": false
 }

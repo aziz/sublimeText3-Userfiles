@@ -4,6 +4,10 @@
 { "keys": ["super+v"], "command": "paste_and_indent" },
 { "keys": ["super+shift+v"], "command": "paste" },
 
+{ "keys": ["super+shift+w"], "command": "close_others"},
+{ "keys": ["super+alt+w"], "command": "close_to_right"},
+
+
 // old sidebar enhancement shortcuts
 { "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
 { "keys": ["f2"], "command": "side_bar_rename" },
