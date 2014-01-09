@@ -1,9 +1,9 @@
+
 # THEME:
-- fold triagle/bookmark/circle
+- fold triangle/bookmark/circle 
 - sidebar fade: fade selected row
 - hover over labels on sidebar should highlight
 - transparent tabs
-- positon of three dot fold image on the middle
 - open files in sidebar has some issues
 
 # Color Scheme:
@@ -11,17 +11,28 @@
 - better inactiveSelection color
 - cleanup and update knockdown colorScheme
 
-# Shortcuts:
-- alt+left/right table_editor_move_column_right/left does not work
-- expand selection to scope command+shift+space is overriden by OS
-- i18n_rails_go_to_file command+alt+F should change
-
-------------------------------------------------------
 
 # TODO:
 - LiveReload-sublimetext
-- work on shortcuts and potential conflicts
+- ruby test
+    
+# Want:
+- color highlighting
+- better spell checker (add word, remember ignored, multi langs, scope specific)
+- RTL and BIDI support
+- hiding menu item from context menu that has children items (?)
 
+# Best Practices in ST Plugin Development
+## Plugins
+1. limit your key bindings to a specific scope to reduce conflicts
+2. do not pollute context menu, when your command is not relevant to current buffer hide it (use is_visible)
+
+## Language Definitions
+## ColorSchemes
+
+
+
+# Missing ColorScheme General Colors
 ``` html
 <key>inactiveSelectionForeground</key>
 <string>#00ff00</string>

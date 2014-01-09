@@ -9,9 +9,11 @@
 	],
 	"font_face": "consolas",
 	"font_size": 15,
+	"margin": 4,
 	"hyperlink_helper_link_format": "[{{{input}}}]{{#title?}}({{{url}}} \"{{{title}}}\"){{/title?}}{{^title?}}({{{url}}}){{/title?}}",
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"caret_extra_top": 2,
 	"spell_check": false,
-	"word_wrap": false
+	"word_wrap": true
 }

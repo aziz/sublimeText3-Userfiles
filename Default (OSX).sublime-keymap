@@ -7,6 +7,7 @@
 { "keys": ["super+shift+w"], "command": "close_others"},
 { "keys": ["super+alt+w"], "command": "close_to_right"},
 
+{ "keys": ["super+alt+d"], "command": "expand_selection", "args": {"to": "scope"} },
 
 // old sidebar enhancement shortcuts
 { "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
@@ -43,6 +44,8 @@
 { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
           "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
 }, // single test
+
+{ "keys": ["super+k", "super+f"], "command": "js_format" },
 
 // GIT
 { "keys": ["super+e", "super+b"], "command": "git_blame" },
