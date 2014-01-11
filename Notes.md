@@ -42,9 +42,6 @@
 # IDEA
 - Non-fullscreen Distraction Free Mode 
     http://www.sublimetext.com/forum/viewtopic.php?f=4&t=15118
-    - open file in a new widown
-    - hide tabs, status bar, sidebar, minimap
-    - set draw centered
 - Make search results readonly
 - Sublime-Tweet (https://github.com/fukayatsu/SublimeTweetLine)
 - better QuickCal

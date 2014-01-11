@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Abacus",
+		"Alternative Autocompletion",
 		"AngularJS",
 		"BeautifyRuby",
 		"Better CoffeeScript",
@@ -23,8 +24,8 @@
 		"LiveReload",
 		"Markdown Preview",
 		"MarkdownEditing",
+		"MaxPane",
 		"orgmode",
-		"PackageResourceViewer",
 		"PlainTasks",
 		"QuickCal",
 		"RSpec",
