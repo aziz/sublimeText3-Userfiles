@@ -1,4 +1,5 @@
 # TODO:
+- HTML tags in Markdown should hav different color <s></s>
 - delete and close
 - fade_fold_buttons should be syntax specific
 - LiveReload
@@ -42,7 +43,11 @@
 # IDEA
 - Non-fullscreen Distraction Free Mode 
     http://www.sublimetext.com/forum/viewtopic.php?f=4&t=15118
-- Make search results readonly
+- Better find results 
+    - Make search results readonly
+    - better syntax highlighting
+    - custom color scheme
+    - keyboard navigation
 - Sublime-Tweet (https://github.com/fukayatsu/SublimeTweetLine)
 - better QuickCal
 

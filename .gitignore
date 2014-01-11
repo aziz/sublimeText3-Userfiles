@@ -1,17 +1,18 @@
-*.cache
 *.bin.gz
+*.cache
 *.pyc
 .DS_Store
-GitHub.sublime-settings
-Gist.sublime-settings
-RubyTest.last-run
-Package Control.last-run
-Package Control.system-ca-bundle
-FileHistory.sublime-settings
-GoSublime/*
-GoSublime-aux.*
-subclrschm
-ColorSchemeEditorTemp
-subclrschm.log
 .SublimeREPLHistory
 CalendarEvents/
+ColorSchemeEditorTemp
+FileHistory.sublime-settings
+Gist.sublime-settings
+GitHub.sublime-settings
+MardownPreview.sublime-settings
+GoSublime-aux.*
+GoSublime/*
+Package Control.last-run
+Package Control.system-ca-bundle
+RubyTest.last-run
+subclrschm
+subclrschm.log
