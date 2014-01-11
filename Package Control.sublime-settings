@@ -14,6 +14,7 @@
 		"Hayaku - tools for writing CSS faster",
 		"HTML5",
 		"I18n Rails",
+		"Inc-Dec-Value",
 		"INI",
 		"JsFormat",
 		"knockdown",
@@ -25,8 +26,10 @@
 		"orgmode",
 		"PackageResourceViewer",
 		"PlainTasks",
+		"QuickCal",
 		"RSpec",
 		"RubyTest",
+		"Schemr",
 		"ScopeHunter",
 		"SideBarEnhancements",
 		"SmartMarkdown",
@@ -37,10 +40,13 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-ruby",
+		"SublimeREPL",
 		"Table Editor",
+		"TabsShortcuts",
 		"Theme - Glacier",
 		"Theme - Soda",
 		"Theme - Spacegray",
-		"Themr"
+		"Themr",
+		"Toggle Css Format"
 	]
 }

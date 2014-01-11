@@ -1,0 +1,7 @@
+[
+    { "caption": "-" },
+    { "command": "side_bar_move", "caption": "Rename path..." },
+    { "command": "side_bar_delete", "caption": "Delete..." },
+    { "command": "reveal_in_side_bar", "caption": "Reveal in Sidebar" },
+    { "command": "side_bar_reveal", "caption": "Reveal in Finder" }
+]

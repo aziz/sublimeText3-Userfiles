@@ -1,7 +1,7 @@
 {
     "parser": "github",
-    // "enabled_extensions": ["default"],
     "css": "default",
+    "github_mode": "markdown", // "gfm"
     "enable_highlight": true,
     "strip_yaml_front_matter": true
 }
