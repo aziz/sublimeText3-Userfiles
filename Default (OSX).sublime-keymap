@@ -30,9 +30,11 @@
 
 // Navigating between files
 { "keys": ["super+alt+up"], "command": "jump_back" },
+{ "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
 
 // very useful custom shortcuts:
 // { "keys": ["f1"],         "command": "toggle_bookmark" },
+{ "keys": ["f1"],         "command": "dired", "args": { "immediate": true} },
 { "keys": ["f7"],         "command": "prev_bookmark" },
 { "keys": ["f8"],         "command": "clear_bookmarks" },
 { "keys": ["f9"],         "command": "next_bookmark" },

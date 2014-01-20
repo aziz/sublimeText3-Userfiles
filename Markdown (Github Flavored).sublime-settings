@@ -1,8 +1,8 @@
 {
 	"caret_extra_top": 2,
-	"color_scheme": "Packages/User/Color Schemes/Sticky-Green.tmTheme",
+	// "color_scheme": "Packages/User/Color Schemes/Sticky-Green.tmTheme",
 	"draw_indent_guides": false,
-	"enable_table_editor": true, // plugin
+	"enable_table_editor": true,
 	"extensions": ["markdown", "mdown", "md"],
 	"font_face": "consolas",
 	"font_size": 15,
@@ -15,5 +15,5 @@
 	"tab_size": 4,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true,
-	"wrap_width": 90,
+	"wrap_width": 90
 }

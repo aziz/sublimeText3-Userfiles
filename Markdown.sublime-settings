@@ -1,8 +1,12 @@
 {
 	"caret_extra_top": 2,
-	"color_scheme": "Packages/User/Color Schemes/Knockdown.tmTheme",
-	"enable_table_editor": true, // plugin
-	"extensions": ["markdown", "mdown", "md"],
+	// "color_scheme": "Packages/User/Color Schemes/Knockdown.tmTheme",
+	"enable_table_editor": true,
+	"extensions":
+	[
+		"markdown",
+		"mdown"
+	],
 	"font_face": "consolas",
 	"font_size": 15,
 	"gutter": false,
@@ -14,5 +18,5 @@
 	"tab_size": 4,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true,
-	"wrap_width": 90,
+	"wrap_width": 90
 }

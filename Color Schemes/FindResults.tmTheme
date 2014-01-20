@@ -11,24 +11,33 @@
 			<dict>
 				<key>background</key>
 				<string>#f7e9ff</string>
-				<key>caret</key>
-				<string>#813581</string>
 				<key>foreground</key>
 				<string>#260f4d</string>
+
+				<key>caret</key>
+				<string>#FF55FF</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
+
 				<key>lineHighlight</key>
 				<string>#ae81ff30</string>
+
 				<key>selection</key>
-				<string>#ffa80030</string>
+				<string>#ffff00</string>
+				<key>selectionBorder</key>
+				<string>#ffff00</string>
+				<key>selectionForeground</key>
+				<string>#000000</string>
+
+
 				<key>findHighlight</key>
 				<string>#FF0000</string>
 				<key>findHighlightForeground</key>
 				<string>#ff0000</string>
-				<key>selectionBorder</key>
-				<string>#ff000000</string>
+
 				<key>activeGuide</key>
 				<string>#370737</string>
+
 				<key>bracketsForeground</key>
 				<string>#00000050</string>
 				<key>bracketsOptions</key>

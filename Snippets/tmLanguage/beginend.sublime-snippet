@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+<dict>
+  <key>name</key>
+  <string>${1:scope.name}</string>
+  <key>begin</key>
+  <string>${2:begin_regex}</string>
+  <key>end</key>
+  <string>${3:end_regex}</string>
+  <key>beginCaptures</key>
+  <dict>
+    <key>1</key>
+    <dict>
+      <key>name</key>
+      <string>scope.name</string>
+    </dict>
+  </dict>
+  <key>endCaptures</key>
+  <dict>
+  </dict>
+  <key>captures</key>
+  <dict>
+  </dict>
+  <key>contentName</key>
+  <string>scope of content inside begin and end marker</string>
+  <key>patterns</key>
+  <array>
+    <dict>
+      <key>include</key>
+      <string>$self</string>
+    </dict>
+  </array>
+</dict>
+]]></content>
+  <tabTrigger>beginend</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

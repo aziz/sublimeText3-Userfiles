@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<dict>
+  <key>name</key>
+  <string>${1:scope.name}</string>
+  <key>match</key>
+  <string>${2:regex}</string>
+  <key>comment</key>
+  <string>${3}</string>
+  <key>captures</key>
+  <dict>
+    <key>1</key>
+    <dict>
+      <key>name</key>
+      <string>${4:scope.name}</string>
+    </dict>
+  </dict>
+</dict>
+]]></content>
+  <tabTrigger>match</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>
