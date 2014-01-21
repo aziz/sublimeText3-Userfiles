@@ -9,32 +9,41 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>activeGuide</key>
-				<string>#28364299</string>
 				<key>background</key>
 				<string>#00161B</string>
-				<key>caret</key>
-				<string>#8BA7A7</string>
-				<key>findHighlight</key>
-				<string>#ffe792</string>
-				<key>findHighlightForeground</key>
-				<string>#ff0000</string>
 				<key>foreground</key>
 				<string>#F8F8F8</string>
-				<key>guide</key>
-				<string>#28364230</string>
-				<key>gutterForeground</key>
-				<string>#283642dd</string>
-				<key>inactiveSelection</key>
-				<string>#ff7e00</string>
+
+				<key>caret</key>
+				<string>#86bfbf</string>
 				<key>invisibles</key>
 				<string>#F3FFB51A</string>
 				<key>lineHighlight</key>
 				<string>#FFFFFF0D</string>
+
+				<key>gutter</key>
+				<string>#00161B</string>
+				<key>gutterForeground</key>
+				<string>#283642dd</string>
+
 				<key>selection</key>
-				<string>#C5DFE980</string>
+				<string>#C5DFE988</string>
 				<key>selectionBorder</key>
-				<string>#C5DFE980</string>
+				<string>#C5DFE988</string>
+				<key>inactiveSelection</key>
+				<string>#C5DFE933</string>
+
+				<key>guide</key>
+				<string>#28364266</string>
+				<key>activeGuide</key>
+				<string>#ffe79255</string>
+				<key>stackGuide</key>
+				<string>#ffe79222</string>
+
+				<key>findHighlight</key>
+				<string>#ffe792</string>
+				<key>findHighlightForeground</key>
+				<string>#00161B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -45,7 +54,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1E9AE088</string>
+				<string>#1E9AE099</string>
 			</dict>
 		</dict>
 		<dict>
@@ -72,17 +81,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
-			<key>scope</key>
-			<string>keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFAA00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
 			<string>storage</string>
@@ -90,6 +88,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#F6F080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFAA00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -499,6 +508,94 @@
 			<dict>
 				<key>foreground</key>
 				<string>#74CDFD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level1</string>
+			<key>scope</key>
+			<string>source.json meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level2</string>
+			<key>scope</key>
+			<string>source.json meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level3</string>
+			<key>scope</key>
+			<string>source.json meta  meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB454</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level4</string>
+			<key>scope</key>
+			<string>source.json meta meta  meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB939A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level5</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AFC4DB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level6</string>
+			<key>scope</key>
+			<string>source.json meta  meta meta meta meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EE161</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level7</string>
+			<key>scope</key>
+			<string>source.json meta  meta meta  meta meta meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E8D500</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level8</string>
+			<key>scope</key>
+			<string>source.json meta meta  meta meta  meta meta meta meta.structure string </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFAA00</string>
 			</dict>
 		</dict>
 		<dict>
