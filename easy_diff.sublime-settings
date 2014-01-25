@@ -1,0 +1,10 @@
+{
+// Turn off svn completely
+"svn_disabled": true,
+
+// Turn off git completely
+"git_disabled": false,
+
+// Turn off (Mercurial) hg completely
+"hg_disabled": true
+}

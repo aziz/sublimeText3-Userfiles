@@ -1,3 +1,4 @@
 {
-  "dfw_hide_minimap": false
+  "dfw_hide_line_numbers": true,
+  "dfw_hide_fold_buttons": true
 }

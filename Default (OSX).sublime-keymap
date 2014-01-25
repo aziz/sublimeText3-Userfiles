@@ -38,7 +38,7 @@
 { "keys": ["f7"],         "command": "prev_bookmark" },
 { "keys": ["f8"],         "command": "clear_bookmarks" },
 { "keys": ["f9"],         "command": "next_bookmark" },
-{ "keys": ["super+f11"],  "command": "toggle_distraction_free" },
+{ "keys": ["f11"],        "command": "toggle_distraction_free" },
 { "keys": ["shift+f11"],  "command": "max_pane" },
 
 // sidebar enhancement shortcuts
