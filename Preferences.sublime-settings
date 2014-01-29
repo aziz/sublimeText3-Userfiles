@@ -126,7 +126,7 @@
 	"soda_retina_fix": true,
 	"tab_completion": true,
 	"tab_size": 2,
-	"theme": "OceanDeep.sublime-theme",
+	"theme": "AB.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
