@@ -1,4 +1,10 @@
 {
   "coffee_path": "/usr/local/bin",
-  "bare": true
+  "bare": true,
+  "syntax_patterns": [
+    "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+    "Packages/Text/Plain text.tmLanguage",
+    "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+  ]
+
 }
