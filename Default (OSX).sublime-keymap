@@ -45,7 +45,7 @@
 // sidebar enhancement shortcuts
 { "keys": ["f2"], "command": "side_bar_move" },
 { "keys": ["super+f2"], "command": "side_bar_rename" },
-{ "keys": ["f3"], "command": "side_bar_new_file2" },
+{ "keys": ["alt+f3"], "command": "side_bar_new_file2" },
 { "keys": ["super+f3"], "command": "side_bar_new_directory" },
 // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
 
