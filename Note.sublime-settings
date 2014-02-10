@@ -1,13 +1,17 @@
 {
-  "caret_extra_top": 2,
-  "font_face": "consolas",
-  "indent_subsequent_lines": true,
-  "font_size": 15,
-  "gutter": false,
-  "line_numbers": false,
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
-  "margin": 16,
-  "spell_check": false,
-  "tab_completion": false
+	"caret_extra_top": 2,
+	"extensions":
+	[
+		"md"
+	],
+	"font_face": "consolas",
+	"font_size": 15,
+	"gutter": false,
+	"indent_subsequent_lines": true,
+	"line_numbers": false,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 16,
+	"spell_check": false,
+	"tab_completion": false
 }
