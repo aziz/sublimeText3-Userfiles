@@ -50,6 +50,7 @@
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
+		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeREPL",
 		"Table Editor",

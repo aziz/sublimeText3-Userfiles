@@ -19,7 +19,7 @@
         <key>invisibles</key>
         <string>#F3FFB51A</string>
         <key>lineHighlight</key>
-        <string>#FFFFFF0D</string>
+        <string>#00161B</string>
 
         <key>gutter</key>
         <string>#00161B</string>
