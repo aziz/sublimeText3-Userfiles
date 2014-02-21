@@ -1,3 +1,8 @@
 {
-  // "dired_show_help": false
+	"dired_jump_points":
+	{
+		"FileBrowser": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/FileBrowser/",
+		"SublimeNotes": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/SublimeNotes/",
+		"tmTheme-Editor": "/Users/allen/Dropbox/nodejs/tmTheme-Editor/"
+	}
 }

@@ -1,5 +1,7 @@
 [
 
+{"keys": ["ctrl+shift+c"], "command": "coffee_compile"},
+
 { "keys": ["super+v"], "command": "paste_and_indent" },
 { "keys": ["super+shift+v"], "command": "paste" },
 { "keys": ["super+alt+d"], "command": "expand_selection", "args": {"to": "scope"} },
