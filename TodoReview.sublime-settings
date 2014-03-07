@@ -1,0 +1,14 @@
+{
+  "patterns": {
+      "TODO": "TODO[\\s]*?:+(?P<todo>.*)$",
+      "FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$"
+  },
+  "exclude_folders": [
+      ".git",
+      ".idea",
+      "vendors",
+      "node_modules"
+  ],
+  "exclude_files": [],
+  "case_sensitive": false
+}
