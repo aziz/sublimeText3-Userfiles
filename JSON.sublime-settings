@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"sublime-commands",
-		"sublime-macro"
+		"sublime-macro",
+		"sublime-workspace"
 	]
 }
