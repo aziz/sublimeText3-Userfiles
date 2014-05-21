@@ -1,10 +1,12 @@
 *.bin.gz
 *.cache
 *.pyc
+*.sublime-theme
 .DS_Store
 .SublimeREPLHistory
 CalendarEvents/
 ColorSchemeEditorTemp
+Color Highlighter
 FileHistory.sublime-settings
 Gist.sublime-settings
 GitHub.sublime-settings
