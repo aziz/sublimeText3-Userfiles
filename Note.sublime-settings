@@ -1,9 +1,6 @@
 {
 	"caret_extra_top": 2,
-	"extensions":
-	[
-		"md"
-	],
+	"extensions": [],
 	"font_face": "consolas",
 	"font_size": 15,
 	"gutter": false,

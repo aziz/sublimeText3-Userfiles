@@ -1,7 +1,7 @@
 {
 	"caret_extra_top": 2,
 	"enable_table_editor": true,
-	"color_scheme": "Packages/SublimeNotes/Color Schemes/Sticky-White.tmTheme",
+	"color_scheme": "Packages/PlainNotes/Color Schemes/Sticky-White.tmTheme",
 	"extensions":
 	[
 		"markdown",
