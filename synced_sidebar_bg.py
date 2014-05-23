@@ -4,7 +4,9 @@
 # later:
 # cache previous result to speed things up (if it's the same theme don't do anything)
 # enable or disable with a custom setting
+# darken/lighten sidebar by a percentage
 # color highlighter issue
+
 
 import sublime, sublime_plugin
 import codecs, json
