@@ -1,8 +1,0 @@
-{
-    "parser": "github",
-    "css": "default",
-    "github_mode": "markdown", // "gfm"
-    "enable_highlight": true,
-    "strip_yaml_front_matter": true,
-    "github_oauth_token": "secret"
-}

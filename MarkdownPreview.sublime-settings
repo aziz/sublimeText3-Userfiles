@@ -1,0 +1,10 @@
+{
+  "enable_highlight": true,
+  "enable_mathjax": true,
+  "css": "default",
+  "strip_yaml_front_matter": true
+  // "html_template": "/ABS_PATH_TO_A_HTML_FILE",
+  // "skip_default_stylesheet": true,
+  // "js": ["http://example.com/script.js", "/path/to/script.js"],
+
+}
