@@ -5,7 +5,6 @@
 # when the syntax is changed by user it should react
 # changed to sidebar should be scoped to window (is not possible at the moment)
 # enable or disable with a custom setting
-# darken/lighten sidebar by a percentage
 # color highlighter plugin issue
 
 import sublime, sublime_plugin
@@ -55,18 +54,50 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
             yiq = ((r*299)+(g*587)+(b*114))/1000;
             return yiq >= 128
 
+        def color_variant(hex_color, brightness_offset=1):
+            """ takes a color like #87c95f and produces a lighter or darker variant """
+            if len(hex_color) != 7:
+                raise Exception("Passed %s into color_variant(), needs to be in #87c95f format." % hex_color)
+            rgb_hex = [hex_color[x:x+2] for x in [1, 3, 5]]
+            new_rgb_int = [int(hex_value, 16) + brightness_offset for hex_value in rgb_hex]
+            new_rgb_int = [min([255, max([0, i])]) for i in new_rgb_int] # make sure new values are between 0 and 255
+            return "#%02x%02x%02x" % tuple(new_rgb_int)
+
         def label_color(triplet):
             if is_light(triplet):
                 return [30, 30, 30]
             else:
                 return [220, 220, 220]
 
+        def side_bar_sep_line(bg):
+            if is_light(bg.lstrip('#')):
+                return rgb(color_variant(bg,-50).lstrip('#'))
+            else:
+                return rgb(color_variant(bg,100).lstrip('#'))
+
+        # darken/lighten sidebar by a percentage
+        def bg_variat(bg):
+            if sidebar_bg_variat == 0:
+                return rgb(bgc)
+            else:
+                return rgb(color_variant(bg,sidebar_bg_variat).lstrip('#'))
+
         bgc = bg.lstrip('#')
 
         template = [
             {
+                "class": "tree_row",
+                "layer0.texture": "Theme - Default/row_highlight_dark.png",
+                "layer0.tint": side_bar_sep_line(bg),
+            },
+            {
+                "class": "sidebar_container",
+                "layer0.tint": side_bar_sep_line(bg),
+                "layer0.opacity": 1.0,
+            },
+            {
                 "class": "sidebar_tree",
-                "layer0.tint": rgb(bgc),
+                "layer0.tint": bg_variat(bg),
                 "layer0.opacity": 1,
                 "dark_content": not is_light(bgc)
             },
@@ -88,4 +119,6 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
 
 def plugin_loaded():
     global cache
+    global sidebar_bg_variat
     cache = {}
+    sidebar_bg_variat = 0
