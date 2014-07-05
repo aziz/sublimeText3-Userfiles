@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 
 # later:
+# when the syntax is changed by user it should react
+# changed to sidebar should be scoped to window (is not possible at the moment)
 # enable or disable with a custom setting
 # darken/lighten sidebar by a percentage
-# color highlighter issue
+# color highlighter plugin issue
 
 import sublime, sublime_plugin
 import codecs, json
@@ -18,6 +20,9 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
         global cache
         scheme_file = view.settings().get('color_scheme')
         if scheme_file == cache.get('color_scheme'):
+            return
+        # do not change side bar for special syntaxes like vintagous-commandline-mode
+        if view.settings().get('syntax').endswith("VintageousEx Cmdline.tmLanguage"):
             return
         color_scheme = path.normpath(scheme_file)
         path_packages = sublime.packages_path()

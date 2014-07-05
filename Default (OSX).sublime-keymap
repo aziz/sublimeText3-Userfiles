@@ -1,4 +1,9 @@
 [
+// Vintagous Mode
+{ "keys": ["j", "j"], "command": "_enter_normal_mode",
+                      "args": {"mode": "mode_insert"},
+                      "context": [{"key": "vi_insert_mode_aware"}] },
+
 
 {"keys": ["ctrl+shift+c"], "command": "coffee_compile"},
 
@@ -56,6 +61,11 @@
 
 // Markdown Preview
 { "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "github", "target": "browser"} },
+
+{ "keys": ["f12"], "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
+
+
+
 
 // Scope Hunter
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
