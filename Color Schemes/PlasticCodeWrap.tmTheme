@@ -14,7 +14,7 @@
         <key>background</key>
         <string>#00161B</string>
         <key>caret</key>
-        <string>#86bfbf</string>
+        <string>#FF5E00</string>
         <key>findHighlight</key>
         <string>#ffe792</string>
         <key>findHighlightForeground</key>

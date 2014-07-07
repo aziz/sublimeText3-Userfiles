@@ -1,6 +1,14 @@
 {
   "enable_highlight": true,
   "enable_mathjax": true,
+  // default = [extra, github, toc, headerid, meta, sane_lists, smarty, wikilinks]
+  // extra = [abbr, attr_list, def_list, fenced_code, footnotes, tables, smart_strong]
+  // github = [magiclink, delete, tasklist, githubemoji, headeranchor, nl2br]
+  // admonition
+  "enabled_extensions": ["default", "codehilite", "b64", "admonition"],
+  "enabed_parsers": ["markdown", "github"],
+  "image_path_conversion": "base64",
+  "guess_language": false,
   "css": "default",
   "strip_yaml_front_matter": true
   // "html_template": "/ABS_PATH_TO_A_HTML_FILE",
