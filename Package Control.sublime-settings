@@ -72,7 +72,6 @@
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
-		"SublimeLinter-pep8",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
