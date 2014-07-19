@@ -1,9 +1,20 @@
 {
-  // default = [extra, github, toc, headerid, meta, sane_lists, smarty, wikilinks]
-  // extra = [abbr, attr_list, def_list, fenced_code, footnotes, tables, smart_strong]
-  // github = [magiclink, delete, tasklist, githubemoji, headeranchor, nl2br]
-  "enabled_extensions": ["default", "codehilite(guess_lang=False,pygments_style=github)", "b64", "admonition"],
-
+  // default = ["extra", "github", "toc", "headerid", "meta", "sane_lists", "smarty", "wikilinks"]
+  // extra   = ["abbr", "attr_list", "def_list", "fenced_code", "footnotes", "tables", "smart_strong"]
+  // github  = ["magiclink", "delete", "tasklist", "githubemoji", "headeranchor", "nl2br"]
+  "enabled_extensions": [
+    "extra",
+    "github",
+    "toc",
+    "headerid",
+    "meta",
+    "sane_lists",
+    "smarty(smart_quotes=False)",
+    "wikilinks",
+    "codehilite(guess_lang=False,pygments_style=github)",
+    "b64",
+    "admonition"
+  ],
   "enable_highlight": true,
   "enable_mathjax": false,
   "enabed_parsers": "markdown",
