@@ -1,4 +1,7 @@
 {
-  "dired_jump_points": {},
-  "git_path": "/usr/bin/git"
+	"dired_jump_points":
+	{
+		"FileBrowser": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/FileBrowser/"
+	},
+	"git_path": "/usr/bin/git"
 }
