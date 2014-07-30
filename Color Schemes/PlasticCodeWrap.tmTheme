@@ -39,6 +39,8 @@
         <string>#C5DFE988</string>
         <key>stackGuide</key>
         <string>#ffe79222</string>
+        <key>shadow</key>
+        <string>#00161B</string>
       </dict>
     </dict>
     <dict>
