@@ -88,7 +88,8 @@
 		"Clojure",
 		"TCL",
 		"Vintageous",
-		"RubyTest"
+		"RubyTest",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
