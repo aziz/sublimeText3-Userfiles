@@ -60,7 +60,7 @@
 // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
 
 // Markdown Preview
-{ "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "github", "target": "browser"} },
+{ "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "markdown", "target": "browser"} },
 
 { "keys": ["f12"], "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
 
