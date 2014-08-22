@@ -51,6 +51,8 @@
 { "keys": ["f8"],         "command": "toggle_bookmark" },
 { "keys": ["super+f8"],   "command": "clear_bookmarks" },
 { "keys": ["f9"],         "command": "next_bookmark" },
+{ "keys": ["f6"],         "command": "toggle_setting", "args": {"setting": "spell_check"} },
+
 
 // sidebar enhancement shortcuts
 { "keys": ["f2"], "command": "side_bar_move" },
