@@ -5,11 +5,10 @@
 .DS_Store
 .SublimeREPLHistory
 CalendarEvents/
-ColorSchemeEditorTemp
 Color Highlighter
+ColorSchemeEditorTemp
+EasyDiff
 FileHistory.sublime-settings
-Side Bar Folders.sublime-settings
-Side Bar Folders/
 Gist.sublime-settings
 GitHub.sublime-settings
 GoSublime-aux.*
@@ -17,5 +16,7 @@ GoSublime/*
 Package Control.last-run
 Package Control.system-ca-bundle
 RubyTest.last-run
+Side Bar Folders.sublime-settings
+Side Bar Folders/
 subclrschm
 subclrschm.log
