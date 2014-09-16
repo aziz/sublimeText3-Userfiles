@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Abacus",
+		"Advanced CSV",
 		"Alternative Autocompletion",
 		"AngularJS",
 		"Base64 Fold",
