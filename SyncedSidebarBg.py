@@ -2,10 +2,14 @@
 # -*- coding: utf-8 -*-
 
 # later:
-# when the syntax is changed by user it should react
-# changed to sidebar should be scoped to window (is not possible at the moment)
-# enable or disable with a custom setting
-# color highlighter plugin issue
+# [ ] color highlighter plugin issue
+# [ ] issue regarding finding themes inside zipped packages
+# [ ] extract ignored_syntaxes and ignored_themes settings
+# [ ] enable or disable with a custom setting
+
+# Caveats:
+# - not working well with multiple windows, sidebar change globally
+# - when the syntax is changed by user it should react
 
 import sublime, sublime_plugin
 import codecs, json
@@ -20,15 +24,20 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
         scheme_file = view.settings().get('color_scheme')
         if scheme_file == cache.get('color_scheme'):
             return
+
+        syntax = view.settings().get('syntax')
         # do not change side bar for special syntaxes like vintagous-commandline-mode
-        if view.settings().get('syntax').endswith("VintageousEx Cmdline.tmLanguage"):
+        if syntax.endswith("VintageousEx Cmdline.tmLanguage") or syntax.endswith("TestConsole.tmLanguage"):
             return
         color_scheme = path.normpath(scheme_file)
         path_packages = sublime.packages_path()
         plist_path = path_packages + color_scheme.replace('Packages', '')
+        print('THEME ==> ' + plist_path)
+        print('SYNTX ==> ' + syntax)
         if plist_path.endswith("Widgets.stTheme"):
+            # print('ignored ' + plist_path)
             return
-        # print(plist_path)
+
         plist_file = readPlist(plist_path)
         color_settings = plist_file["settings"][0]["settings"]
         # print(color_settings)
@@ -77,10 +86,10 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
 
         # darken/lighten sidebar by a percentage
         def bg_variat(bg):
-            if sidebar_bg_variat == 0:
+            if sidebar_bg_variant == 0:
                 return rgb(bgc)
             else:
-                return rgb(color_variant(bg,sidebar_bg_variat).lstrip('#'))
+                return rgb(color_variant(bg,sidebar_bg_variant).lstrip('#'))
 
         bgc = bg.lstrip('#')
 
@@ -119,6 +128,6 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
 
 def plugin_loaded():
     global cache
-    global sidebar_bg_variat
+    global sidebar_bg_variant
     cache = {}
-    sidebar_bg_variat = 0
+    sidebar_bg_variant = 0
