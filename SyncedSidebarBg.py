@@ -2,10 +2,15 @@
 # -*- coding: utf-8 -*-
 
 # later:
-# [ ] color highlighter plugin issue
+# [ ] color highlighter plugin issue (global bg is not always first plist_file["settings"][0]["settings"])
 # [ ] issue regarding finding themes inside zipped packages
-# [ ] extract ignored_syntaxes and ignored_themes settings
-# [ ] enable or disable with a custom setting
+
+# Settings
+# - label_color (ligh, dark)
+# - sidebar_bg_brightness_change
+# - side_bar_sep_line_brightness_change
+# - enabled
+# - ignored_syntaxes, ignored_themes
 
 # Caveats:
 # - not working well with multiple windows, sidebar change globally
@@ -27,20 +32,20 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
 
         syntax = view.settings().get('syntax')
         # do not change side bar for special syntaxes like vintagous-commandline-mode
-        if syntax.endswith("VintageousEx Cmdline.tmLanguage") or syntax.endswith("TestConsole.tmLanguage"):
+        if syntax and (syntax.endswith("VintageousEx Cmdline.tmLanguage") or syntax.endswith("TestConsole.tmLanguage")):
             return
         color_scheme = path.normpath(scheme_file)
         path_packages = sublime.packages_path()
         plist_path = path_packages + color_scheme.replace('Packages', '')
-        print('THEME ==> ' + plist_path)
-        print('SYNTX ==> ' + syntax)
-        if plist_path.endswith("Widgets.stTheme"):
+        # print('THEME ==> ' + plist_path)
+        # print('SYNTX ==> ' + syntax)
+        if plist_path and plist_path.endswith("Widgets.stTheme"):
             # print('ignored ' + plist_path)
             return
 
         plist_file = readPlist(plist_path)
-        color_settings = plist_file["settings"][0]["settings"]
-        # print(color_settings)
+        global_settings = [i["settings"] for i in plist_file["settings"] if i["settings"].get("lineHighlight")]
+        color_settings = global_settings[0]
 
         bg = color_settings.get("background", '#FFFFFF')
         fg = color_settings.get("foreground", '#000000')
@@ -65,6 +70,10 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
 
         def color_variant(hex_color, brightness_offset=1):
             """ takes a color like #87c95f and produces a lighter or darker variant """
+            if len(hex_color) == 9:
+                print("=> Passed %s into color_variant()" % hex_color)
+                hex_color = hex_color[0:-2]
+                print("=> Reformatted as %s " % hex_color)
             if len(hex_color) != 7:
                 raise Exception("Passed %s into color_variant(), needs to be in #87c95f format." % hex_color)
             rgb_hex = [hex_color[x:x+2] for x in [1, 3, 5]]
@@ -82,7 +91,7 @@ class SidebarMatchColorScheme(sublime_plugin.EventListener):
             if is_light(bg.lstrip('#')):
                 return rgb(color_variant(bg,-50).lstrip('#'))
             else:
-                return rgb(color_variant(bg,100).lstrip('#'))
+                return rgb(color_variant(bg,50).lstrip('#'))
 
         # darken/lighten sidebar by a percentage
         def bg_variat(bg):
