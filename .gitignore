@@ -11,6 +11,7 @@ EasyDiff
 FileHistory.sublime-settings
 Gist.sublime-settings
 GitHub.sublime-settings
+SQLExec.sublime-settings
 GoSublime-aux.*
 GoSublime/*
 Package Control.last-run
