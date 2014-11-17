@@ -3,5 +3,6 @@
 	{
 		"FileBrowser": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/FileBrowser/"
 	},
-	"git_path": "/usr/local/bin/git"
+	"git_path": "/usr/local/bin/git",
+  "dired_hijack_new_window": true
 }

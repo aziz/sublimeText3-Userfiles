@@ -83,16 +83,24 @@
 
 { "keys": ["super+k", "super+f"], "command": "js_format" },
 
+
+{ "keys": ["super+shift+e"], "command": "slurp_find_string" },
+{ "keys": ["super+shift+control+e"], "command": "slurp_replace_string" },
+
 // GIT
-{ "keys": ["super+e", "super+b"], "command": "git_blame" },
-{ "keys": ["super+e", "super+d"], "command": "git_diff_all" },
-{ "keys": ["super+e", "super+p"], "command": "git_pull" },
-{ "keys": ["super+e", "super+u"], "command": "git_push" },
 { "keys": ["super+e", "super+a"], "command": "git_add_choice" },
+{ "keys": ["super+e", "super+b"], "command": "git_blame" },
 { "keys": ["super+e", "super+c"], "command": "git_commit" },
-{ "keys": ["super+e", "super+s"], "command": "git_status" },
-{ "keys": ["super+e", "super+q"], "command": "git_quick_commit" },
+{ "keys": ["super+e", "super+d"], "command": "git_diff_all" },
 { "keys": ["super+e", "super+l"], "command": "git_log" },
+{ "keys": ["super+e", "super+p"], "command": "git_pull" },
+{ "keys": ["super+e", "super+q"], "command": "git_quick_commit" },
+{ "keys": ["super+e", "super+s"], "command": "git_status" },
+{ "keys": ["super+e", "super+u"], "command": "git_push" },
+
+// SQL:
+{ "keys": ["super+e", "super+e"], "command": "sql_execute" },
+{ "keys": ["super+e", "super+w"], "command": "sql_pad" },
 
 // Auto-pair backticks ``
 { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
