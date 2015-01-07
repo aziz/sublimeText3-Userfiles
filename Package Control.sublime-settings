@@ -1,4 +1,12 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Abacus",
@@ -38,6 +46,7 @@
 		"Markdown Preview",
 		"MaxPane",
 		"nginx",
+		"Package Control",
 		"PgSQL",
 		"PlainTasks",
 		"Plist Binary",

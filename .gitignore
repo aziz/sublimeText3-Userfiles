@@ -15,7 +15,7 @@ SQLExec.sublime-settings
 GoSublime-aux.*
 GoSublime/*
 Package Control.last-run
-Package Control.system-ca-bundle
+Package Control.*-ca-bundle
 RubyTest.last-run
 Side Bar Folders.sublime-settings
 Side Bar Folders/
