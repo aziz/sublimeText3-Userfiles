@@ -1,5 +1,5 @@
 <snippet>
   <content><![CDATA[ä]]></content>
-  <tabTrigger>a:</tabTrigger>
+  <tabTrigger>:a:</tabTrigger>
   <scope>text</scope>
 </snippet>
