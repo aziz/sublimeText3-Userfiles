@@ -1,9 +1,9 @@
 {
+  "root": "~/Dropbox/Notes/",
   "list_options" : {
     "display_modified_date": false,
     "display_folder": false,
     "display_full_path": false
   },
-  "enable_yaml": true,
-
+  "enable_yaml": false
 }

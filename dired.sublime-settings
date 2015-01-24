@@ -1,8 +1,9 @@
 {
-  "dired_jump_points":
+	"dired_hijack_new_window": true,
+	"dired_jump_points":
 	{
-		"FileBrowser": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/FileBrowser/"
+		"FileBrowser": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/FileBrowser/",
+		"PlainNotes": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/PlainNotes/"
 	},
-	"git_path": "/usr/local/bin/git",
-  "dired_hijack_new_window": true
+	"git_path": "/usr/local/bin/git"
 }
