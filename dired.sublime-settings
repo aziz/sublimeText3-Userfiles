@@ -3,7 +3,10 @@
 	"dired_jump_points":
 	{
 		"FileBrowser": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/FileBrowser/",
-		"PlainNotes": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/PlainNotes/"
+		"PlainNotes": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/PlainNotes/",
+		"PlainTasks": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/PlainTasks/",
+		"dotfiles": "/Users/allen.bargi/Dropbox/dotfiles/",
+		"tmTheme-Editor": "/Users/allen.bargi/Dropbox/Code/nodejs/tmTheme-Editor/"
 	},
 	"git_path": "/usr/local/bin/git"
 }
