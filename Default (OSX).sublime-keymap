@@ -44,6 +44,8 @@
 
 { "keys": ["f1"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
 { "keys": ["f3"],         "command": "dired_jump_list" },
+{ "keys": ["super+f3"],   "command": "dired_jump", "args": {"new_window": true} },
+
 
 { "keys": ["f11"],        "command": "toggle_distraction_free" },
 { "keys": ["shift+f11"],  "command": "max_pane" },
@@ -58,8 +60,8 @@
 // sidebar enhancement shortcuts
 { "keys": ["f2"], "command": "side_bar_move" },
 { "keys": ["super+f2"], "command": "side_bar_rename" },
-{ "keys": ["alt+f3"], "command": "side_bar_new_file2" },
-{ "keys": ["super+f3"], "command": "side_bar_new_directory" },
+// { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
+// { "keys": ["super+f3"], "command": "side_bar_new_directory" },
 // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
 
 // Markdown Preview
