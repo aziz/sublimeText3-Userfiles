@@ -42,7 +42,9 @@
 { "keys": ["super+alt+up"], "command": "jump_back" },
 { "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
 
-{ "keys": ["f1"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "right"} },
+{ "keys": ["f1"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
+{ "keys": ["f3"],         "command": "dired_jump_list" },
+
 { "keys": ["f11"],        "command": "toggle_distraction_free" },
 { "keys": ["shift+f11"],  "command": "max_pane" },
 
@@ -52,9 +54,6 @@
 { "keys": ["super+f8"],   "command": "clear_bookmarks" },
 { "keys": ["f9"],         "command": "next_bookmark" },
 { "keys": ["f6"],         "command": "toggle_setting", "args": {"setting": "spell_check"} },
-
-
-{ "keys": ["f3"],         "command": "dired_jump_list" },
 
 // sidebar enhancement shortcuts
 { "keys": ["f2"], "command": "side_bar_move" },
