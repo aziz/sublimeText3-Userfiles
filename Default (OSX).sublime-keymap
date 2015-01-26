@@ -4,7 +4,6 @@
                       "args": {"mode": "mode_insert"},
                       "context": [{"key": "vi_insert_mode_aware"}] },
 
-
 {"keys": ["ctrl+shift+c"], "command": "coffee_compile"},
 
 { "keys": ["super+v"], "command": "paste_and_indent" },
@@ -43,7 +42,6 @@
 { "keys": ["f3"],         "command": "dired_jump_list" },
 { "keys": ["super+f3"],   "command": "dired_jump", "args": {"new_window": true} },
 
-
 { "keys": ["f11"],        "command": "toggle_distraction_free" },
 { "keys": ["shift+f11"],  "command": "max_pane" },
 
@@ -67,22 +65,18 @@
 { "keys": ["f12"], "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
 
 
-
-
 // Scope Hunter
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
 
 // Ruby Test
 { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
           "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
-}, // single test
+},
 
 // ERB
 { "keys": ["control+shift+."], "command": "erb", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" } ] },
 
-
 { "keys": ["super+k", "super+f"], "command": "js_format" },
-
 
 { "keys": ["super+shift+e"], "command": "slurp_find_string" },
 { "keys": ["super+shift+control+e"], "command": "slurp_replace_string" },
@@ -163,5 +157,4 @@
     { "key": "following_text", "operator": "regex_contains", "operand": "^»", "match_all": true }
   ]
 }
-
 ]
