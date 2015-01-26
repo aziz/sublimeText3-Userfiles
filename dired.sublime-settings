@@ -2,6 +2,7 @@
 	"dired_hijack_new_window": "jump_list",
 	"dired_jump_points":
 	{
+		"Notes": "/Users/allen.bargi/Dropbox/Notes/",
 		"REA/DMF": "/Users/allen.bargi/REA/DMF/",
 		"REA/SDC": "/Users/allen.bargi/REA/sandbox/",
 		"REA/property": "/Users/allen.bargi/property/prop_app/",

@@ -34,11 +34,11 @@
 		"Hayaku - tools for writing CSS faster",
 		"HTML Extended",
 		"HTML5",
+		"Ignore Words",
 		"ImprovedSQL",
 		"Indent XML",
 		"INI",
 		"Jasmine CoffeeScript",
-		"JavaScript Console",
 		"JsFormat",
 		"knockdown",
 		"LESS",
@@ -52,7 +52,6 @@
 		"PlainTasks",
 		"Plist Binary",
 		"PostgreSQL Syntax Highlighting",
-		"Quick File Creator",
 		"Rails Partial",
 		"RSpec",
 		"Ruby Debugger",
@@ -79,16 +78,13 @@
 		"SublimeLinter-shellcheck",
 		"SublimeTextGitX",
 		"Table Editor",
-		"TabsShortcuts",
-		"Theme - Gravity",
 		"Theme - Minimal",
 		"Theme - Soda",
 		"Themr",
 		"Toggle Css Format",
 		"Typewriter",
 		"VimL",
-		"Vintageous",
-		"yardgen"
+		"Vintageous"
 	],
 	"submit_usage": false
 }

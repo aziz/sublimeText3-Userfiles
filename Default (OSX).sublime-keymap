@@ -15,9 +15,6 @@
 { "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 { "keys": ["super+alt+control+m"], "command": "context_menu" },
 
-{ "keys": ["super+alt+o"], "command": "quick_create_file" },
-{ "keys": ["super+alt+control+o"], "command": "quick_create_directory" },
-
 // UI
 { "keys": ["super+k", "super+1"], "command": "toggle_minimap" },
 { "keys": ["super+k", "super+2"], "command": "toggle_tabs" },
