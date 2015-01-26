@@ -1,5 +1,7 @@
 {
 	"dired_hijack_new_window": "jump_list",
+	"font_size": 13.0,
+	"font_face": "consolas",
 	"dired_jump_points":
 	{
 		"Notes": "/Users/allen.bargi/Dropbox/Notes/",
