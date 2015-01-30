@@ -9,6 +9,7 @@
 	],
 	"installed_packages":
 	[
+		"6to5",
 		"Abacus",
 		"Advanced CSV",
 		"Alternative Autocompletion",
@@ -40,6 +41,7 @@
 		"Indent XML",
 		"INI",
 		"Jasmine CoffeeScript",
+		"JavaScriptNext - ES6 Syntax",
 		"JsFormat",
 		"knockdown",
 		"LESS",
@@ -82,7 +84,7 @@
 		"SublimeLog",
 		"SublimeTextGitX",
 		"Table Editor",
-		"Theme - Minimal",
+		"Theme - El Capitan",
 		"Theme - Soda",
 		"Themr",
 		"Toggle Css Format",

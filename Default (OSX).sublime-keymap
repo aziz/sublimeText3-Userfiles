@@ -1,10 +1,31 @@
 [
-// Vintagous Mode
-{ "keys": ["j", "j"], "command": "_enter_normal_mode",
-                      "args": {"mode": "mode_insert"},
-                      "context": [{"key": "vi_insert_mode_aware"}] },
 
-{"keys": ["ctrl+shift+c"], "command": "coffee_compile"},
+// { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
+// { "keys": ["super+f3"], "command": "side_bar_new_directory" },
+// { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+// { "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
+// { "keys": ["super+k", "super+f"], "command": "js_format" },
+// { "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
+
+// UI
+// { "keys": ["super+k", "super+1"], "command": "toggle_minimap" },
+// { "keys": ["super+k", "super+2"], "command": "toggle_tabs" },
+// { "keys": ["super+k", "super+3"], "command": "toggle_status_bar" },
+
+// Vintagous Mode
+// { "keys": ["j", "j"], "command": "_enter_normal_mode",
+//                       "args": {"mode": "mode_insert"},
+//                       "context": [{"key": "vi_insert_mode_aware"}] },
+
+// Ruby Test
+// { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
+//           "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
+// },
+
+{ "keys": ["super+shift+e"], "command": "slurp_find_string" },
+{ "keys": ["super+shift+control+e"], "command": "slurp_replace_string" },
+// Navigating between files
+{ "keys": ["super+alt+up"], "command": "jump_back" },
 
 { "keys": ["super+v"], "command": "paste_and_indent" },
 { "keys": ["super+shift+v"], "command": "paste" },
@@ -14,10 +35,6 @@
 { "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 { "keys": ["super+alt+control+m"], "command": "context_menu" },
 
-// UI
-{ "keys": ["super+k", "super+1"], "command": "toggle_minimap" },
-{ "keys": ["super+k", "super+2"], "command": "toggle_tabs" },
-{ "keys": ["super+k", "super+3"], "command": "toggle_status_bar" },
 { "keys": ["super+shift+0"],  "command": "reset_font_size" },
 
 // Layout Extra
@@ -30,56 +47,31 @@
 // 2 row layout (33,66)
 { "keys": ["super+alt+9"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.33, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] } },
 // 3 cell layout, main cell on left and two mini cell on right on top of eachother
-{ "keys": ["super+alt+0"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]] } },
+{ "keys": ["super+alt+3"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]] } },
 // 3 cell layout, main cell top left, right col cell and bottom row cell
-{ "keys": ["super+alt+f3"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
+{ "keys": ["super+alt+4"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
 
-// Navigating between files
-{ "keys": ["super+alt+up"], "command": "jump_back" },
-{ "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
-
-{ "keys": ["f1"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
+{ "keys": ["f1"],         "command": "focus_side_bar" },
+{ "keys": ["f2"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
 { "keys": ["f3"],         "command": "dired_jump_list" },
 { "keys": ["super+f3"],   "command": "dired_jump", "args": {"new_window": true} },
-
-{ "keys": ["f11"],        "command": "toggle_distraction_free" },
-{ "keys": ["shift+f11"],  "command": "max_pane" },
-
-// very useful custom shortcuts:
+{ "keys": ["f6"],         "command": "toggle_setting", "args": {"setting": "spell_check"} },
 { "keys": ["f7"],         "command": "prev_bookmark" },
 { "keys": ["f8"],         "command": "toggle_bookmark" },
 { "keys": ["super+f8"],   "command": "clear_bookmarks" },
 { "keys": ["f9"],         "command": "next_bookmark" },
-{ "keys": ["f6"],         "command": "toggle_setting", "args": {"setting": "spell_check"} },
-
-// sidebar enhancement shortcuts
-{ "keys": ["f2"], "command": "side_bar_move" },
-{ "keys": ["super+f2"], "command": "side_bar_rename" },
-// { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
-// { "keys": ["super+f3"], "command": "side_bar_new_directory" },
-// { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
-
-// Markdown Preview
+{ "keys": ["f10"],        "command": "side_bar_move" },
+{ "keys": ["super+f10"],  "command": "side_bar_rename" },
+{ "keys": ["f11"],        "command": "toggle_distraction_free" },
+{ "keys": ["shift+f11"],  "command": "max_pane" },
+{ "keys": ["f12"],        "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
 { "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "markdown", "target": "browser"} },
-
-{ "keys": ["f12"], "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
-
 
 // Scope Hunter
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
 
-// Ruby Test
-{ "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
-          "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
-},
-
 // ERB
 { "keys": ["control+shift+."], "command": "erb", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" } ] },
-
-{ "keys": ["super+k", "super+f"], "command": "js_format" },
-
-{ "keys": ["super+shift+e"], "command": "slurp_find_string" },
-{ "keys": ["super+shift+control+e"], "command": "slurp_replace_string" },
 
 // GIT
 { "keys": ["super+e", "super+a"], "command": "git_add_choice" },
