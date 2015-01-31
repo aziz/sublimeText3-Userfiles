@@ -1,6 +1,7 @@
 {
     "user": {
-        "debug": false,
+        "@python": 3,
+        "debug": true,
         "delay": 0.25,
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
@@ -9,7 +10,7 @@
         "linters": {
             "coffeelint": {
                 "@disable": false,
-                "args": "-f '/Users/allen/Library/Application Support/Sublime Text 3/Packages/User/coffeelint.json'",
+                "args": [],
                 "excludes": []
             },
             "htmltidy": {
@@ -27,6 +28,24 @@
                 "args": [],
                 "excludes": [],
                 "strict": true
+            },
+            "pep8": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore": "",
+                "max-line-length": 120,
+                "select": ""
+            },
+            "pylint": {
+                "@disable": false,
+                "args": [],
+                "disable": "C0111,F0401,R0903",
+                "enable": "",
+                "excludes": [],
+                "paths": [],
+                "rcfile": "",
+                "show-codes": true
             },
             "rubocop": {
                 "@disable": false,
@@ -47,14 +66,19 @@
         },
         "mark_style": "none",
         "no_column_highlights_line": true,
+        "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/usr/local/bin"
+            ],
             "windows": []
         },
         "python_paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/usr/local/bin"
+            ],
             "windows": []
         },
         "rc_search_limit": 3,

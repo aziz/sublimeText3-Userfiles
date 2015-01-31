@@ -78,6 +78,8 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pylint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
