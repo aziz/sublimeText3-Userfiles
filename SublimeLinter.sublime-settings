@@ -40,11 +40,11 @@
             "pylint": {
                 "@disable": false,
                 "args": [],
-                "disable": "C0111,F0401,R0903",
+                "disable": "C0111,F0401,R0903,C0103,E1101",
                 "enable": "",
                 "excludes": [],
                 "paths": [],
-                "rcfile": "",
+                "rcfile": "~/.pylintrc",
                 "show-codes": true
             },
             "rubocop": {
@@ -90,7 +90,8 @@
             "html (rails)": "html",
             "html 5": "html",
             "php": "html",
-            "python django": "python"
+            "python django": "python",
+            "pythonimproved": "python"
         },
         "warning_color": "DDB700",
         "wrap_find": true
