@@ -4,6 +4,7 @@
 *.sublime-theme
 .DS_Store
 .SublimeREPLHistory
+ANSI/
 CalendarEvents/
 Color Highlighter
 ColorSchemeEditorTemp
@@ -11,13 +12,13 @@ EasyDiff
 FileHistory.sublime-settings
 Gist.sublime-settings
 GitHub.sublime-settings
-SQLExec.sublime-settings
 GoSublime-aux.*
 GoSublime/*
-Package Control.last-run
 Package Control.*-ca-bundle
+Package Control.last-run
 RubyTest.last-run
 Side Bar Folders.sublime-settings
 Side Bar Folders/
+SQLExec.sublime-settings
 subclrschm
 subclrschm.log

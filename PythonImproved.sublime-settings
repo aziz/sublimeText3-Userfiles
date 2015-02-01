@@ -1,6 +1,4 @@
 {
-	"extensions":
-	[
-		"py"
-	]
+	"extensions": ["py"],
+  "tab_size": 4
 }
