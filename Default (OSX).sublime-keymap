@@ -39,17 +39,13 @@
 
 // Layout Extra
 // 2 row layout
-{ "keys": ["super+alt+6"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] } },
+{ "keys": ["super+alt+5"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] } },
 // 3 row layout
-{ "keys": ["super+alt+7"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.33, 0.66, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]] } },
-// 2 row layout (66,33)
-{ "keys": ["super+alt+8"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.66, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] } },
-// 2 row layout (33,66)
-{ "keys": ["super+alt+9"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.33, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] } },
+{ "keys": ["super+alt+6"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 0.33, 0.66, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]] } },
 // 3 cell layout, main cell on left and two mini cell on right on top of eachother
-{ "keys": ["super+alt+3"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]] } },
+{ "keys": ["super+alt+7"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]] } },
 // 3 cell layout, main cell top left, right col cell and bottom row cell
-{ "keys": ["super+alt+4"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
+{ "keys": ["super+alt+8"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
 
 { "keys": ["f1"],         "command": "focus_side_bar" },
 { "keys": ["f2"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
