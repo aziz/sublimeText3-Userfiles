@@ -1,0 +1,8 @@
+{
+	"color_scheme": "Packages/User/Color Schemes/CSV.tmTheme",
+	"draw_indent_guides": false,
+	"extensions": ["csv"],
+	"fold_buttons": false,
+	"highlight_line": true,
+	"margin": 16
+}
