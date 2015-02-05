@@ -1,26 +1,8 @@
 [
-
-// { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
-// { "keys": ["super+f3"], "command": "side_bar_new_directory" },
-// { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
-// { "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
-// { "keys": ["super+k", "super+f"], "command": "js_format" },
-// { "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
-
-// UI
-// { "keys": ["super+k", "super+1"], "command": "toggle_minimap" },
-// { "keys": ["super+k", "super+2"], "command": "toggle_tabs" },
-// { "keys": ["super+k", "super+3"], "command": "toggle_status_bar" },
-
-// Vintagous Mode
-// { "keys": ["j", "j"], "command": "_enter_normal_mode",
-//                       "args": {"mode": "mode_insert"},
-//                       "context": [{"key": "vi_insert_mode_aware"}] },
-
-// Ruby Test
-// { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
-//           "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
-// },
+{ "keys": ["f1"],         "command": "test_print_at_pos" },
+{ "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
+{ "keys": ["control+alt+shift+up"], "command": "scroll_lines", "args": {"amount": 5.0}  },
+{ "keys": ["control+alt+shift+down"], "command": "scroll_lines", "args": {"amount": -5.0}  },
 
 { "keys": ["super+shift+e"], "command": "slurp_find_string" },
 { "keys": ["super+shift+control+e"], "command": "slurp_replace_string" },
@@ -47,7 +29,7 @@
 // 3 cell layout, main cell top left, right col cell and bottom row cell
 { "keys": ["super+alt+8"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
 
-{ "keys": ["f1"],         "command": "focus_side_bar" },
+// { "keys": ["f1"],         "command": "focus_side_bar" },
 { "keys": ["f2"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
 { "keys": ["f3"],         "command": "dired_jump_list" },
 { "keys": ["super+f3"],   "command": "dired_jump", "args": {"new_window": true} },
@@ -83,6 +65,23 @@
 // SQL:
 { "keys": ["super+e", "super+e"], "command": "sql_execute" },
 { "keys": ["super+e", "super+w"], "command": "sql_pad" },
+
+// { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
+// { "keys": ["super+f3"], "command": "side_bar_new_directory" },
+// { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+// { "keys": ["super+k", "super+f"], "command": "js_format" },
+// { "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
+
+// Vintagous Mode
+// { "keys": ["j", "j"], "command": "_enter_normal_mode",
+//                       "args": {"mode": "mode_insert"},
+//                       "context": [{"key": "vi_insert_mode_aware"}] },
+
+// Ruby Test
+// { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
+//           "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
+// },
+
 
 // Auto-pair backticks ``
 { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
