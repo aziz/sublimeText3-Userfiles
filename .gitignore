@@ -4,7 +4,7 @@
 *.sublime-theme
 .DS_Store
 .SublimeREPLHistory
-ANSI/
+ANSIescape/
 CalendarEvents/
 Color Highlighter
 ColorSchemeEditorTemp

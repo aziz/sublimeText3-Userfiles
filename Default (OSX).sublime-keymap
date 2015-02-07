@@ -1,5 +1,4 @@
 [
-{ "keys": ["f1"],         "command": "test_print_at_pos" },
 { "keys": ["super+k","super+k"], "command": "focus_neighboring_group" },
 { "keys": ["control+alt+shift+up"], "command": "scroll_lines", "args": {"amount": 5.0}  },
 { "keys": ["control+alt+shift+down"], "command": "scroll_lines", "args": {"amount": -5.0}  },
