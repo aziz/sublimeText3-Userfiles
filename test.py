@@ -2,8 +2,15 @@ import sublime, sublime_plugin
 import time
 from urllib import request
 from urllib.parse import quote
+from os import path, listdir
+from os.path import join, dirname
+import re
+from collections import namedtuple
+
+# ------------------------------------------------------------------------------
 
 callbacks = vars(vars()['sublime_plugin'])
+
 
 def log_event(event_name):
     global callbacks
@@ -56,6 +63,7 @@ class SublimeEventReport(sublime_plugin.TextCommand):
 #     def on_modified_async(self, view):
 #         log_event('on_modified_async')
 
+# ------------------------------------------------------------------------------
 
 
 def pprinttable(rows):
@@ -66,6 +74,7 @@ def pprinttable(rows):
         data = Row(1,2,3)
         pprinttable([data, data, data, data])
     """
+    result = []
     if len(rows) > 1:
         headers = rows[0]._fields
         lens = []
@@ -82,15 +91,46 @@ def pprinttable(rows):
         pattern = " | ".join(formats)
         hpattern = " | ".join(hformats)
         separator = "-+-".join(['-' * n for n in lens])
-        print(hpattern % tuple(headers))
-        print(separator)
+        result.append(hpattern % tuple(headers))
+        result.append(separator)
         for line in rows:
-            print(pattern % tuple(line))
+            result.append(pattern % tuple(line))
     elif len(rows) == 1:
         row = rows[0]
         hwidth = len(max(row._fields, key=lambda x: len(x)))
         for i in range(len(row)):
-            print("%*s = %s" % (hwidth, row._fields[i], row[i]))
+            result.append("%*s = %s" % (hwidth, row._fields[i], row[i]))
+    return "\n".join(result)
+
+
+class PackStatsCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        default = set([re.sub(r'\.sublime-package', '', p) for p in listdir(join(dirname(sublime.executable_path()), 'Packages'))])
+        user = set(listdir(sublime.packages_path()))
+        pc = set([re.sub(r'\.sublime-package', '', p) for p in listdir(sublime.installed_packages_path())])
+        disabled = set(sublime.load_settings('Preferences.sublime-settings').get('ignored_packages', []))
+        ignored = set(["User", "bz2", "0_package_control_loader"])
+
+        enabled_def = default - disabled
+        disabled_def = default - enabled_def
+        pc_total = (pc | (user - default)) - ignored
+        enabled_pc = pc_total - disabled
+        disabled_pc = pc_total - enabled_pc
+        total = (pc | user | disabled | default) - ignored
+        enabled = total - disabled
+
+        Row = namedtuple('Row', ['Type', 'Total', 'Disabled', 'Enabled'])
+        row1 = Row("Built-in", len(default), len(disabled_def), len(enabled_def))
+        row2 = Row("Package Control", len(pc_total), len(disabled_pc), len(enabled_pc))
+        row3 = Row("Total", len(total), len(disabled), len(enabled))
+        results = pprinttable([row1, row2, row3])
+
+        out = self.view.window().get_output_panel("pack_stats")
+        self.view.window().run_command("show_panel", {"panel": "output.pack_stats"})
+        out.insert(edit, out.size(), results)
+
+
+# ------------------------------------------------------------------------------
 
 
 def get_packages_uris():
@@ -105,25 +145,23 @@ class PackagesStatsCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         urls = get_packages_uris()
         data = []
-        for u in urls[-5:]:
+        Row = namedtuple('Row', ['Package', 'Last_Update'])
+        for u in urls[-50:]:
             json_str = request.urlopen(u).read().decode("utf-8")
             json = sublime.decode_value(json_str)
             last_modified = time.strptime(json["last_modified"], "%Y-%m-%dT%H:%M:%SZ")
             data.append((json["name"], last_modified))
         data.sort(key=lambda x: x[1], reverse=True)
-        max_name = len(max(data, key=lambda x: len(x[0]))[0])
-
-        def print_line(d):
-            return " | " + d[0] + " " * (max_name - len(d[0])) + " | " + time.strftime("%Y-%m-%d", d[1]) + " | "
-
-        lines = (print_line(d) for d in data)
-        x = "\n".join(lines)
+        rows = []
+        for d in data:
+            rows.append(Row(d[0], time.strftime("%Y-%m-%d", d[1])))
+        results = pprinttable(rows)
         out = self.view.window().get_output_panel("pack_stats")
         self.view.window().run_command("show_panel", {"panel": "output.pack_stats"})
-        out.set_syntax_file("Packages/DrMonthsCalendar/DrCalendar.tmLanguage")
-        out.insert(edit, out.size(), x)
+        out.insert(edit, out.size(), results)
 
 
+# ------------------------------------------------------------------------------
 # TODO: remember selection and move back to selection after insert
 class PrintAtPosCommand(sublime_plugin.TextCommand):
     def run(self, edit, row, col, text):
