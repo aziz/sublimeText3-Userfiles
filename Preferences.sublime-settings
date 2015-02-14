@@ -10,7 +10,9 @@
 		"keymap",
 		"repo",
 		"github",
-		"inline"
+		"inline",
+		"async",
+		"popup"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": false,
@@ -113,7 +115,10 @@
 		"Sass",
 		"SideBarFolders",
 		"ScopeHunter",
-		"PackageResourceViewer"
+		"PackageResourceViewer",
+		"CSS3",
+		"SideBarEnhancements",
+		"6to5"
 	],
 	"ignored_words":
 	[
