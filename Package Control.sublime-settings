@@ -43,6 +43,7 @@
 		"MarkdownEditing",
 		"MaxPane",
 		"nginx",
+		"Oceanic Color Scheme",
 		"Package Control",
 		"PackageResourceViewer",
 		"PgSQL",
@@ -87,7 +88,8 @@
 		"Toggle Css Format",
 		"Typewriter",
 		"VimL",
-		"Vintageous"
+		"Vintageous",
+		"Wrap Plus"
 	],
 	"submit_usage": false
 }

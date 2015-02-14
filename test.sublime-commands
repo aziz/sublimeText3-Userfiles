@@ -1,3 +1,4 @@
 [
-  { "caption": "Stats for Packages", "command": "packages_stats" }
+  { "caption": "Stats for Packages", "command": "packages_stats" },
+  { "caption": "Sublime Packages: Events Report", "command": "sublime_event_report" }
 ]

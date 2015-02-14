@@ -1,7 +1,5 @@
 {
 	"dired_hijack_new_window": "jump_list",
-	"font_size": 13,
-	"font_face": "consolas",
 	"dired_jump_points":
 	{
 		"Notes": "/Users/allen.bargi/Dropbox/Notes/",
@@ -16,5 +14,7 @@
 		"dotfiles": "/Users/allen.bargi/Dropbox/dotfiles/",
 		"tmTheme-Editor": "/Users/allen.bargi/Dropbox/Code/nodejs/tmTheme-Editor/"
 	},
+	"font_face": "consolas",
+	"font_size": 13,
 	"git_path": "/usr/local/bin/git"
 }

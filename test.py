@@ -3,6 +3,95 @@ import time
 from urllib import request
 from urllib.parse import quote
 
+callbacks = vars(vars()['sublime_plugin'])
+
+def log_event(event_name):
+    global callbacks
+    event_cbs = callbacks['all_callbacks'][event_name]
+    print(u"➤ `{0}` fired:".format(event_name))
+    for obj in event_cbs:
+        if obj.__class__.__name__ == "SublimeEventLogger":
+            continue
+        print(u"- {0}.{1}".format(obj.__class__.__module__, obj.__class__.__name__))
+
+
+class SublimeEventReport(sublime_plugin.TextCommand):
+    def run(self, edit):
+        events = ["on_selection_modified", "on_selection_modified_async", "on_modified", "on_modified_async", "on_activated", "on_deactivated", "on_activated_async", "on_deactivated_async", "on_text_command", "on_post_text_command", "on_window_command", "on_post_window_command", "on_query_completions", "on_query_context", "on_pre_close", "on_pre_save", "on_pre_save_async", "on_close", "on_load", "on_load_async", "on_new", "on_new_async", "on_post_save", "on_post_save_async", "on_clone", "on_clone_async"]
+        report = []
+        empty_events = []
+        report.append("All the events registered by your installed and enabled packages:")
+        report.append("NOTE:")
+        report.append("  The events on the top are the most expensive ones. please consider")
+        report.append("  disabling the plugins if you are not using them.")
+        report.append("-"*70)
+        for e in events:
+            event = callbacks['all_callbacks'][e]
+            if len(event) > 0:
+                report.append(e)
+            else:
+                empty_events.append(e)
+
+            for obj in event:
+                if obj.__class__.__name__ == "SublimeEventLogger":
+                    continue
+                report.append(u"  - {0}.{1}".format(obj.__class__.__module__, obj.__class__.__name__))
+        empty = "\n" + "-" * 70 + "\nEmpty Events:\n" + "\n".join(empty_events)
+        x = "\n".join(report) + empty
+        out = sublime.active_window().get_output_panel("event_reports")
+        self.view.window().run_command("show_panel", {"panel": "output.event_reports"})
+        out.insert(edit, out.size(), x)
+
+
+# class SublimeEventLogger(sublime_plugin.EventListener):
+#     def on_selection_modified(self, view):
+#         log_event('on_selection_modified')
+
+#     def on_selection_modified_async(self, view):
+#         log_event('on_selection_modified_async')
+
+#     def on_modified(self, view):
+#         log_event('on_modified')
+
+#     def on_modified_async(self, view):
+#         log_event('on_modified_async')
+
+
+
+def pprinttable(rows):
+    """
+    Usage:
+        from collections import namedtuple
+        Row = namedtuple('Row',['first','second','third'])
+        data = Row(1,2,3)
+        pprinttable([data, data, data, data])
+    """
+    if len(rows) > 1:
+        headers = rows[0]._fields
+        lens = []
+        for i in range(len(rows[0])):
+            lens.append(len(max([x[i] for x in rows] + [headers[i]], key=lambda x: len(str(x)))))
+        formats = []
+        hformats = []
+        for i in range(len(rows[0])):
+            if isinstance(rows[0][i], int):
+                formats.append("%%%dd" % lens[i])
+            else:
+                formats.append("%%-%ds" % lens[i])
+            hformats.append("%%-%ds" % lens[i])
+        pattern = " | ".join(formats)
+        hpattern = " | ".join(hformats)
+        separator = "-+-".join(['-' * n for n in lens])
+        print(hpattern % tuple(headers))
+        print(separator)
+        for line in rows:
+            print(pattern % tuple(line))
+    elif len(rows) == 1:
+        row = rows[0]
+        hwidth = len(max(row._fields, key=lambda x: len(x)))
+        for i in range(len(row)):
+            print("%*s = %s" % (hwidth, row._fields[i], row[i]))
+
 
 def get_packages_uris():
     PC_URI = "https://packagecontrol.io/packages/"
@@ -32,7 +121,6 @@ class PackagesStatsCommand(sublime_plugin.TextCommand):
         out = self.view.window().get_output_panel("pack_stats")
         self.view.window().run_command("show_panel", {"panel": "output.pack_stats"})
         out.set_syntax_file("Packages/DrMonthsCalendar/DrCalendar.tmLanguage")
-        out.set_read_only(False)
         out.insert(edit, out.size(), x)
 
 
