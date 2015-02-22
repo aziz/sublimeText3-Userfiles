@@ -4,11 +4,11 @@
 	],
 	"installed_packages":
 	[
-		"6to5",
 		"Abacus",
 		"Advanced CSV",
 		"Alternative Autocompletion",
 		"AngularJS",
+		"Babel",
 		"Base64 Fold",
 		"Better CoffeeScript",
 		"BetterFindBuffer",

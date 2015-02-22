@@ -1,9 +1,9 @@
 {
   "word_wrap": true,
   "wrap_width": 0,
-  "spell_check": true,
+  "spell_check": false,
   "highlight_line": false,
-  "rulers": [],
+  "rulers": [100],
   "color_scheme": "Packages/PlainNotes/Color Schemes/Sticky-White.tmTheme",
 	"extensions": ["md"]
 }

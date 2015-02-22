@@ -72,9 +72,9 @@
 // { "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
 
 // Vintagous Mode
-// { "keys": ["j", "j"], "command": "_enter_normal_mode",
-//                       "args": {"mode": "mode_insert"},
-//                       "context": [{"key": "vi_insert_mode_aware"}] },
+{ "keys": ["j", "j"], "command": "_enter_normal_mode",
+                      "args": {"mode": "mode_insert"},
+                      "context": [{"key": "vi_insert_mode_aware"}] },
 
 // Ruby Test
 // { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
