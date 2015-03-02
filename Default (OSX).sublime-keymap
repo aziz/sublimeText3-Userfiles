@@ -28,8 +28,9 @@
 // 3 cell layout, main cell top left, right col cell and bottom row cell
 { "keys": ["super+alt+8"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
 
-// { "keys": ["f1"],         "command": "focus_side_bar" },
-{ "keys": ["f2"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
+{ "keys": ["f1"],         "command": "focus_side_bar" },
+{ "keys": ["super+f2"],   "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
+{ "keys": ["f2"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true } },
 { "keys": ["f3"],         "command": "dired_jump_list" },
 { "keys": ["super+f3"],   "command": "dired_jump", "args": {"new_window": true} },
 { "keys": ["f6"],         "command": "toggle_setting", "args": {"setting": "spell_check"} },
@@ -43,6 +44,30 @@
 { "keys": ["shift+f11"],  "command": "max_pane" },
 { "keys": ["f12"],        "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
 { "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "markdown", "target": "browser"} },
+
+// Overriding PlainNotes
+{ "keys": ["super+f1"],   "command": "jotter" },
+
+// Overriding FileBrowser
+{
+    "keys": ["super+enter"],
+    "command": "dired_select", "args": {"other_group": true},
+    "context": [
+      { "key": "selector", "operator": "equal", "operand": "text.dired" },
+      { "key": "setting.dired_rename_mode", "operand": false }
+    ]
+},
+{
+    "keys": ["enter"],
+    "command": "dired_select",
+    "args": { "new_view": true },
+    "context": [
+      { "key": "selector", "operator": "equal", "operand": "text.dired" },
+      { "key": "setting.dired_rename_mode", "operand": false }
+    ]
+},
+
+
 
 // Scope Hunter
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
