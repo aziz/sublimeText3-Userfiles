@@ -57,6 +57,7 @@
 	"folder_exclude_patterns":
 	[
 		".bundle",
+		".sync",
 		".git",
 		".hg",
 		".idea",
