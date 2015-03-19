@@ -522,6 +522,17 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>YAML array punctuation</string>
+      <key>scope</key>
+      <string>punctuation.definition.entry.yaml, entity.name.tag.yaml</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F6F080</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>JSON level1</string>
       <key>scope</key>
       <string>source.json meta.structure string</string>
