@@ -1,5 +1,14 @@
 {
   "response_group": 1,
   "response_group_clean": true,
-  "request_focus": true
+  "request_focus": true,
+  "response_commands": [
+    "pretty_json",
+    {
+      "name": "set_syntax",
+      "args": {
+        "syntax_file": "Packages/HTTP Spec Syntax/httpspec.tmLanguage"
+      }
+    }
+  ]
 }
