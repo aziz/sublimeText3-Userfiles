@@ -131,7 +131,8 @@
 		"Haskell",
 		"TCL",
 		"Perl",
-		"PostgreSQL Syntax Highlighting"
+		"PostgreSQL Syntax Highlighting",
+		"SublimeREPL"
 	],
 	"ignored_words":
 	[
