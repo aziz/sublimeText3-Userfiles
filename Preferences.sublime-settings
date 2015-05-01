@@ -130,7 +130,8 @@
 		"Go",
 		"Haskell",
 		"TCL",
-		"Perl"
+		"Perl",
+		"PostgreSQL Syntax Highlighting"
 	],
 	"ignored_words":
 	[
