@@ -65,6 +65,7 @@
 		".yardoc"
 	],
 	"font_face": "consolas",
+	"overlay_scroll_bars": "enabled",
 	"font_options":
 	[
 		"no_round",
