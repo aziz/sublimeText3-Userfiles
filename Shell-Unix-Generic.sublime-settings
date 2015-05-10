@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"conf"
+		"conf",
+		".envrc"
 	]
 }

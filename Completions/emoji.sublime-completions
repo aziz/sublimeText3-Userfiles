@@ -28,5 +28,6 @@
     { "trigger": "copyright\t©", "contents": "©" },
     { "trigger": "registered_mark\t®", "contents": "®" },
     { "trigger": "trade_mark\t™", "contents": "™" },
+    { "trigger": "curly_quote\t’", "contents": "’" },
   ]
 }
