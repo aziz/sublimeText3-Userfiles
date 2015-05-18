@@ -1,7 +1,9 @@
 {
-  "highlight_style": "outline",
   "show_popup": true,
   "show_panel": false,
-  "show_color_scheme_info": true,
-  "extent_points": true
+  "styling": true,
+  "show_simulated_alpha_colors": true,
+  "selectors": true,
+  "highlight_style": "outline",
+  "extent_points": false
 }
