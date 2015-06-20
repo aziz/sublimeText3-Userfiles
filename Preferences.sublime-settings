@@ -81,7 +81,6 @@
 		"Textile",
 		"ElasticsearchClient",
 		"MarkdownEditing",
-		"TCL",
 		"PostgreSQL Syntax Highlighting",
 		"Go",
 		"Graphviz",
@@ -106,7 +105,7 @@
 		"ColorHelper",
 		"Clojure",
 		"RubyTest",
-		"TypeScript",
+		"TCL",
 		"Ruby Debugger",
 		"Java",
 		"Typewriter",
@@ -118,6 +117,7 @@
 		"Erlang",
 		"LiveReload",
 		"Vintage",
+		"TypeScript",
 		"Haskell",
 		"D",
 		"AppleScript",
@@ -126,12 +126,12 @@
 		"PackageResourceViewer",
 		"GoSublime",
 		"GhostText",
+		"SmartMarkdown",
 		"Base64 Fold",
 		"Objective-C",
 		"RestructuredText",
 		"RSense",
-		"C++",
-		"SmartMarkdown"
+		"C++"
 	],
 	"ignored_words":
 	[
