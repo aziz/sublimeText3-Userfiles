@@ -45,6 +45,10 @@
 { "keys": ["f12"],        "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
 { "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "markdown", "target": "browser"} },
 
+// overriding Close Other Window Plugin Shortcuts
+{ "keys": ["super+alt+w"], "command": "close_other_tabs" },
+{ "keys": ["super+alt+control+w"], "command": "close_other_windows" },
+
 // Overriding PlainNotes
 { "keys": ["super+f1"],   "command": "jotter" },
 

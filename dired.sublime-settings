@@ -11,6 +11,12 @@
 		"dotfiles": "/Users/allen.bargi/Dropbox/dotfiles/",
 		"tmTheme-Editor": "/Users/allen.bargi/Dropbox/Code/nodejs/tmTheme-Editor/"
 	},
+	"dired_to_copy":
+	[
+	],
+	"dired_to_move":
+	[
+	],
 	"font_face": "consolas",
 	"font_size": 13,
 	"git_path": "/usr/local/bin/git"
