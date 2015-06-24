@@ -98,7 +98,7 @@
 // { "keys": ["super+f3"], "command": "side_bar_new_directory" },
 // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
 // { "keys": ["super+k", "super+f"], "command": "js_format" },
-// { "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
+{ "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
 
 // Vintagous Mode
 { "keys": ["j", "j"], "command": "_enter_normal_mode",

@@ -57,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1E9AE0B3</string>
+				<string>#406A80</string>
 			</dict>
 		</dict>
 		<dict>
@@ -101,7 +101,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFAA00</string>
+				<string>#FFA000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -134,7 +134,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FD9ABC</string>
+				<string>#FF7A9A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -373,7 +373,7 @@
 			<key>name</key>
 			<string>Ruby method arguments</string>
 			<key>scope</key>
-			<string>source.ruby meta.function.method.with-arguments.ruby variable.parameter.function.ruby</string>
+			<string>meta.function.method.with-arguments.ruby variable.parameter.function.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -385,7 +385,7 @@
 			<key>name</key>
 			<string>Ruby method arguments punctuations</string>
 			<key>scope</key>
-			<string>source.ruby meta.function.method.with-arguments.ruby variable.parameter.function.ruby punctuation.separator.object.ruby</string>
+			<string>meta.function.method.with-arguments.ruby variable.parameter.function.ruby punctuation.separator.object.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -397,7 +397,7 @@
 			<key>name</key>
 			<string>Ruby special string quotes</string>
 			<key>scope</key>
-			<string>source.ruby string.quoted.other punctuation.definition</string>
+			<string>string.quoted.other punctuation.definition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -409,7 +409,55 @@
 			<key>name</key>
 			<string>Ruby Symbols</string>
 			<key>scope</key>
-			<string>source.ruby constant.other.symbol.ruby</string>
+			<string>constant.other.symbol.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCB3FF</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Class</string>
+			<key>scope</key>
+			<string>entity.name.type.class.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Module</string>
+			<key>scope</key>
+			<string>entity.name.type.module.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Constant</string>
+			<key>scope</key>
+			<string>variable.other.constant.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD9ABC</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Lang Vars</string>
+			<key>scope</key>
+			<string>variable.language.ruby, keyword.other.special-method.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -419,9 +467,21 @@
 
 		<dict>
 			<key>name</key>
+			<string>Ruby Block Variable</string>
+			<key>scope</key>
+			<string>variable.other.block.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>Ruby inheritance symbol</string>
 			<key>scope</key>
-			<string>source.ruby meta.class.ruby entity.name.type.class.ruby entity.other.inherited-class.ruby punctuation.separator.inheritance.ruby</string>
+			<string>meta.class.ruby entity.name.type.class.ruby entity.other.inherited-class.ruby punctuation.separator.inheritance.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
