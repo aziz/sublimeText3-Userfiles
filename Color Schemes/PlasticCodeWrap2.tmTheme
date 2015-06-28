@@ -368,7 +368,6 @@
 				<string>#F6F080</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby method arguments</string>
@@ -380,7 +379,6 @@
 				<string>#F6F080</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby method arguments punctuations</string>
@@ -392,7 +390,6 @@
 				<string>#F8F8F8</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby special string quotes</string>
@@ -404,7 +401,6 @@
 				<string>#9DF39F</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Symbols</string>
@@ -416,7 +412,6 @@
 				<string>#CCB3FF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Class</string>
@@ -428,7 +423,6 @@
 				<string>#9DF39F</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Module</string>
@@ -440,7 +434,6 @@
 				<string>#F6F080</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Constant</string>
@@ -452,7 +445,6 @@
 				<string>#FD9ABC</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Lang Vars</string>
@@ -464,7 +456,6 @@
 				<string>#FFB454</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Block Variable</string>
@@ -476,7 +467,6 @@
 				<string>#F6F080</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Ruby inheritance symbol</string>
@@ -486,6 +476,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFAA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RSpec String Descriptions</string>
+			<key>scope</key>
+			 <string>source.ruby.rspec meta.rspec string.quoted, source.ruby.rspec meta.rspec string.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RSpec Keywords</string>
+			<key>scope</key>
+			 <string>keyword.other.rspec</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
 			</dict>
 		</dict>
 
@@ -697,7 +709,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AFC4DB</string>
+				<string>#CAB5F5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -708,7 +720,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4EE161</string>
+				<string>#7FD4F5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -746,13 +758,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Gutter Mark</string>
+			<string>SublimeLinter Mark</string>
 			<key>scope</key>
 			<string>sublimelinter.gutter-mark</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#74CDFD</string>
 			</dict>
 		</dict>
 		<dict>
