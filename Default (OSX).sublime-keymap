@@ -71,8 +71,9 @@
 //     ]
 // },
 
-// Alignment
 { "keys": ["super+ctrl+alt+]"], "command": "abacus" },
+{ "keys": ["super+ctrl+alt+'"], "command": "change_quotes" },
+
 {
    "keys": ["super+ctrl+alt+["], "command": "align_tab",
    "args" : {"live_preview" : true}

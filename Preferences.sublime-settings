@@ -79,14 +79,14 @@
 		"SmartMarkdown",
 		"CSScomb",
 		"AppleScript",
-		"Clojure",
+		"Haskell",
 		"RubyTest",
 		"ColorHelper",
 		"Markdown",
 		"C#",
 		"Vintage",
 		"C++",
-		"Haskell",
+		"Clojure",
 		"TypeScript",
 		"Matlab",
 		"Plist Binary",
@@ -111,7 +111,7 @@
 		"Graphviz",
 		"ElasticsearchClient",
 		"Groovy",
-		"Scala",
+		"Objective-C",
 		"RSpec",
 		"Lisp",
 		"Perl",
@@ -128,10 +128,10 @@
 		"Material Theme",
 		"GhostText",
 		"Ruby Debugger",
-		"Objective-C",
+		"MarkdownEditing",
 		"Vintageous",
 		"Sass",
-		"MarkdownEditing"
+		"Scala"
 	],
 	"ignored_words":
 	[
