@@ -51,7 +51,7 @@ def pprinttable(rows):
             hformats.append("%%-%ds" % lens[i])
         pattern = " | ".join(formats)
         hpattern = " | ".join(hformats)
-        separator = "-+-".join(['-' * n for n in lens])
+        separator = "—+—".join(['—' * n for n in lens])
         result.append(hpattern % tuple(headers))
         result.append(separator)
         for line in rows:
@@ -86,10 +86,15 @@ class PackStatsTableCommand(sublime_plugin.TextCommand):
         row2 = Row("Package Control", len(pc_total), len(disabled_pc), len(enabled_pc))
         row3 = Row("Total", len(total), len(disabled), len(enabled))
         results = pprinttable([row1, row2, row3])
+        sep_line = "\n————————————————————————————————————————————\n\t"
 
         out = self.view.window().get_output_panel("stats")
         self.view.window().run_command("show_panel", {"panel": "output.stats"})
         out.insert(edit, out.size(), results)
+        out.insert(edit, out.size(), "\n\nPackage Control Packages (Enabled):" + sep_line + '\n\t'.join(sorted(enabled_pc, key=lambda s: s.lower())))
+        out.insert(edit, out.size(), "\n\nPackage Control Packages (Disabled):" + sep_line + '\n\t'.join(sorted(disabled_pc, key=lambda s: s.lower())))
+        out.insert(edit, out.size(), "\n\nDefault Packages (Enabled):" + sep_line + '\n\t'.join(sorted(enabled_def, key=lambda s: s.lower())))
+        out.insert(edit, out.size(), "\n\nDefault Packages (Disabled):" + sep_line + '\n\t'.join(sorted(disabled_def, key=lambda s: s.lower())))
 
 
 class PackStatsLastupdateCommand(sublime_plugin.TextCommand):
@@ -131,26 +136,38 @@ class PackStatsLastupdateCommand(sublime_plugin.TextCommand):
 
 class PackStatsEventsReport(sublime_plugin.TextCommand):
     def run(self, edit):
-        events = ["on_selection_modified", "on_selection_modified_async", "on_modified", "on_modified_async", "on_activated", "on_deactivated", "on_activated_async", "on_deactivated_async", "on_text_command", "on_post_text_command", "on_window_command", "on_post_window_command", "on_query_completions", "on_query_context", "on_pre_close", "on_pre_save", "on_pre_save_async", "on_close", "on_load", "on_load_async", "on_new", "on_new_async", "on_post_save", "on_post_save_async", "on_clone", "on_clone_async"]
+        events = ["on_selection_modified", "on_selection_modified_async",
+                  "on_modified", "on_modified_async",
+                  "on_activated", "on_activated_async",
+                  "on_deactivated", "on_deactivated_async",
+                  "on_text_command", "on_post_text_command",
+                  "on_window_command", "on_post_window_command",
+                  "on_query_completions", "on_query_context",
+                  "on_pre_close", "on_close",
+                  "on_pre_save", "on_pre_save_async",
+                  "on_load", "on_load_async",
+                  "on_new", "on_new_async",
+                  "on_post_save", "on_post_save_async",
+                  "on_clone", "on_clone_async"]
         report = []
         empty_events = []
-        report.append("All the events registered by your installed and enabled packages:")
-        report.append("NOTE:")
-        report.append("  The events on the top are the most expensive ones. please consider")
-        report.append("  disabling the plugins if you are not using them.")
-        report.append("-" * 70)
+        report.append("\tAll the events registered by your installed and enabled packages:")
+        report.append("\tNOTE:")
+        report.append("\t  The events on the top are the most expensive ones. consider")
+        report.append("\t  disabling the plugins if you are not using them.")
+        report.append("—" * 70)
         for e in events:
             event = callbacks['all_callbacks'][e]
             if len(event) > 0:
-                report.append(e)
+                report.append("\n\t" + e)
             else:
                 empty_events.append(e)
 
             for obj in event:
                 if obj.__class__.__name__ == "SublimeEventLogger":
                     continue
-                report.append(u"  - {0}.{1}".format(obj.__class__.__module__, obj.__class__.__name__))
-        empty = "\n" + "-" * 70 + "\nEmpty Events:\n" + "\n".join(empty_events)
+                report.append(u"\t  - {0}.{1}".format(obj.__class__.__module__, obj.__class__.__name__))
+        empty = "\n" + "—" * 70 + "\n\n\tEmpty Events:\n\t\t" + "\n\t\t".join(empty_events)
         x = "\n".join(report) + empty
         out = sublime.active_window().get_output_panel("event_reports")
         self.view.window().run_command("show_panel", {"panel": "output.event_reports"})
