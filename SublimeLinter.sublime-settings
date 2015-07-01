@@ -37,6 +37,11 @@
                 "excludes": [],
                 "strict": true
             },
+            "mdl": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "pep8": {
                 "@disable": false,
                 "args": [],
@@ -103,6 +108,7 @@
             "html (rails)": "html",
             "html 5": "html",
             "php": "html",
+            "note": "markdown",
             "python django": "python",
             "pythonimproved": "python"
         },
