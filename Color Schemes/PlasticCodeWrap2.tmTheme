@@ -436,6 +436,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby Module Punctuations</string>
+			<key>scope</key>
+			<string>punctuation.separator.inheritance.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby Constant</string>
 			<key>scope</key>
 			<string>variable.other.constant.ruby</string>
