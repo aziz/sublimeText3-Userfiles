@@ -431,7 +431,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F6F080</string>
+				<string>#9DF39F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -497,7 +497,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9DF39F</string>
+				<string>#7FD4F5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -508,10 +508,20 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F6F080</string>
+				<string>#FFB454</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>RSpec Block Keywords, describe, context and it</string>
+			<key>scope</key>
+			 <string>keyword.other.rspec.behaviour, keyword.other.rspec.example</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E8D500</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>LESS @at-rule</string>

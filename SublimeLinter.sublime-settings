@@ -104,11 +104,12 @@
         "show_errors_on_save": false,
         "show_marks_in_minimap": false,
         "syntax_map": {
+            "better rspec": "ruby",
             "html (django)": "html",
             "html (rails)": "html",
             "html 5": "html",
-            "php": "html",
             "note": "markdown",
+            "php": "html",
             "python django": "python",
             "pythonimproved": "python"
         },
