@@ -90,6 +90,7 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-mdl",
 		"SublimeLinter-csslint",
+		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-pep8",
