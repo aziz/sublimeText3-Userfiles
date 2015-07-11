@@ -10,7 +10,6 @@
 
 { "keys": ["super+v"], "command": "paste_and_indent" },
 { "keys": ["super+shift+v"], "command": "paste" },
-{ "keys": ["super+alt+d"], "command": "expand_selection", "args": {"to": "scope"} },
 
 { "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
 { "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
@@ -51,6 +50,17 @@
 
 // Overriding PlainNotes
 { "keys": ["super+f1"],   "command": "jotter" },
+
+{ "keys": ["super+alt+d"], "command": "expand_selection", "args": {"to": "indentation"} },
+{ "keys": ["super+shift+d"], "command": "expand_selection", "args": {"to": "scope"} },
+// Expand Region
+{ "keys": ["super+shift+j"], "command": "expand_region" },
+{
+  "keys": ["super+u"],
+  "command": "expand_region",
+  "args": {"undo": true},
+  "context": [{ "key": "expand_region_soft_undo" }]
+},
 
 // Overriding FileBrowser
 // {
