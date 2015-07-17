@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+described_class.
+]]></content>
+  <tabTrigger>dc</tabTrigger>
+  <scope>source.ruby.rspec</scope>
+</snippet>

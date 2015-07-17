@@ -161,9 +161,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Regexp normal</string>
+			<key>scope</key>
+			<string>source.regexp string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String regexp</string>
 			<key>scope</key>
-			<string>string.regexp</string>
+			<string>string.regexp - source.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -489,6 +500,18 @@
 				<string>#FFAA00</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>ERB Punctuations</string>
+			<key>scope</key>
+			<string>text.html.ruby text.html.basic source.ruby.rails.embedded.html punctuation.section.embedded.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD9ABC87</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>RSpec String Descriptions</string>
