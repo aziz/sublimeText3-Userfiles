@@ -923,28 +923,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>pgSQL keyword</string>
-			<key>scope</key>
-			<string>source.pgsql meta.statement.pgsql keyword.other.pgsql </string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4EE161</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>pgSQL function</string>
-			<key>scope</key>
-			<string>source.pgsql meta.statement.pgsql support.function.pgsql</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F6F080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>diff.header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
