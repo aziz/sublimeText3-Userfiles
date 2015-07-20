@@ -1,7 +1,6 @@
 {
 	"added_words":
 	[
-		"Yosetina",
 		"plugins",
 		"todo",
 		"plugin",
@@ -90,7 +89,6 @@
 		"ElasticsearchClient",
 		"Elixir",
 		"Erlang",
-		"FindKeyConflicts",
 		"GhostText",
 		"GitSavvy",
 		"Go",
@@ -100,7 +98,6 @@
 		"Haskell",
 		"Hayaku - tools for writing CSS faster",
 		"Jasmine CoffeeScript",
-		"Keymaps",
 		"knockdown",
 		"Lisp",
 		"LiveReload",
