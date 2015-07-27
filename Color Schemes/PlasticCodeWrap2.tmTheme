@@ -703,6 +703,73 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS vars</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.js, variable.other.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS function calls</string>
+			<key>scope</key>
+			<string>variable.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS semicolon</string>
+			<key>scope</key>
+			<string>source.js punctuation.terminator.statement.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F844</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Object key-value punctuation separator</string>
+			<key>scope</key>
+			<string>source.js punctuation.separator.key-value.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS object key</string>
+			<key>scope</key>
+			<string>constant.other.object.key.js string.unquoted.label.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCB3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS constructor</string>
+			<key>scope</key>
+			<string>variable.function.constructor.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E8D500</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>JSON level1</string>
 			<key>scope</key>
 			<string>source.json meta.structure string</string>

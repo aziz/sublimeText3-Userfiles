@@ -71,7 +71,7 @@ class PackStatsTableCommand(sublime_plugin.TextCommand):
         user = set(listdir(sublime.packages_path()))
         pc = set([re.sub(r'\.sublime-package', '', p) for p in listdir(sublime.installed_packages_path())])
         disabled = set(sublime.load_settings('Preferences.sublime-settings').get('ignored_packages', []))
-        ignored = set(["User", "bz2", "0_package_control_loader"])
+        ignored = set(["User", "bz2", "0_package_control_loader", ".DS_Store"])
 
         enabled_def = default - disabled
         disabled_def = default - enabled_def

@@ -26,6 +26,11 @@
                 "args": [],
                 "excludes": []
             },
+            "jscs": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "jshint": {
                 "@disable": false,
                 "args": [],
@@ -79,6 +84,11 @@
                 "@disable": false,
                 "args": [],
                 "exclude": "",
+                "excludes": []
+            },
+            "sqlint": {
+                "@disable": false,
+                "args": [],
                 "excludes": []
             }
         },
