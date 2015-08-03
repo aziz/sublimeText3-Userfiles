@@ -563,17 +563,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS variables</string>
-			<key>scope</key>
-			<string>variable.other.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4EE161</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>LESS mixins</string>
 			<key>scope</key>
 			<string>entity.other.less.mixin</string>
@@ -585,9 +574,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS class</string>
+			<string>Sass keywords</string>
 			<key>scope</key>
-			<string>source.less entity.other.attribute-name.class.css</string>
+			<string>source.scss entity.name.tag.reference.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFA000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less/Sass class</string>
+			<key>scope</key>
+			<string>source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css</string>
+
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -596,9 +597,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS ID</string>
+			<string>Less/Sass ID</string>
 			<key>scope</key>
-			<string>source.less entity.other.attribute-name.id.css</string>
+			<string>source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -607,9 +608,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS html tags</string>
+			<string>Less/Sass html-tags</string>
 			<key>scope</key>
-			<string>source.less entity.name.tag.css, keyword.control.html.elements</string>
+			<string>source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -618,9 +619,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS variables</string>
+			<string>Less/Sass variables</string>
 			<key>scope</key>
-			<string>source.less meta.property-value.css variable.other.less, source.less variable.declaration.less</string>
+			<string>source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -629,9 +630,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS units</string>
+			<string>Less/Sass units</string>
 			<key>scope</key>
-			<string>source.less keyword.unit.css</string>
+			<string>source.less keyword.unit.css, source.scss keyword.other.unit.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
