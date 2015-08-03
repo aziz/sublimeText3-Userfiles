@@ -85,7 +85,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8D500</string>
+				<string>#FFDD33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA000</string>
+				<string>#FFA826</string>
 			</dict>
 		</dict>
 		<dict>
@@ -158,7 +158,7 @@
 			<key>name</key>
 			<string>String embedded-source</string>
 			<key>scope</key>
-			<string>string.quoted source, string constant</string>
+			<string>string.quoted source, string constant, string source.ruby.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -184,7 +184,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -206,7 +206,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -222,9 +222,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS html-tag</string>
+			<string>CSS/Less/Sass html-tag</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.name.tag</string>
+			<string>meta.selector.css entity.name.tag, source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -233,20 +233,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS ID</string>
+			<string>CSS/Less/Sass ID</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<string>meta.selector.css entity.other.attribute-name.id, source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS class</string>
+			<string>CSS/Less/Sass class</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.class</string>
+			<string>meta.selector.css entity.other.attribute-name.class, source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -288,9 +288,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Units</string>
+			<string>CSS/Less/Sass Units</string>
 			<key>scope</key>
-			<string>keyword.other.unit.css</string>
+			<string>keyword.other.unit.css, source.less keyword.unit.css, source.scss keyword.other.unit.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -305,9 +305,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
-				<key>background</key>
 				<string>#FF3A83</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -318,7 +318,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFAA00</string>
+				<string>#FFA826</string>
 			</dict>
 		</dict>
 		<dict>
@@ -340,40 +340,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass class</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F6F080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass ID</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFB454</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass html-tags</string>
-			<key>scope</key>
-			<string>source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9EFFFF</string>
+				<string>#FFA826</string>
 			</dict>
 		</dict>
 		<dict>
@@ -385,17 +352,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#CCB3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass units</string>
-			<key>scope</key>
-			<string>source.less keyword.unit.css, source.scss keyword.other.unit.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FD9ABC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -549,7 +505,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -571,7 +527,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFAA00</string>
+				<string>#FFA826</string>
 			</dict>
 		</dict>
 		<dict>
@@ -604,7 +560,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -615,7 +571,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8D500</string>
+				<string>#FFDD33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -639,7 +595,7 @@
 				<key>background</key>
 				<string>#00161B</string>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -694,7 +650,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFAA00</string>
+				<string>#FFA826</string>
 			</dict>
 		</dict>
 		<dict>
@@ -782,7 +738,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8D500</string>
+				<string>#FFDD33</string>
 			</dict>
 		</dict>
 
@@ -816,7 +772,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB454</string>
+				<string>#FFC266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -860,7 +816,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8D500</string>
+				<string>#FFDD33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -871,7 +827,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFAA00</string>
+				<string>#FFA826</string>
 			</dict>
 		</dict>
 		<dict>
@@ -926,7 +882,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8D500</string>
+				<string>#FFDD33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1058,7 +1014,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#E8D500</string>
+				<string>#FFDD33</string>
 			</dict>
 		</dict>
 		<dict>

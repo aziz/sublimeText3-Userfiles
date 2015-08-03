@@ -53,8 +53,12 @@
 
 { "keys": ["super+alt+d"], "command": "expand_selection", "args": {"to": "indentation"} },
 { "keys": ["super+shift+d"], "command": "expand_selection", "args": {"to": "scope"} },
+
 // Expand Region
-{ "keys": ["super+shift+j"], "command": "expand_region" },
+{ "keys": ["super+shift+."], "command": "expand_region" },
+{ "keys": ["super+j"], "command": "ace_jump_char" },
+{ "keys": ["super+shift+j"], "command": "join_lines" },
+
 {
   "keys": ["super+u"],
   "command": "expand_region",
