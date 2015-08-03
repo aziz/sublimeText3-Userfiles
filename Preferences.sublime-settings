@@ -70,7 +70,7 @@
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 17.0,
+	"font_size": 17,
 	"hayaku_use_default_cycling_keymaps": false,
 	"ignored_packages":
 	[
@@ -81,7 +81,6 @@
 		"Base64 Fold",
 		"Batch File",
 		"C#",
-		"C++",
 		"Clojure",
 		"Compile Selected ES6",
 		"CSS3",
@@ -109,13 +108,13 @@
 		"MarkdownEditing",
 		"Material Theme",
 		"Matlab",
+		"Minify",
 		"nginx",
 		"Objective-C",
 		"OCaml",
 		"PackageResourceViewer",
 		"Pascal",
 		"Perl",
-		"PHP",
 		"Plist Binary",
 		"PostgreSQL Syntax Highlighting",
 		"R",
