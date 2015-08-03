@@ -173,7 +173,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#F8F8F8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -672,7 +672,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#74CDFD</string>
+				<string>#7FD4F5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -794,7 +794,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CAB5F5</string>
+				<string>#CCB3FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -832,28 +832,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C&#x2f;C++ Preprocessor Line</string>
-			<key>scope</key>
-			<string>other.preprocessor.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#8996A8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>C&#x2f;C++ Preprocessor Directive</string>
-			<key>scope</key>
-			<string>other.preprocessor.c entity</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AFC4DB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>SublimeLinter Error</string>
 			<key>scope</key>
 			<string>sublimelinter.mark.error</string>
@@ -871,7 +849,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#74CDFD</string>
+				<string>#7FD4F5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -986,50 +964,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.header</string>
-			<key>scope</key>
-			<string>meta.diff, meta.diff.header</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#0E2231</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#D8290D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.changed</string>
-			<key>scope</key>
-			<string>markup.changed</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FFDD33</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.inserted</string>
-			<key>scope</key>
-			<string>markup.inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#4EE161</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
@@ -1047,7 +981,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#F8F8F8</string>
 				<key>background</key>
 				<string>#FF5E00</string>
 			</dict>
