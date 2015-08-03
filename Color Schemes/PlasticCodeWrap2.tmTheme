@@ -222,29 +222,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C&#x2f;C++ Preprocessor Line</string>
-			<key>scope</key>
-			<string>other.preprocessor.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#8996A8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>C&#x2f;C++ Preprocessor Directive</string>
-			<key>scope</key>
-			<string>other.preprocessor.c entity</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AFC4DB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>css tag-name</string>
+			<string>CSS html-tag</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.name.tag</string>
 			<key>settings</key>
@@ -255,7 +233,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css#id</string>
+			<string>CSS ID</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.id</string>
 			<key>settings</key>
@@ -266,7 +244,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css.class</string>
+			<string>CSS class</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.class</string>
 			<key>settings</key>
@@ -277,7 +255,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css property-name:</string>
+			<string>CSS property-name:</string>
 			<key>scope</key>
 			<string>support.type.property-name.css</string>
 			<key>settings</key>
@@ -288,7 +266,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css @import</string>
+			<string>CSS @import</string>
 			<key>scope</key>
 			<string>keyword.control.at-rule.import.css</string>
 			<key>settings</key>
@@ -299,7 +277,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css additional-constants</string>
+			<string>CSS additional-constants</string>
 			<key>scope</key>
 			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
 			<key>settings</key>
@@ -310,7 +288,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css units</string>
+			<string>CSS Units</string>
 			<key>scope</key>
 			<string>keyword.other.unit.css</string>
 			<key>settings</key>
@@ -321,13 +299,103 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css !important</string>
+			<string>CSS/Sass !important</string>
 			<key>scope</key>
-			<string>keyword.other.important.css</string>
+			<string>keyword.other.important.css, source.scss keyword.other.important.scss</string>
 			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
 				<key>background</key>
-				<string>#FF000050</string>
+				<string>#FF3A83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS @at-rule</string>
+			<key>scope</key>
+			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFAA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS mixins</string>
+			<key>scope</key>
+			<string>entity.other.less.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sass keywords</string>
+			<key>scope</key>
+			<string>source.scss entity.name.tag.reference.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFA000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less/Sass class</string>
+			<key>scope</key>
+			<string>source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less/Sass ID</string>
+			<key>scope</key>
+			<string>source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB454</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less/Sass html-tags</string>
+			<key>scope</key>
+			<string>source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9EFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less/Sass variables</string>
+			<key>scope</key>
+			<string>source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCB3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less/Sass units</string>
+			<key>scope</key>
+			<string>source.less keyword.unit.css, source.scss keyword.other.unit.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD9ABC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -552,95 +620,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS @at-rule</string>
-			<key>scope</key>
-			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFAA00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS mixins</string>
-			<key>scope</key>
-			<string>entity.other.less.mixin</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Sass keywords</string>
-			<key>scope</key>
-			<string>source.scss entity.name.tag.reference.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFA000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass class</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css</string>
-
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F6F080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass ID</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFB454</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass html-tags</string>
-			<key>scope</key>
-			<string>source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9EFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass variables</string>
-			<key>scope</key>
-			<string>source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CCB3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less/Sass units</string>
-			<key>scope</key>
-			<string>source.less keyword.unit.css, source.scss keyword.other.unit.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FD9ABC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>angular</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.angular.html</string>
@@ -775,17 +754,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS semicolon</string>
-			<key>scope</key>
-			<string>source.js punctuation.terminator.statement.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F8F8F844</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JS Object key-value punctuation separator</string>
 			<key>scope</key>
 			<string>source.js punctuation.separator.key-value.js</string>
@@ -904,6 +872,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFAA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C&#x2f;C++ Preprocessor Line</string>
+			<key>scope</key>
+			<string>other.preprocessor.c</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8996A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C&#x2f;C++ Preprocessor Directive</string>
+			<key>scope</key>
+			<string>other.preprocessor.c entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AFC4DB</string>
 			</dict>
 		</dict>
 		<dict>
