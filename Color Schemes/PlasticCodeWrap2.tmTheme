@@ -167,17 +167,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Regexp normal</string>
-			<key>scope</key>
-			<string>source.regexp string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F8F8F8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>String regexp</string>
 			<key>scope</key>
 			<string>string.regexp - source.regexp</string>
@@ -446,7 +435,7 @@
 			<key>name</key>
 			<string>Ruby Symbols</string>
 			<key>scope</key>
-			<string>constant.other.symbol.ruby</string>
+			<string>source.ruby constant.other.symbol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -830,6 +819,29 @@
 				<string>#FFA826</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp normal</string>
+			<key>scope</key>
+			<string>source.regexp string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Regexp: group</string>
+			<key>scope</key>
+			<string>string.regexp punctuation.definition.group</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Error</string>

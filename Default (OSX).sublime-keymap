@@ -55,9 +55,9 @@
 { "keys": ["super+shift+d"], "command": "expand_selection", "args": {"to": "scope"} },
 
 // Expand Region
-{ "keys": ["super+shift+."], "command": "expand_region" },
-{ "keys": ["super+j"], "command": "ace_jump_char" },
-{ "keys": ["super+shift+j"], "command": "join_lines" },
+{ "keys": ["super+shift+m"], "command": "expand_region" },
+{ "keys": ["super+j"], "command": "join_lines" },
+{ "keys": ["super+shift+j"], "command": "ace_jump_word" },
 
 {
   "keys": ["super+u"],
