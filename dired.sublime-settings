@@ -2,14 +2,14 @@
 	"dired_hijack_new_window": "jump_list",
 	"dired_jump_points":
 	{
-		"Notes": "/Users/allen.bargi/Dropbox/Notes/",
-		"ST/BetterFindBuffer": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/BetterFindBuffer/",
-		"ST/FileBrowser": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/FileBrowser/",
-		"ST/PlainNotes": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/PlainNotes/",
-		"ST/PlainTasks": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/PlainTasks/",
-		"ST/User": "/Users/allen.bargi/Library/Application Support/Sublime Text 3/Packages/User/",
-		"dotfiles": "/Users/allen.bargi/Dropbox/dotfiles/",
-		"tmTheme-Editor": "/Users/allen.bargi/Dropbox/Code/nodejs/tmTheme-Editor/"
+		"Notes": "/Users/allen/Dropbox/Notes/",
+		"ST/BetterFindBuffer": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/BetterFindBuffer/",
+		"ST/FileBrowser": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/FileBrowser/",
+		"ST/PlainNotes": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/PlainNotes/",
+		"ST/PlainTasks": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/PlainTasks/",
+		"ST/User": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/User/",
+		"dotfiles": "/Users/allen/Dropbox/dotfiles/",
+		"tmTheme-Editor": "/Users/allen/Dropbox/Code/nodejs/tmTheme-Editor/"
 	},
 	"dired_to_copy":
 	[
