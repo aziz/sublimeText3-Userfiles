@@ -8,6 +8,11 @@
         "gutter_theme_excludes": [],
         "lint_mode": "load/save",
         "linters": {
+            "alex": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "coffeelint": {
                 "@disable": false,
                 "args": [],
