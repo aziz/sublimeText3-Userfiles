@@ -66,25 +66,6 @@
   "context": [{ "key": "expand_region_soft_undo" }]
 },
 
-// Overriding FileBrowser
-// {
-//     "keys": ["super+enter"],
-//     "command": "dired_select", "args": {"other_group": true},
-//     "context": [
-//       { "key": "selector", "operator": "equal", "operand": "text.dired" },
-//       { "key": "setting.dired_rename_mode", "operand": false }
-//     ]
-// },
-// {
-//     "keys": ["enter"],
-//     "command": "dired_select",
-//     "args": { "new_view": true },
-//     "context": [
-//       { "key": "selector", "operator": "equal", "operand": "text.dired" },
-//       { "key": "setting.dired_rename_mode", "operand": false }
-//     ]
-// },
-
 { "keys": ["super+ctrl+alt+]"], "command": "abacus" },
 { "keys": ["super+ctrl+alt+'"], "command": "change_quotes" },
 

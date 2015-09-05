@@ -3,7 +3,7 @@
   "wrap_width": 0,
   "spell_check": false,
   "highlight_line": false,
-  "rulers": [100],
+  "rulers": [80],
   "color_scheme": "Packages/PlainNotes/Color Schemes/Sticky-White.tmTheme",
 	"extensions": ["md"]
 }

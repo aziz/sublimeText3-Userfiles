@@ -19,5 +19,6 @@
 	],
 	"font_face": "consolas",
 	"font_size": 13,
+	"dired_open_on_jump": false,
 	"git_path": "/usr/local/bin/git"
 }
