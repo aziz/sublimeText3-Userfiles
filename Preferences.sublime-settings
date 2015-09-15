@@ -38,7 +38,7 @@
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap2.tmTheme",
 	"enable_tab_scrolling": false,
-	"enable_telemetry": "disabled",
+	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"fallback_encoding": "UTF-8",
