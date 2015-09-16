@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -10,6 +11,7 @@
 		"AlignTab",
 		"Alternative Autocompletion",
 		"AngularJS",
+		"ANSIescape",
 		"ApplySyntax",
 		"Asciidoctor",
 		"Babel",
@@ -92,7 +94,6 @@
 		"SqlBeautifier",
 		"SSH Config",
 		"StringEncode",
-		"Subhub",
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
