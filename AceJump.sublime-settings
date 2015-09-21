@@ -1,0 +1,36 @@
+{
+  "view_settings": [
+      "always_show_minimap_viewport",
+      "auto_indent",
+      "color_scheme",
+      "detect_indentation",
+      "draw_centered",
+      "draw_minimap_border",
+      "draw_white_space",
+      "fold_buttons",
+      "font_face",
+      "font_options",
+      "gutter",
+      "highlight_line",
+      "indent_subsequent_lines",
+      "line_numbers",
+      "line_padding_bottom",
+      "line_padding_top",
+      "margin",
+      "match_brackets",
+      "match_brackets_angle",
+      "match_brackets_braces",
+      "match_brackets_content",
+      "match_brackets_square",
+      "rulers",
+      "scroll_past_end",
+      "tab_size",
+      "translate_tabs_to_spaces",
+      "trim_automatic_white_space",
+      "trim_trailing_white_space_on_save",
+      "use_tab_stops",
+      "word_wrap",
+      "wrap_width"
+  ]
+
+}

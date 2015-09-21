@@ -97,6 +97,7 @@
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
+		"SublimeLinter-contrib-alex",
 		"SublimeLinter-contrib-mdl",
 		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-csslint",
