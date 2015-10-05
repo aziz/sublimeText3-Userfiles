@@ -327,17 +327,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>LESS mixins</string>
-			<key>scope</key>
-			<string>entity.other.less.mixin</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Sass keywords</string>
 			<key>scope</key>
 			<string>source.scss entity.name.tag.reference.scss</string>
