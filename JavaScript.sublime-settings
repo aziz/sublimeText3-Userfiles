@@ -1,7 +1,7 @@
 {
-	"indent_to_bracket": true,
-  "extensions":
+	"extensions":
 	[
 		"Jakefile"
-	]
+	],
+	"indent_to_bracket": true
 }

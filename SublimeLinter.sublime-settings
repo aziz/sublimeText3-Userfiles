@@ -26,6 +26,11 @@
                 "ignore": "",
                 "warnings": ""
             },
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmltidy": {
                 "@disable": false,
                 "args": [],
@@ -123,6 +128,7 @@
             "html (django)": "html",
             "html (rails)": "html",
             "html 5": "html",
+            "javascript (babel)": "javascript",
             "note": "markdown",
             "php": "html",
             "python django": "python",
