@@ -351,7 +351,7 @@
 			<key>name</key>
 			<string>tag</string>
 			<key>scope</key>
-			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
+			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity, entity.name.tag.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -373,7 +373,7 @@
 			<key>name</key>
 			<string>html class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html</string>
+			<string>entity.other.attribute-name.html, entity.other.attribute-name.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

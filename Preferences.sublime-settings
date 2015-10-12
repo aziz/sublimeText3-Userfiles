@@ -30,7 +30,8 @@
 		"coverage/",
 		"node_modules/",
 		"tmp/",
-		"vendor/"
+		"vendor/",
+		"dist"
 	],
 	"bold_folder_labels": false,
 	"caret_extra_top": 2,

@@ -3,6 +3,7 @@
 	[
 		"sublime-commands",
 		"sublime-macro",
-		"sublime-workspace"
+		"sublime-workspace",
+		".eslintrc"
 	]
 }
