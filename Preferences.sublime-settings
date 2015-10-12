@@ -76,6 +76,7 @@
 	"ignored_packages":
 	[
 		"ActionScript",
+		"AngularJS",
 		"AppleScript",
 		"ASP",
 		"Base64 Fold",
