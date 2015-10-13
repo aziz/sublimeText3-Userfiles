@@ -481,6 +481,109 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>ES6 module keywords</string>
+			<key>scope</key>
+			<string>source.js keyword.operator.module.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ES6 function variables</string>
+			<key>scope</key>
+			<string>source.js variable.parameter.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC266</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>ES6 class and extends</string>
+			<key>scope</key>
+			<string>source.js meta.class.js storage.type.class.js,source.js meta.class.js storage.type.extends.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFA826</string>
+			</dict>
+		</dict>
+
+
+
+		<dict>
+			<key>name</key>
+			<string>ES6 constants</string>
+			<key>scope</key>
+			<string>source.js variable.other.constant.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF3A83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ES6 Arrow function</string>
+			<key>scope</key>
+			<string>meta.function.arrow.js storage.type.function.arrow.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFDD33</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX Embedded</string>
+			<key>scope</key>
+			<string>meta.embedded.expression.jsx </string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B0B3BA14</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.jsx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9EFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX attribures names</string>
+			<key>scope</key>
+			<string>meta.jsx.js entity.other.attribute-name.jsx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX attribures operators</string>
+			<key>scope</key>
+			<string>meta.jsx.js keyword.operator.assignment.jsx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#65A4A487</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby method arguments</string>
 			<key>scope</key>
 			<string>meta.function.method.with-arguments.ruby variable.parameter.function.ruby</string>
