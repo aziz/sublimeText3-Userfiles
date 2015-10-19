@@ -135,7 +135,7 @@
 		"Sort Lines (Numerically)",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
-		"SublimeLinter-pep8",
+		"SublimeLinter-pylint",
 		"SublimeLinter-pyyaml",
 		"TCL",
 		"Textile",

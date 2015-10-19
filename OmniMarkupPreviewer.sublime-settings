@@ -1,0 +1,14 @@
+{
+ "ignored_renderers": [
+    "AsciiDocRenderer",
+    "CreoleRenderer",
+    "LiterateHaskellRenderer",
+    "MediaWikiRenderer",
+    "OrgRenderer",
+    "PodRenderer",
+    "PodRenderer",
+    "RDocRenderer",
+    "RstRenderer",
+    "TextileRenderer"
+  ]
+}

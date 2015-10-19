@@ -2,15 +2,16 @@
 	"dired_hijack_new_window": "jump_list",
 	"dired_jump_points":
 	{
+		"CV": "/Users/allen/Dropbox/CV/web",
 		"ST/BetterFindBuffer": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/BetterFindBuffer/",
 		"ST/FileBrowser": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/FileBrowser/",
 		"ST/PlainNotes": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/PlainNotes/",
 		"ST/PlainTasks": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/PlainTasks/",
 		"ST/User": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/User/",
 		"dotfiles": "/Users/allen/Dropbox/dotfiles/",
-		"CV": "/Users/allen/Dropbox/CV/web",
 		"tmTheme-Editor": "/Users/allen/Dropbox/Code/nodejs/tmTheme-Editor/"
 	},
+	"dired_open_on_jump": false,
 	"dired_to_copy":
 	[
 	],
@@ -19,6 +20,5 @@
 	],
 	"font_face": "consolas",
 	"font_size": 13,
-	"dired_open_on_jump": false,
 	"git_path": "/usr/local/bin/git"
 }
