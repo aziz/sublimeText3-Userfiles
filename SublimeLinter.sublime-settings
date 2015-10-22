@@ -90,6 +90,11 @@
                 "args": [],
                 "excludes": []
             },
+            "sass": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "shellcheck": {
                 "@disable": false,
                 "args": [],
