@@ -514,11 +514,11 @@
         <key>name</key>
         <string>ES6 Class Properties</string>
         <key>scope</key>
-        <string>meta.property.object.js variable.other.object.js,meta.class.property.js variable.other.property.js</string>
+        <string>meta.class.property.js variable.other.property.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#AE81FF</string>
+          <string>#FFDD33</string>
         </dict>
       </dict>
       <dict>
