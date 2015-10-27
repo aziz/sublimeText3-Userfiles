@@ -457,9 +457,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>ES6 module keywords</string>
+        <string>ES6 + Commonjs module keywords</string>
         <key>scope</key>
-        <string>source.js keyword.operator.module.js</string>
+        <string>source.js keyword.operator.module.js, source.js support.type.object.module.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
