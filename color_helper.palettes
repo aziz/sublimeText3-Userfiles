@@ -1,0 +1,16 @@
+{
+	"palettes":
+	[
+		{
+			"colors":
+			[
+				"#f1fa8c",
+				"#bd93f9",
+				"#50fa7b",
+				"#ff79c6",
+				"#6be5fd"
+			],
+			"name": "Sublime"
+		}
+	]
+}
