@@ -76,7 +76,6 @@
 	"ignored_packages":
 	[
 		"ActionScript",
-		"AngularJS",
 		"AppleScript",
 		"ASP",
 		"Base64 Fold",
@@ -135,6 +134,7 @@
 		"Sort Lines (Numerically)",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
+		"SublimeLinter-pep8",
 		"SublimeLinter-pylint",
 		"SublimeLinter-pyyaml",
 		"TCL",
