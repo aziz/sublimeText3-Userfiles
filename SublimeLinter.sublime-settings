@@ -65,6 +65,11 @@
                 "max-line-length": 120,
                 "select": ""
             },
+            "proselint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "pylint": {
                 "@disable": false,
                 "args": [],
