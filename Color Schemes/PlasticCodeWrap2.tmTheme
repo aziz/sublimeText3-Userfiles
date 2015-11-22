@@ -382,7 +382,7 @@
         <key>name</key>
         <string>Sass keywords</string>
         <key>scope</key>
-        <string>source.scss entity.name.tag.reference.scss</string>
+        <string>source.scss entity.name.tag.reference.scss, source.scss entity.name.tag.css.sass.symbol</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -391,13 +391,46 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Sass attribute-name pseudo-class</string>
+        <key>scope</key>
+        <string>source.scss entity.other.attribute-name.pseudo-class.css.sass</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFDD33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Sass Color</string>
+        <key>scope</key>
+        <string>source.scss constant.other.color.rgb-value.css.sass</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F26666</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Less/Sass variables</string>
         <key>scope</key>
-        <string>source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss</string>
+        <string>source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss, source.scss meta.property-list.css.sass variable.other.value, source.scss sass-script-maps variable.other</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#CCB3FF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Sass comma punctuations</string>
+        <key>scope</key>
+        <string>source.scss comment.punctuation.comma.sass</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F8F8F8</string>
         </dict>
       </dict>
       <dict>
