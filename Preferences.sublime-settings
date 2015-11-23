@@ -191,13 +191,14 @@
 	],
 	"index_exclude_patterns":
 	[
-		"node_modules*",
-		"bower_components*",
-		"tmp",
+		"*.eot",
 		"*.log",
 		"*.ttf",
 		"*.woff",
-		"*.eot"
+		"bower_components*",
+		"dist*",
+		"node_modules*",
+		"tmp"
 	],
 	"line_padding_bottom": -2,
 	"line_padding_top": 4,
