@@ -124,6 +124,19 @@
 },
 
 
+// Auto insert ${} on typing $ inside ES6 string templates
+{ "keys": ["$"], "command": "insert_snippet", "args": {"contents": "\\${${1:$SELECTION}}$0"},
+  "context": [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    {
+      "operand": "(string.interpolated.js) - string source",
+      "operator": "equal",
+      "match_all": true,
+      "key": "selector"
+    }
+  ]
+},
+
 // Auto-pair backticks ``
 { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
   [
