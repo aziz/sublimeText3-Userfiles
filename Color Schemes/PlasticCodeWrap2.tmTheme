@@ -494,7 +494,7 @@
         <key>name</key>
         <string>JS Object key-value punctuation separator</string>
         <key>scope</key>
-        <string>source.js punctuation.separator.key-value.js</string>
+        <string>source.js punctuation.separator.key-value.js, source.js keyword.operator.accessor.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
