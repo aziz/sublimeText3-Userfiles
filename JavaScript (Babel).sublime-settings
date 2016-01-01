@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"js",
 		"jsx"
 	],
 	"tab_size": 2
