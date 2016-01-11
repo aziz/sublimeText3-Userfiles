@@ -4,6 +4,7 @@
 		"sublime-commands",
 		"sublime-macro",
 		"sublime-workspace",
-		".eslintrc"
+		".eslintrc",
+		".babelrc"
 	]
 }
