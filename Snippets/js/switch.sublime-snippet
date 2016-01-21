@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[switch (${1:expr}) {
+case ${2:'caseStr'}:
+  $3
+  break;
+default:
+  $4
+}$0]]></content>
+  <tabTrigger>sw</tabTrigger>
+  <scope>source.js, source.es</scope>
+</snippet>
