@@ -1,5 +1,5 @@
 {
-  "coffee_path": "/usr/local/bin",
+  "coffee_path": "~/.npm-packages/bin/coffee",
   "bare": true,
   "syntax_patterns": [
     "Packages/CoffeeScript/CoffeeScript.tmLanguage",
