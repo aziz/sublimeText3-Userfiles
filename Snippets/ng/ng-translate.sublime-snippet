@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[{{ '$1' | translate }}$0]]></content>
+  <tabTrigger>ngt</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
