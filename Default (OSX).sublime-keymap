@@ -129,7 +129,7 @@
   "context": [
     { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
     {
-      "operand": "(string.interpolated.js) - string source",
+      "operand": "(string.interpolated.js) - string source, (string.interpolated.es) - string source",
       "operator": "equal",
       "match_all": true,
       "key": "selector"
