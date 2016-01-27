@@ -1,0 +1,11 @@
+{
+  "html_panel": [
+    {
+      "Browser View - Color": {
+        "numbers": false,
+        "multi_select": true,
+        "color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap2.tmTheme"
+      }
+    }
+  ]
+}
