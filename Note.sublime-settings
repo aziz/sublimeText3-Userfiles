@@ -4,6 +4,7 @@
   "spell_check": false,
   "highlight_line": false,
   "rulers": [80],
+  "trim_trailing_white_space_on_save": true,
   "color_scheme": "Packages/PlainNotes/Color Schemes/Sticky-White.tmTheme",
 	"extensions": ["md"]
 }
