@@ -72,6 +72,10 @@
 		"directwrite"
 	],
 	"font_size": 17,
+	"hayaku_CSS_prefixes_only":
+	[
+		""
+	],
 	"hayaku_use_default_cycling_keymaps": false,
 	"ignored_packages":
 	[
