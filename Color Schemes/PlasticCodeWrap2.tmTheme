@@ -549,7 +549,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>ES6 + Commonjs module keywords</string>
+        <string>ES6/Commonjs module keywords</string>
         <key>scope</key>
         <string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es</string>
         <key>settings</key>
@@ -560,7 +560,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>ES6 function variables</string>
+        <string>ES6 fn variables</string>
         <key>scope</key>
         <string>source.js variable.parameter.function.js, variable.parameter.es</string>
         <key>settings</key>
@@ -571,7 +571,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>ES6 function punctuations</string>
+        <string>ES6 fn punctuations</string>
         <key>scope</key>
         <string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es</string>
         <key>settings</key>
@@ -580,16 +580,37 @@
           <string>#F6F080</string>
         </dict>
       </dict>
-
+      <dict>
+        <key>name</key>
+        <string>ES6 Arrow fn</string>
+        <key>scope</key>
+        <string>meta.function.arrow.js storage.type.function.arrow.js, variable.other.readwrite.allCap.es entity.name.function.es</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFDD33</string>
+        </dict>
+      </dict>
       <dict>
         <key>name</key>
         <string>ES6 class and extends</string>
         <key>scope</key>
-        <string>source.js meta.class.js storage.type.class.js,source.js meta.class.js storage.type.extends.js</string>
+        <string>source.js meta.class.js storage.type.class.js,source.js meta.class.js storage.type.extends.js, storage.type.class.es, storage.type.extends.js storage.modifier.extends.es</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#FFA826</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>ES6 Class Properties</string>
+        <key>scope</key>
+        <string>meta.class.property.js variable.other.property.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFDD33</string>
         </dict>
       </dict>
       <dict>
@@ -616,28 +637,6 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>ES6 Arrow function</string>
-        <key>scope</key>
-        <string>meta.function.arrow.js storage.type.function.arrow.js, variable.other.readwrite.allCap.es entity.name.function.es</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFDD33</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>ES6 Class Properties</string>
-        <key>scope</key>
-        <string>meta.class.property.js variable.other.property.js</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFDD33</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>ES6 dot separators</string>
         <key>scope</key>
         <string>keyword.operator.accessor.js, keyword.operator.accessor.es</string>
@@ -656,17 +655,6 @@
         <dict>
           <key>foreground</key>
           <string>#9DF39F</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>ES6 Class</string>
-        <key>scope</key>
-        <string>storage.type.class.es, storage.type.extends.js storage.modifier.extends.es</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FFA826</string>
         </dict>
       </dict>
       <dict>
