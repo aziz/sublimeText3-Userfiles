@@ -573,7 +573,7 @@
         <key>name</key>
         <string>ES6 function punctuations</string>
         <key>scope</key>
-        <string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es</string>
+        <string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -605,9 +605,20 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>ES6 Destructuring puctuations</string>
+        <key>scope</key>
+        <string>punctuation.definition.binding.object.begin.es meta.brace.curly.js, punctuation.definition.binding.object.end.es meta.brace.curly.js, punctuation.definition.module-binding.begin.es meta.brace.curly.js, punctuation.definition.module-binding.end.es meta.brace.curly.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FF7A9A</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>ES6 Arrow function</string>
         <key>scope</key>
-        <string>meta.function.arrow.js storage.type.function.arrow.js</string>
+        <string>meta.function.arrow.js storage.type.function.arrow.js, variable.other.readwrite.allCap.es entity.name.function.es</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -649,9 +660,31 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>ES6 Class</string>
+        <key>scope</key>
+        <string>storage.type.class.es, storage.type.extends.js storage.modifier.extends.es</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFA826</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>ES6 import vars</string>
+        <key>scope</key>
+        <string>variable.other.readwrite.import.es</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F8F8F8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>JSX Embedded</string>
         <key>scope</key>
-        <string>meta.embedded.expression.jsx </string>
+        <string>meta.embedded.expression.jsx, meta.interpolation.jsx</string>
         <key>settings</key>
         <dict>
           <key>background</key>
@@ -673,7 +706,7 @@
         <key>name</key>
         <string>JSX attribures names</string>
         <key>scope</key>
-        <string>meta.jsx.js entity.other.attribute-name.jsx</string>
+        <string>meta.jsx.js entity.other.attribute-name.jsx, variable.other.attribute.jsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -684,7 +717,7 @@
         <key>name</key>
         <string>JSX attribures operators</string>
         <key>scope</key>
-        <string>meta.jsx.js keyword.operator.assignment.jsx</string>
+        <string>meta.jsx.js keyword.operator.assignment.jsx, punctuation.separator.attribute-value.jsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
