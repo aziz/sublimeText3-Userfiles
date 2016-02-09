@@ -551,7 +551,7 @@
         <key>name</key>
         <string>ES6/Commonjs module keywords</string>
         <key>scope</key>
-        <string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es</string>
+        <string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
