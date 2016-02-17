@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"scss.erb",
-		"scss"
+		"css"
 	]
 }

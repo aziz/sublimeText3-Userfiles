@@ -226,7 +226,7 @@
         <key>name</key>
         <string>Tag</string>
         <key>scope</key>
-        <string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity, entity.name.tag.jsx</string>
+        <string>declaration.tag, declaration.tag entity, meta.tag, entity.name.tag, entity.name.tag.jsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
