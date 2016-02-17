@@ -1124,6 +1124,39 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>INI Property</string>
+        <key>scope</key>
+        <string>source.ini keyword.name.ini</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F6F080</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>INI Section</string>
+        <key>scope</key>
+        <string>source.ini entity.section.ini</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FF3A83</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>INI Section Punc.</string>
+        <key>scope</key>
+        <string>source.ini punctuation.definition.section.ini</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FF7A9A</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Regexp normal</string>
         <key>scope</key>
         <string>source.regexp string</string>
