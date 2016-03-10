@@ -140,6 +140,7 @@
 		"SideBarFolders",
 		"SmartMarkdown",
 		"Sort Lines (Numerically)",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pylint",
 		"TCL",

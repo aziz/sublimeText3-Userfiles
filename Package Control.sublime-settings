@@ -110,6 +110,7 @@
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-contrib-mdl",
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-contrib-sqlint",

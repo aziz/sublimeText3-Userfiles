@@ -18,6 +18,11 @@
                 "args": [],
                 "excludes": []
             },
+            "eslint_d": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmltidy": {
                 "@disable": false,
                 "args": [],
