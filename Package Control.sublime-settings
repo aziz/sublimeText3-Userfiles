@@ -61,6 +61,8 @@
 		"INI",
 		"JavaScript & NodeJS Snippets",
 		"JavaScript Completions",
+		"JSCS-Formatter",
+		"jsfmt",
 		"JsFormat",
 		"Keymaps",
 		"LESS",
