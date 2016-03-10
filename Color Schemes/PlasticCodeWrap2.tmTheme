@@ -494,7 +494,8 @@
         <key>name</key>
         <string>JS function calls punctuations</string>
         <key>scope</key>
-        <string>punctuation.definition.arguments.begin.es, punctuation.definition.arguments.end.es</string>
+        <string>punctuation.definition.arguments.begin.es, punctuation.definition.arguments.end.es, meta.function-call meta.brace.round.js</string>
+
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -517,7 +518,7 @@
         <key>name</key>
         <string>JS object key</string>
         <key>scope</key>
-        <string>constant.other.object.key.js string.unquoted.label.js, variable.other.readwrite.property.shorthand.es, constant.other.object.key.js string.unquoted.label.js variable.other.readwrite.property.object-literal.es</string>
+        <string>constant.other.object.key.js string.unquoted.label.js, variable.other.readwrite.property.shorthand.es, constant.other.object.key.js string.unquoted.label.js variable.other.readwrite.property.object-literal.es, source.js meta.object-literal.js meta.object-literal.key.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -528,7 +529,7 @@
         <key>name</key>
         <string>JS object punctuations</string>
         <key>scope</key>
-        <string>punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es</string>
+        <string>punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es, source.js meta.object-literal.js meta.brace.curly.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -673,7 +674,7 @@
         <key>name</key>
         <string>ES6 dot separators</string>
         <key>scope</key>
-        <string>keyword.operator.accessor.js, keyword.operator.accessor.es</string>
+        <string>keyword.operator.accessor.js, keyword.operator.accessor.es, source.js punctuation.accessor.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
