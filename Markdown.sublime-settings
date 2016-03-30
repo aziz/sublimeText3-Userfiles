@@ -7,12 +7,8 @@
 		"markdown",
 		"mdown"
 	],
-	"font_face": "consolas",
-	"font_size": 15,
 	"gutter": false,
 	"line_numbers": false,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
 	"margin": 16,
 	"spell_check": false,
 	"tab_size": 4,
