@@ -8,7 +8,11 @@
 // Navigating between files
 { "keys": ["super+alt+up"], "command": "jump_back" },
 
-{ "keys": ["super+v"], "command": "paste_and_indent" },
+{
+  "keys": ["super+v"],
+  "command": "paste_and_indent",
+  "context": [{ "key": "selector", "operator": "not_equal", "operand": "text.dired" }]
+},
 { "keys": ["super+shift+v"], "command": "paste" },
 
 { "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
