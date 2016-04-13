@@ -142,6 +142,8 @@
 		"SmartMarkdown",
 		"Sort Lines (Numerically)",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pylint",
 		"TCL",

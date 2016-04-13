@@ -118,6 +118,7 @@
 		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-contrib-mdl",
 		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-json",
