@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[<div className={$1}>
+  <content><![CDATA[<div className=${1:"foo"}>
   $0
 </div>
 ]]></content>
   <tabTrigger>div.</tabTrigger>
-  <scope>source.js meta.jsx.js</scope>
+  <scope>source.js string.text.jsx</scope>
 </snippet>
