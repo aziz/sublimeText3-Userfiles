@@ -122,6 +122,7 @@
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-contrib-stylelint",
+		"SublimeLinter-contrib-sublime-syntax",
 		"SublimeLinter-json",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pylint",
