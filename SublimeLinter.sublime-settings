@@ -215,6 +215,16 @@
 				"excludes":
 				[
 				]
+			},
+			"sublimesyntax":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
 			}
 		},
 		"mark_style": "none",

@@ -596,7 +596,7 @@
         <key>name</key>
         <string>ES6 fn punctuations</string>
         <key>scope</key>
-        <string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es</string>
+        <string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es, punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
