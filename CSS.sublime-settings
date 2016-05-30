@@ -1,4 +1,8 @@
 {
+	"extensions":
+	[
+		"css"
+	],
 	"hayaku_CSS_syntax_autoguess":
 	[
 		"selector {",

@@ -279,6 +279,28 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>HTML script tags</string>
+        <key>scope</key>
+        <string>entity.name.tag.script.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFDD33</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML style tags</string>
+        <key>scope</key>
+        <string>entity.name.tag.style.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CCB3FF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>CSS/Less/Sass html-tag</string>
         <key>scope</key>
         <string>meta.selector.css entity.name.tag, source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss, source.scss entity.name.tag.css.sass.symbol</string>
