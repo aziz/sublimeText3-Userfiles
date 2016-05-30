@@ -369,13 +369,35 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Less/Sass variables</string>
+        <string>Less/Sass variables and CSS custom property</string>
         <key>scope</key>
-        <string>source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss, source.scss meta.property-list.css.sass variable.other.value, source.scss sass-script-maps variable.other</string>
+        <string>support.type.custom-property.css, source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss, source.scss meta.property-list.css.sass variable.other.value, source.scss sass-script-maps variable.other</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#CCB3FF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS custom property punctuations</string>
+        <key>scope</key>
+        <string>support.type.custom-property.css punctuation.definition.custom-property.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CCB3FF88</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS custom property punctuations</string>
+        <key>scope</key>
+        <string>entity.other.pseudo-class.css punctuation.definition.entity.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFDD3388</string>
         </dict>
       </dict>
       <dict>
