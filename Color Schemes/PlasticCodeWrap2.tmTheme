@@ -235,6 +235,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>HTML attributes inline CSS and JS</string>
+        <key>scope</key>
+        <string>text.html meta.tag meta.attribute-with-value source.js, text.html meta.tag meta.attribute-with-value source.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F8F8F8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>HTML id</string>
         <key>scope</key>
         <string>entity.other.attribute-name.id.html</string>
@@ -246,13 +257,24 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>HTML class</string>
+        <string>HTML attributes</string>
         <key>scope</key>
         <string>entity.other.attribute-name.html, entity.other.attribute-name.jsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#F6F080</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Class attributes</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.class.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4DD2FF</string>
         </dict>
       </dict>
       <dict>
@@ -290,9 +312,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>HTML style tags</string>
+        <string>HTML style tags and attributes</string>
         <key>scope</key>
-        <string>entity.name.tag.style.html</string>
+        <string>entity.name.tag.style.html, entity.other.attribute-name.style.html</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
