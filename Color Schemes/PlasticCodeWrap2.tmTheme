@@ -717,7 +717,7 @@
         <key>name</key>
         <string>ES6 Destructuring puctuations</string>
         <key>scope</key>
-        <string>punctuation.definition.binding.object.begin.es, punctuation.definition.binding.object.end.es, punctuation.definition.module-binding.begin.es, punctuation.definition.module-binding.end.es, constant.other.object.key.js punctuation.separator.property-binding.es, punctuation.separator.object-member.binding.es, punctuation.separator.module-binding.es</string>
+        <string>punctuation.definition.binding.object.begin.es, punctuation.definition.binding.object.end.es, punctuation.definition.module-binding.begin.es, punctuation.definition.module-binding.end.es, constant.other.object.key.js punctuation.separator.property-binding.es, punctuation.separator.object-member.binding.es, punctuation.separator.module-binding.es, punctuation.definition.binding.object.parameter.end.es, punctuation.definition.binding.object.parameter.begin.es</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
