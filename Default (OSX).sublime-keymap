@@ -31,6 +31,8 @@
 // 3 cell layout, main cell top left, right col cell and bottom row cell
 { "keys": ["super+alt+8"], "command": "set_layout", "args": {"cols": [0.0, 0.75, 1.0], "rows": [0.0, 0.75, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]] } },
 
+{"keys": ["super+alt+up"], "command": "open_nav_panel"},
+
 { "keys": ["f1"],         "command": "focus_side_bar" },
 { "keys": ["super+f2"],   "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true, "other_group": "left"} },
 { "keys": ["f2"],         "command": "dired", "args": { "immediate": true,  "single_pane": true, "project": true } },
