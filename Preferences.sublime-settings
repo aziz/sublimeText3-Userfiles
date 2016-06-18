@@ -81,6 +81,7 @@
 	[
 		"ActionScript",
 		"AppleScript",
+		"ApplySyntax",
 		"Asciidoctor",
 		"ASP",
 		"Base64 Fold",
@@ -119,6 +120,7 @@
 		"Material Theme",
 		"Matlab",
 		"Minify",
+		"Nav Panel",
 		"nginx",
 		"Objective-C",
 		"OCaml",
