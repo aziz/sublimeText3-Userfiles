@@ -5,6 +5,7 @@
 		"sublime-macro",
 		"sublime-workspace",
 		".eslintrc",
-		".babelrc"
+		".babelrc",
+		".stylelintrc"
 	]
 }
