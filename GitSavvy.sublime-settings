@@ -1,4 +1,10 @@
 {
   "show_commit_diff": true,
   "inline_diff_auto_scroll": true,
+  "dev_mode": false,
+  "global_flags": {
+    "show": ["--format=full"]
+  },
+
+
 }

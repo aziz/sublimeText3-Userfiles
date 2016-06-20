@@ -2,6 +2,5 @@
   "color_scheme": "Packages/User/Color Schemes/CommitMessage.tmTheme",
   "draw_indent_guides": false,
   "line_numbers": false,
-  "gutter": false,
-  "rulers": [79, 50]
+  "gutter": false
 }

@@ -187,13 +187,39 @@
 			<key>name</key>
 			<string>Gitsavvy File Name</string>
 			<key>scope</key>
-			<string>meta.diff.header.from-file punctuation.definition.from-file.diff gitsavvy.gotosymbol, git-savvy.diff meta.diff.header.to-file punctuation.definition.to-file.diff dont.need.gitsavvy.gotosymbol</string>
+			<string>meta.diff.header.from-file punctuation.definition.from-file.diff, git-savvy.diff meta.diff.header.to-file punctuation.definition.to-file.diff, meta.git-savvy.commit-diff meta.diff.header.to-file punctuation.definition.to-file.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F5F5F5</string>
+				<string>#fdfdfd</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gitsavvy Commit Meta</string>
+			<key>scope</key>
+			<string>git-savvy.commit meta.git-savvy.commit-diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#181818</string>
+				<key>background</key>
+				<string>#fdfdfd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gitsavvy Commit</string>
+			<key>scope</key>
+			<string>git-savvy.commit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1483ce</string>
+				<key>background</key>
+				<string>#afd9eb</string>
 			</dict>
 		</dict>
 	</array>
