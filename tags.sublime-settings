@@ -1,0 +1,10 @@
+{
+  "color_scheme": "Packages/User/Color Schemes/GitSavvy.tmTheme",
+  "draw_indent_guides": false,
+  "line_numbers": false,
+  "gutter": true,
+  "caret_extra_width": 2,
+  "margin": 0,
+  "highlight_line": true,
+  "fold_buttons": false,
+}

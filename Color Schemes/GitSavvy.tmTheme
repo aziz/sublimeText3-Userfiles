@@ -18,7 +18,7 @@
         <key>invisibles</key>
         <string>#F3FFB51A</string>
         <key>lineHighlight</key>
-        <string>#FF181811</string>
+        <string>#66ccff22</string>
         <key>selection</key>
         <string>#EFEFE701</string>
         <key>selectionBorder</key>
@@ -28,7 +28,7 @@
 
     <dict>
       <key>scope</key>
-      <string>comment.git-savvy.status.key-bindings-menu</string>
+      <string>comment.git-savvy.status.key-bindings-menu, comment.git-savvy.rebase.key-bindings-menu, comment.git-savvy.tags.key-bindings-menu</string>
       <key>settings</key>
       <dict>
         <key>background</key>
@@ -128,7 +128,7 @@
 
     <dict>
       <key>scope</key>
-      <string>git-savvy.status meta.git-savvy.status-summary</string>
+      <string>meta.git-savvy.status-summary, meta.git-savvy.rebase-summary, meta.git-savvy.tags-summary</string>
       <key>settings</key>
       <dict>
         <key>background</key>

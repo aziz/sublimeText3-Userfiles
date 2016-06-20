@@ -88,19 +88,23 @@
 { "keys": ["control+shift+."], "command": "erb", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" } ] },
 
 // GIT
-{ "keys": ["super+e", "super+a"], "command": "git_add_choice" },
-{ "keys": ["super+e", "super+b"], "command": "git_blame" },
-{ "keys": ["super+e", "super+c"], "command": "git_commit" },
-{ "keys": ["super+e", "super+d"], "command": "git_diff_all" },
-{ "keys": ["super+e", "super+l"], "command": "git_log" },
-{ "keys": ["super+e", "super+p"], "command": "git_pull" },
-{ "keys": ["super+e", "super+q"], "command": "git_quick_commit" },
-{ "keys": ["super+e", "super+s"], "command": "git_status" },
-{ "keys": ["super+e", "super+u"], "command": "git_push" },
+// { "keys": ["super+e", "super+a"], "command": "git_add_choice" },
+// { "keys": ["super+e", "super+b"], "command": "git_blame" },
+// { "keys": ["super+e", "super+c"], "command": "git_commit" },
+// { "keys": ["super+e", "super+d"], "command": "git_diff_all" },
+// { "keys": ["super+e", "super+l"], "command": "git_log" },
+// { "keys": ["super+e", "super+p"], "command": "git_pull" },
+// { "keys": ["super+e", "super+q"], "command": "git_quick_commit" },
+// { "keys": ["super+e", "super+s"], "command": "git_status" },
+// { "keys": ["super+e", "super+u"], "command": "git_push" },
+
+{ "keys": ["super+e", "super+e"], "command": "gs_show_status" },
+{ "keys": ["super+e", "super+d"], "command": "gs_diff" },
+{ "keys": ["super+e", "super+f"], "command": "gs_inline_diff" },
 
 // SQL:
-{ "keys": ["super+e", "super+e"], "command": "sql_execute" },
-{ "keys": ["super+e", "super+w"], "command": "sql_pad" },
+// { "keys": ["super+e", "super+e"], "command": "sql_execute" },
+// { "keys": ["super+e", "super+w"], "command": "sql_pad" },
 
 // { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
 // { "keys": ["super+f3"], "command": "side_bar_new_directory" },

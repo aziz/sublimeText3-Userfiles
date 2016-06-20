@@ -12,6 +12,7 @@ EasyDiff
 FileHistory.sublime-settings
 Gist.sublime-settings
 GitHub.sublime-settings
+GitSavvy/
 GoSublime-aux.*
 GoSublime/*
 Package Control.*-ca-bundle
