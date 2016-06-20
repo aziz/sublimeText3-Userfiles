@@ -40,6 +40,16 @@
 
     <dict>
       <key>scope</key>
+      <string>comment.git-savvy.key-bindings-menu.end</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D7D5CD</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
       <string>support.type.git-savvy.key-bindings-header-text</string>
       <key>settings</key>
       <dict>
