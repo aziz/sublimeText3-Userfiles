@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>CommitMessage</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#EFEFE7</string>
+        <key>caret</key>
+        <string>#FF1818</string>
+        <key>foreground</key>
+        <string>#4e443c</string>
+        <key>invisibles</key>
+        <string>#F3FFB51A</string>
+        <key>lineHighlight</key>
+        <string>#FF181811</string>
+        <key>selection</key>
+        <string>#EFEFE701</string>
+        <key>selectionBorder</key>
+        <string>#EFEFE701</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>comment.git-savvy.status.key-bindings-menu</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#D7D5CD</string>
+        <key>foreground</key>
+        <string>#4e443c88</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>support.type.git-savvy.key-bindings-header-text</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#333</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.git-savvy.key-bindings-key-stroke</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4e443c55</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>constant.character.git-savvy-key-binding-key</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0388a6</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>keyword.other.git-savvy.section-header</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f14e32</string>
+        <key>background</key>
+        <string>#f14e322A</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>constant.other.git-savvy.status.branch-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#66ccff</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>constant.other.git-savvy.status.sha1</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#66ccff</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.git-savvy.status.file</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4e443c</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>comment.git-savvy.status.summary-header</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8F8981</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>git-savvy.status meta.git-savvy.status-summary</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#413932</string>
+        <key>foreground</key>
+        <string>#EFEFE7</string>
+      </dict>
+    </dict>
+
+  </array>
+</dict>
+</plist>
