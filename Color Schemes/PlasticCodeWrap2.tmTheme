@@ -1400,6 +1400,29 @@
           <string>#F8F8F8</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP tags</string>
+        <key>scope</key>
+        <string>embedding.php text.html.basic punctuation.section.embedded</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#CCB3FF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP tags</string>
+        <key>scope</key>
+        <string>embedding.php text.html.basic meta.embedded source.php</string>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#00161B</string>
+        </dict>
+      </dict>
+
     </array>
   </dict>
 </plist>
