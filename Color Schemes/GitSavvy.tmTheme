@@ -98,6 +98,20 @@
 
     <dict>
       <key>scope</key>
+      <string>keyword.other.git-savvy.stashes-header</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0388a6</string>
+        <key>background</key>
+        <string>#0388a62A</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
       <string>constant.other.git-savvy.status.branch-name</string>
       <key>settings</key>
       <dict>
