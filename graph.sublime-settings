@@ -4,7 +4,7 @@
   "line_numbers": false,
   "gutter": true,
   "caret_extra_width": 2,
-  "margin": 0,
+  "margin": 5,
   "highlight_line": true,
   "fold_buttons": false,
 }

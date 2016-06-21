@@ -3,8 +3,7 @@
   "inline_diff_auto_scroll": true,
   "dev_mode": false,
   "global_flags": {
-    "show": ["--format=full"]
-  },
-
-
+    "show": ["--format=full"],
+    "status": ["-uall"]
+  }
 }

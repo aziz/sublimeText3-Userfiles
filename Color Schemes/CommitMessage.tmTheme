@@ -123,7 +123,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#D40915aa</string>
+				<string>#D4091599</string>
 			</dict>
 		</dict>
 		<dict>
@@ -134,7 +134,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#22A21Faa</string>
+				<string>#22A21F99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -145,7 +145,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#22A21F</string>
+				<string>#22A21F99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -156,7 +156,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D40915</string>
+				<string>#D4091599</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,6 +170,18 @@
 				<string>#00000011</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta Diff Punctuantions</string>
+			<key>scope</key>
+			<string>punctuation.definition.range.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00000055</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Meta Diff Range TOC List</string>
