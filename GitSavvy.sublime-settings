@@ -1,7 +1,7 @@
 {
   "show_commit_diff": true,
   "inline_diff_auto_scroll": true,
-  "dev_mode": false,
+  "graph_show_more_commit_info": false,
   "global_flags": {
     "show": ["--format=full"],
     "status": ["-uall"]
