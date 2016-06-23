@@ -1,0 +1,18 @@
+[
+  {
+    "caption": "git: summary",
+    "command": "gs_custom",
+    "args": {
+        "output_to_panel": true,
+        "args": ["summary"],
+    }
+  },
+  {
+    "caption": "git: effort",
+    "command": "gs_custom",
+    "args": {
+        "output_to_panel": true,
+        "args": ["effort", "--above", "5"]
+    }
+  }
+]

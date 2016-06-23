@@ -1,6 +1,7 @@
 {
-  "color_scheme": "Packages/User/Color Schemes/CommitMessage.tmTheme",
+  "color_scheme": "Packages/User/Color Schemes/GitSavvy.tmTheme",
   "draw_indent_guides": false,
   "line_numbers": false,
-  "gutter": false
+  "gutter": false,
+  "margin": 0
 }
