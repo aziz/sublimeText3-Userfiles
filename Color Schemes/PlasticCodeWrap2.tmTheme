@@ -66,6 +66,47 @@
           <string>1</string>
           <key>stackGuide</key>
           <string>#ffe79222</string>
+          <key>popupCss</key>
+          <string><![CDATA[
+            html {
+              background-color: #00161B;
+              font-family: "consolas";
+              color: #F8F8F8;
+              margin: 0;
+              padding: 0;
+            }
+            body {
+              background-color: #00161B;
+              margin: 1px;
+              font-size: 1em;
+              font-family: "consolas";
+              padding: 0.2em;
+            }
+            a {
+              color: #4DD2FF;
+              font-family: "consolas";
+              font-size: 15px;
+              line-height: 1.5;
+            }
+            .error, .deleted {
+              color: #D8290D;
+              font-family: "consolas";
+            }
+            .success, .inserted {
+              color: #4EE161;
+              font-family: "consolas";
+            }
+            .warning, .modified {
+              color: #FFDD33;
+              font-family: "consolas";
+            }
+
+            p.definitions {
+              font-family: "consolas";
+              font-size: 11px;
+              color: #CCB3FF;
+            }
+          ]]></string>
         </dict>
       </dict>
       <dict>
