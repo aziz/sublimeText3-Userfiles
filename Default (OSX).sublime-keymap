@@ -99,6 +99,7 @@
 // { "keys": ["super+e", "super+u"], "command": "git_push" },
 
 { "keys": ["super+e", "super+e"], "command": "gs_show_status" },
+{ "keys": ["super+e", "super+b"], "command": "gs_blame" },
 { "keys": ["super+e", "super+d"], "command": "gs_diff" },
 { "keys": ["super+e", "super+f"], "command": "gs_inline_diff" },
 

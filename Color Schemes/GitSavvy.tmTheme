@@ -28,7 +28,7 @@
 
     <dict>
       <key>scope</key>
-      <string>comment.git-savvy.status.key-bindings-menu, comment.git-savvy.rebase.key-bindings-menu, comment.git-savvy.tags.key-bindings-menu</string>
+      <string>comment.git-savvy.key-bindings-menu, comment.git-savvy.rebase.key-bindings-menu, comment.git-savvy.tags.key-bindings-menu</string>
       <key>settings</key>
       <dict>
         <key>background</key>
@@ -112,6 +112,28 @@
 
     <dict>
       <key>scope</key>
+      <string>meta.git-savvy.status.file.removed</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#990033</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.git-savvy.status.file.removed.punctuation</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#99003388</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
       <string>keyword.other.git-savvy.section-header.untracked, keyword.other.git-savvy.section-header.branch.remote, keyword.other.git-savvy.section-header.tags.remote</string>
       <key>settings</key>
       <dict>
@@ -154,7 +176,7 @@
 
     <dict>
       <key>scope</key>
-      <string>constant.other.git-savvy.status.branch-name</string>
+      <string>constant.other.git-savvy.summary-header.branch-name</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -164,7 +186,7 @@
 
     <dict>
       <key>scope</key>
-      <string>constant.other.git-savvy.status.sha1</string>
+      <string>constant.other.git-savvy.sha1</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -194,7 +216,7 @@
 
     <dict>
       <key>scope</key>
-      <string>comment.git-savvy.status.summary-header.title</string>
+      <string>comment.git-savvy.summary-header.title</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -204,7 +226,7 @@
 
     <dict>
       <key>scope</key>
-      <string>meta.git-savvy.status-summary, meta.git-savvy.rebase-summary, meta.git-savvy.tags-summary</string>
+      <string>meta.git-savvy.summary-header, meta.git-savvy.status-summary, meta.git-savvy.rebase-summary, meta.git-savvy.tags-summary</string>
       <key>settings</key>
       <dict>
         <key>background</key>
