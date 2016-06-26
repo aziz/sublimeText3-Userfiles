@@ -1,4 +1,5 @@
 {
 	"extensions": ["py"],
+  "indent_to_bracket": true,
   "tab_size": 4
 }

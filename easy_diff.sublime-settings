@@ -2,5 +2,5 @@
 "git_disabled": false,
 "svn_disabled": true,
 "hg_disabled": true,
-"skip_version_check_on_is_enabled": true
+"skip_version_check_on_is_enabled": true,
 }

@@ -1,5 +1,4 @@
 {
 	"disable_default_element_completions": false,
-  "js_scope": "source.js - string.quoted - comment - meta.brace.square, source.es - string.quoted - comment - meta.brace.square",
-
+  "js_scope": "source.js - string.quoted - comment - meta.brace.square, source.es - string.quoted - comment - meta.brace.square"
 }
