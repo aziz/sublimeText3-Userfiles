@@ -7,5 +7,6 @@
   "trim_trailing_white_space_on_save": true,
   "color_scheme": "Packages/PlainNotes/Color Schemes/Sticky-White.tmTheme",
 	"extensions": ["md"],
-  "fold_buttons": true,
+  // "fold_buttons": true,
+  "margin": 0,
 }
