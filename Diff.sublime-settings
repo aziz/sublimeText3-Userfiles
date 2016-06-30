@@ -3,4 +3,8 @@
   "draw_indent_guides": false,
   "line_numbers": false,
   "gutter": false,
+  "caret_extra_width": 2,
+  "margin": 6,
+  "highlight_line": true,
+  "fold_buttons": false,
 }

@@ -630,7 +630,7 @@
       <key>name</key>
       <string>Markup Inserted</string>
       <key>scope</key>
-      <string>markup.inserted.diff</string>
+      <string>markup.inserted.diff, markup.inserted.git-savvy.add-block markup.inserted.git-savvy.add-block.content</string>
       <key>settings</key>
       <dict>
         <key>background</key>
@@ -647,6 +647,20 @@
       <dict>
         <key>foreground</key>
         <string>#22A21F99</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Markup Inserted Punctuation</string>
+      <key>scope</key>
+      <string>markup.inserted.git-savvy.add-block punctuation.definition.inserted.diff</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#22A21F99</string>
+        <key>foreground</key>
+        <string>#22A21F55</string>
       </dict>
     </dict>
 
