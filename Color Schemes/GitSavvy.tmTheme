@@ -25,7 +25,6 @@
         <string>#b7dce8</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.key-bindings-menu, comment.git-savvy.rebase.key-bindings-menu, comment.git-savvy.tags.key-bindings-menu</string>
@@ -37,7 +36,6 @@
         <string>#4e443c88</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.key-bindings-menu.end</string>
@@ -47,7 +45,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>support.type.git-savvy.key-bindings-header-text</string>
@@ -59,7 +56,6 @@
         <string>#333</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.git-savvy.key-bindings-key-stroke</string>
@@ -71,7 +67,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.character.git-savvy-key-binding-key</string>
@@ -81,7 +76,6 @@
         <string>#0388a6</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.other.git-savvy.section-header.unstaged, keyword.other.git-savvy.section-header.branch.local, keyword.other.git-savvy.section-header.tags.local</string>
@@ -95,7 +89,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.other.git-savvy.section-header.staged</string>
@@ -109,7 +102,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.git-savvy.status.file.removed</string>
@@ -119,7 +111,6 @@
         <string>#990033</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.git-savvy.status.file.removed.punctuation</string>
@@ -131,7 +122,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.other.git-savvy.section-header.untracked, keyword.other.git-savvy.section-header.branch.remote, keyword.other.git-savvy.section-header.tags.remote</string>
@@ -145,7 +135,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.other.git-savvy.section-header.merge-conflicts</string>
@@ -159,7 +148,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.other.git-savvy.stashes-header</string>
@@ -173,7 +161,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.other.git-savvy.summary-header.branch-name</string>
@@ -183,7 +170,6 @@
         <string>#66ccff</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.other.git-savvy.sha1</string>
@@ -193,7 +179,6 @@
         <string>#66ccff</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.git-savvy.branch</string>
@@ -203,7 +188,6 @@
         <string>#4e443c66</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.git-savvy.status.file</string>
@@ -213,7 +197,6 @@
         <string>#4e443c</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.summary-header.title</string>
@@ -223,7 +206,6 @@
         <string>#8F8981</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.git-savvy.summary-header, meta.git-savvy.status-summary, meta.git-savvy.rebase-summary, meta.git-savvy.tags-summary</string>
@@ -235,7 +217,6 @@
         <string>#EFEFE7</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.git-savvy.section</string>
@@ -245,7 +226,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.git-savvy.section-header.remote</string>
@@ -255,7 +235,6 @@
         <string>#0388a688</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.key-bindings-menu.key-binding-description</string>
@@ -265,7 +244,6 @@
         <string>#4e443c</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>support.type.git-savvy.ux-note</string>
@@ -275,7 +253,6 @@
         <string>#4e443c88</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.git-savvy.note</string>
@@ -285,7 +262,6 @@
         <string>#4e443c44</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.branches.branch.extra-info, comment.git-savvy.branches.active-branch.extra-info</string>
@@ -295,7 +271,6 @@
         <string>#0388a6</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.git-savvy.branches.active-branch.symbol, string.other.git-savvy.rebase.caret</string>
@@ -305,7 +280,6 @@
         <string>#f14e32</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.git-savvy.branches.active-branch.name</string>
@@ -317,7 +291,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.git-savvy.branches.branch.sha1, constant.other.git-savvy.tags.sha1, constant.numeric.graph.commit-hash.git-savvy, constant.numeric.commit-hash.git-savvy.rebase.interactive</string>
@@ -327,7 +300,6 @@
         <string>#4e443c88</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.git-savvy.branches.active-branch.sha1</string>
@@ -337,7 +309,6 @@
         <string>#f14e3288</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.rebase-graph.separator, comment.git-savvy.rebase-graph.end, comment.git-savvy.rebase-graph.base, support.type.git-savvy.rebase.commit_hash</string>
@@ -347,7 +318,6 @@
         <string>#4e443c88</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.rebase-graph.commit-node</string>
@@ -357,7 +327,6 @@
         <string>#0388A6</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>entity.name.function.git-savvy.success</string>
@@ -367,7 +336,6 @@
         <string>#33CC33</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.git-savvy.conflict</string>
@@ -377,7 +345,6 @@
         <string>#990033</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.other.name.git-savvy.rebase-conflict</string>
@@ -389,7 +356,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.git-savvy.graph.graph-line</string>
@@ -399,7 +365,6 @@
         <string>#4e443c55</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>keyword.graph.commit.git-savvy</string>
@@ -409,7 +374,6 @@
         <string>#0388A6</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.other.git.branch.git-savvy</string>
@@ -421,7 +385,6 @@
         <string>#4e443c09</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.graph.branch.git-savvy</string>
@@ -433,7 +396,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.separator.key-value.branch.git-savvy</string>
@@ -445,7 +407,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.graph.tag.git-savvy</string>
@@ -459,7 +420,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.issue.git-savvy</string>
@@ -471,7 +431,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>git-savvy.graph.merge</string>
@@ -483,7 +442,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.merge.remote</string>
@@ -495,7 +453,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.merge.remote</string>
@@ -507,7 +464,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>git-savvy.grph.merge</string>
@@ -517,7 +473,6 @@
         <string>#F14E32</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.other.git-savvy.rebase.interactive</string>
@@ -527,7 +482,6 @@
         <string>#FF1818</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.other.git-savvy.rebase.interactive.pick</string>
@@ -537,7 +491,6 @@
         <string>#33CC33</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.other.git-savvy.rebase.interactive.drop</string>
@@ -547,9 +500,6 @@
         <string>#990033</string>
       </dict>
     </dict>
-
-    <!-- DIFF ######################################################## -->
-
     <dict>
       <key>name</key>
       <string>Commit Summery Block</string>
@@ -563,7 +513,6 @@
         <string>#afd9eb</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Commit Summery Punctuation</string>
@@ -575,7 +524,6 @@
         <string>#1483ce77</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Commit Diff Header</string>
@@ -589,7 +537,6 @@
         <string>#413932</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Commit Diff Header ---</string>
@@ -601,7 +548,6 @@
         <string>#D40915</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Commit Diff Header +++</string>
@@ -613,7 +559,6 @@
         <string>#22A21F</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Markup Deleted</string>
@@ -625,7 +570,6 @@
         <string>#D4091599</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Markup Inserted</string>
@@ -637,7 +581,6 @@
         <string>#22A21F99</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Markup Inserted Punctuation</string>
@@ -649,7 +592,6 @@
         <string>#22A21F99</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Markup Inserted Punctuation</string>
@@ -663,7 +605,6 @@
         <string>#22A21F55</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Markup Deleted Punctuation</string>
@@ -675,7 +616,6 @@
         <string>#D4091599</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Meta Diff</string>
@@ -687,7 +627,6 @@
         <string>#4E443C22</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Gitsavvy File Name</string>
@@ -701,7 +640,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Gitsavvy Commit Meta</string>
@@ -715,7 +653,6 @@
         <string>#EFEFE7</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Gitsavvy Commit</string>
@@ -729,7 +666,6 @@
         <string>#afd9eb</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.commit-info.header.key.git-savvy</string>
@@ -739,7 +675,6 @@
         <string>bold</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.command.diff, punctuation.definition.index.diff, punctuation.definition.new-file-mode.diff</string>
@@ -749,7 +684,6 @@
         <string>#4e443c55</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.to-file.file-alias.diff, punctuation.definition.from-file.file-alias.diff</string>
@@ -759,7 +693,6 @@
         <string>#8F8981</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Meta Diff Punctuantions</string>
@@ -773,7 +706,6 @@
         <string>#4E443C22</string>
       </dict>
     </dict>
-
     <dict>
       <key>name</key>
       <string>Meta Diff Punctuantions</string>
@@ -785,9 +717,6 @@
         <string>#4e443ccc</string>
       </dict>
     </dict>
-
-    <!-- BLAME ######################################################## -->
-
     <dict>
       <key>scope</key>
       <string>comment.block.git-savvy.splitter.vertical</string>
@@ -799,7 +728,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.block.git-savvy.splitter.horizontal.commit-info</string>
@@ -811,7 +739,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.block.git-savvy.splitter.horizontal.source</string>
@@ -821,7 +748,6 @@
         <string>#4E443C54</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>comment.block.git-savvy.commit-info</string>
@@ -831,7 +757,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.numeric.line-number.blame.git-savvy</string>
@@ -841,7 +766,6 @@
         <string>#4E443C66</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.numeric.commit-hash.git-savvy</string>
@@ -851,7 +775,6 @@
         <string>#FF443C</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>meta.blame-line.git-savvy</string>
@@ -861,7 +784,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>entity.name.tag.git-savvy</string>
@@ -873,7 +795,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>punctuation.definition.other.begin.git-savvy, punctuation.definition.other.end.git-savvy</string>
@@ -885,7 +806,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>string.other.mail.git-savvy</string>
@@ -897,7 +817,6 @@
         <string>#D7D5CD</string>
       </dict>
     </dict>
-
-</array>
+  </array>
 </dict>
 </plist>

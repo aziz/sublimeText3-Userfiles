@@ -1,0 +1,302 @@
+name: GitSavvy
+settings:
+-   settings:
+        background: '#EFEFE7'
+        caret: '#FF1818'
+        foreground: '#4e443c'
+        invisibles: '#F3FFB51A'
+        lineHighlight: '#66ccff22'
+        selection: '#b7dce8'
+        selectionBorder: '#b7dce8'
+-   scope: comment.git-savvy.key-bindings-menu, comment.git-savvy.rebase.key-bindings-menu,
+        comment.git-savvy.tags.key-bindings-menu
+    settings:
+        background: '#D7D5CD'
+        foreground: '#4e443c88'
+-   scope: comment.git-savvy.key-bindings-menu.end
+    settings:
+        foreground: '#D7D5CD'
+-   scope: support.type.git-savvy.key-bindings-header-text
+    settings:
+        fontStyle: bold
+        foreground: '#333'
+-   scope: meta.git-savvy.key-bindings-key-stroke
+    settings:
+        foreground: '#4e443c55'
+        fontStyle: bold
+-   scope: constant.character.git-savvy-key-binding-key
+    settings:
+        foreground: '#0388a6'
+-   scope: keyword.other.git-savvy.section-header.unstaged, keyword.other.git-savvy.section-header.branch.local,
+        keyword.other.git-savvy.section-header.tags.local
+    settings:
+        foreground: '#f14e32'
+        background: '#f14e322A'
+        fontStyle: bold
+-   scope: keyword.other.git-savvy.section-header.staged
+    settings:
+        foreground: '#33cc33'
+        background: '#33cc332A'
+        fontStyle: bold
+-   scope: meta.git-savvy.status.file.removed
+    settings:
+        foreground: '#990033'
+-   scope: meta.git-savvy.status.file.removed.punctuation
+    settings:
+        foreground: '#99003388'
+        fontStyle: bold
+-   scope: keyword.other.git-savvy.section-header.untracked, keyword.other.git-savvy.section-header.branch.remote,
+        keyword.other.git-savvy.section-header.tags.remote
+    settings:
+        foreground: '#0388a6'
+        background: '#0388a62A'
+        fontStyle: bold
+-   scope: keyword.other.git-savvy.section-header.merge-conflicts
+    settings:
+        foreground: '#990033'
+        background: '#9900332A'
+        fontStyle: bold
+-   scope: keyword.other.git-savvy.stashes-header
+    settings:
+        foreground: '#0388a6'
+        background: '#0388a62A'
+        fontStyle: bold
+-   scope: constant.other.git-savvy.summary-header.branch-name
+    settings:
+        foreground: '#66ccff'
+-   scope: constant.other.git-savvy.sha1
+    settings:
+        foreground: '#66ccff'
+-   scope: punctuation.definition.git-savvy.branch
+    settings:
+        foreground: '#4e443c66'
+-   scope: meta.git-savvy.status.file
+    settings:
+        foreground: '#4e443c'
+-   scope: comment.git-savvy.summary-header.title
+    settings:
+        foreground: '#8F8981'
+-   scope: meta.git-savvy.summary-header, meta.git-savvy.status-summary, meta.git-savvy.rebase-summary,
+        meta.git-savvy.tags-summary
+    settings:
+        background: '#413932'
+        foreground: '#EFEFE7'
+-   scope: punctuation.definition.git-savvy.section
+    settings:
+        foreground: '#D7D5CD'
+-   scope: punctuation.definition.git-savvy.section-header.remote
+    settings:
+        foreground: '#0388a688'
+-   scope: comment.git-savvy.key-bindings-menu.key-binding-description
+    settings:
+        foreground: '#4e443c'
+-   scope: support.type.git-savvy.ux-note
+    settings:
+        foreground: '#4e443c88'
+-   scope: punctuation.definition.git-savvy.note
+    settings:
+        foreground: '#4e443c44'
+-   scope: comment.git-savvy.branches.branch.extra-info, comment.git-savvy.branches.active-branch.extra-info
+    settings:
+        foreground: '#0388a6'
+-   scope: string.other.git-savvy.branches.active-branch.symbol, string.other.git-savvy.rebase.caret
+    settings:
+        foreground: '#f14e32'
+-   scope: string.other.git-savvy.branches.active-branch.name
+    settings:
+        foreground: '#f14e32'
+        fontStyle: bold
+-   scope: meta.git-savvy.branches.branch.sha1, constant.other.git-savvy.tags.sha1,
+        constant.numeric.graph.commit-hash.git-savvy, constant.numeric.commit-hash.git-savvy.rebase.interactive
+    settings:
+        foreground: '#4e443c88'
+-   scope: string.other.git-savvy.branches.active-branch.sha1
+    settings:
+        foreground: '#f14e3288'
+-   scope: comment.git-savvy.rebase-graph.separator, comment.git-savvy.rebase-graph.end,
+        comment.git-savvy.rebase-graph.base, support.type.git-savvy.rebase.commit_hash
+    settings:
+        foreground: '#4e443c88'
+-   scope: comment.git-savvy.rebase-graph.commit-node
+    settings:
+        foreground: '#0388A6'
+-   scope: entity.name.function.git-savvy.success
+    settings:
+        foreground: '#33CC33'
+-   scope: string.other.git-savvy.conflict
+    settings:
+        foreground: '#990033'
+-   scope: keyword.other.name.git-savvy.rebase-conflict
+    settings:
+        foreground: '#990033'
+        fontStyle: bold
+-   scope: comment.git-savvy.graph.graph-line
+    settings:
+        foreground: '#4e443c55'
+-   scope: keyword.graph.commit.git-savvy
+    settings:
+        foreground: '#0388A6'
+-   scope: constant.other.git.branch.git-savvy
+    settings:
+        background: '#F14E32'
+        foreground: '#4e443c09'
+-   scope: meta.graph.branch.git-savvy
+    settings:
+        foreground: '#EFEFE7'
+        fontStyle: bold
+-   scope: punctuation.separator.key-value.branch.git-savvy
+    settings:
+        foreground: '#F14E32'
+        fontStyle: bold
+-   scope: meta.graph.tag.git-savvy
+    settings:
+        background: '#0388A6'
+        foreground: '#EFEFE7'
+        fontStyle: bold
+-   scope: string.other.issue.git-savvy
+    settings:
+        foreground: '#0388A6'
+        fontStyle: bold
+-   scope: git-savvy.graph.merge
+    settings:
+        foreground: '#0388A6'
+        fontStyle: bold
+-   scope: string.other.merge.remote
+    settings:
+        foreground: '#0388A6'
+        fontStyle: bold
+-   scope: string.other.merge.remote
+    settings:
+        foreground: '#0388A6'
+        fontStyle: bold
+-   scope: git-savvy.grph.merge
+    settings:
+        foreground: '#F14E32'
+-   scope: constant.other.git-savvy.rebase.interactive
+    settings:
+        foreground: '#FF1818'
+-   scope: constant.other.git-savvy.rebase.interactive.pick
+    settings:
+        foreground: '#33CC33'
+-   scope: constant.other.git-savvy.rebase.interactive.drop
+    settings:
+        foreground: '#990033'
+-   name: Commit Summery Block
+    scope: comment.line.number-sign.git-commit, git-savvy.make-commit comment.git-savvy.make-commit,
+        comment.block.git-savvy.commit-info.rebase-interactive
+    settings:
+        foreground: '#1483ce'
+        background: '#afd9eb'
+-   name: Commit Summery Punctuation
+    scope: comment.line.number-sign.git-commit punctuation.definition.comment.git-commit,
+        punctuation.definition.comment.make-commit.header.git-savvy, punctuation.definition.comment.rebase-interactive.git-savvy
+    settings:
+        foreground: '#1483ce77'
+-   name: Commit Diff Header
+    scope: meta.diff.header
+    settings:
+        foreground: '#4e443c'
+        background: '#413932'
+-   name: Commit Diff Header ---
+    scope: punctuation.definition.from-file
+    settings:
+        foreground: '#D40915'
+-   name: Commit Diff Header +++
+    scope: punctuation.definition.to-file
+    settings:
+        foreground: '#22A21F'
+-   name: Markup Deleted
+    scope: markup.deleted.diff
+    settings:
+        background: '#D4091599'
+-   name: Markup Inserted
+    scope: markup.inserted.diff, markup.inserted.git-savvy.add-block markup.inserted.git-savvy.add-block.content
+    settings:
+        background: '#22A21F99'
+-   name: Markup Inserted Punctuation
+    scope: markup.inserted.diff punctuation.definition.inserted.diff
+    settings:
+        foreground: '#22A21F99'
+-   name: Markup Inserted Punctuation
+    scope: markup.inserted.git-savvy.add-block punctuation.definition.inserted.diff
+    settings:
+        background: '#22A21F99'
+        foreground: '#22A21F55'
+-   name: Markup Deleted Punctuation
+    scope: markup.deleted.diff punctuation.definition.inserted.diff, markup.deleted.diff
+        punctuation.definition.deleted.diff
+    settings:
+        foreground: '#D4091599'
+-   name: Meta Diff
+    scope: meta.diff
+    settings:
+        background: '#4E443C22'
+-   name: Gitsavvy File Name
+    scope: meta.filename.diff
+    settings:
+        foreground: '#EFEFE7'
+        fontStyle: bold
+-   name: Gitsavvy Commit Meta
+    scope: git-savvy.commit meta.git-savvy.commit-diff
+    settings:
+        foreground: '#181818'
+        background: '#EFEFE7'
+-   name: Gitsavvy Commit
+    scope: git-savvy.commit
+    settings:
+        foreground: '#1483ce'
+        background: '#afd9eb'
+-   scope: string.other.commit-info.header.key.git-savvy
+    settings:
+        fontStyle: bold
+-   scope: punctuation.definition.command.diff, punctuation.definition.index.diff,
+        punctuation.definition.new-file-mode.diff
+    settings:
+        foreground: '#4e443c55'
+-   scope: punctuation.definition.to-file.file-alias.diff, punctuation.definition.from-file.file-alias.diff
+    settings:
+        foreground: '#8F8981'
+-   name: Meta Diff Punctuantions
+    scope: meta.diff.range.unified
+    settings:
+        foreground: '#4e443c88'
+        background: '#4E443C22'
+-   name: Meta Diff Punctuantions
+    scope: meta.range.unified.line-numbers.diff
+    settings:
+        foreground: '#4e443ccc'
+-   scope: comment.block.git-savvy.splitter.vertical
+    settings:
+        foreground: '#D7D5CD'
+        background: '#D7D5CD'
+-   scope: comment.block.git-savvy.splitter.horizontal.commit-info
+    settings:
+        foreground: '#4E443C54'
+        background: '#D7D5CD'
+-   scope: comment.block.git-savvy.splitter.horizontal.source
+    settings:
+        foreground: '#4E443C54'
+-   scope: comment.block.git-savvy.commit-info
+    settings:
+        background: '#D7D5CD'
+-   scope: constant.numeric.line-number.blame.git-savvy
+    settings:
+        foreground: '#4E443C66'
+-   scope: constant.numeric.commit-hash.git-savvy
+    settings:
+        foreground: '#FF443C'
+-   scope: meta.blame-line.git-savvy
+    settings:
+        background: '#D7D5CD'
+-   scope: entity.name.tag.git-savvy
+    settings:
+        foreground: '#0388A6'
+        background: '#D7D5CD'
+-   scope: punctuation.definition.other.begin.git-savvy, punctuation.definition.other.end.git-savvy
+    settings:
+        foreground: '#0388A666'
+        background: '#D7D5CD'
+-   scope: string.other.mail.git-savvy
+    settings:
+        foreground: '#0388A6AA'
+        background: '#D7D5CD'

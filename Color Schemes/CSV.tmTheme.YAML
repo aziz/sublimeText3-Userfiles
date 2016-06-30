@@ -1,0 +1,27 @@
+name: CSV
+settings:
+-   settings:
+        background: '#F5F5F5'
+        foreground: '#4a4543'
+        caret: '#01a0e4'
+        invisibles: '#4B4B7E3D'
+        lineHighlight: '#2463B41F'
+        selection: '#EDDF2780'
+        selectionForeground: '#4a4543'
+-   name: nonumber
+    scope: meta.nonnumber.advanced_csv
+    settings:
+        foreground: '#4a4543'
+-   name: number
+    scope: meta.number.advanced_csv
+    settings:
+        foreground: '#ed0c8c'
+-   name: delimiter
+    scope: meta.delimiter.advanced_csv
+    settings:
+        foreground: '#4a454322'
+-   name: quoted
+    scope: meta.quoted.advanced_csv
+    settings:
+        foreground: '#01a252'
+uuid: E7E82498-F9EA-49A6-A0D8-12327EA46B01
