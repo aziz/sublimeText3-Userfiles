@@ -2,21 +2,4 @@
   { "caption": "Stats for Packages: Last Update", "command": "pack_stats_lastupdate" },
   { "caption": "Stats for Packages: Table", "command": "pack_stats_table" },
   { "caption": "Stats for Packages: Events Report", "command": "pack_stats_events_report" },
-  // GitSavvy
-  {
-    "caption": "git: summary",
-    "command": "gs_custom",
-    "args": {
-        "output_to_panel": true,
-        "args": ["summary"],
-    }
-  },
-  {
-    "caption": "git: effort",
-    "command": "gs_custom",
-    "args": {
-        "output_to_panel": true,
-        "args": ["effort", "--above", "5"]
-    }
-  }
 ]
