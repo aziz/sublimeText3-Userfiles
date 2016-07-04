@@ -9,11 +9,7 @@
 { "keys": ["super+alt+up"], "command": "jump_back" },
 { "keys": ["super+alt+up"], "command": "open_nav_panel"},
 
-{
-  "keys": ["super+v"],
-  "command": "paste_and_indent",
-  "context": [{ "key": "selector", "operator": "not_equal", "operand": "text.dired" }]
-},
+{ "keys": ["super+v"], "command": "paste_and_indent", "context": [{ "key": "selector", "operator": "not_equal", "operand": "text.dired" }] },
 { "keys": ["super+shift+v"], "command": "paste" },
 
 { "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
@@ -61,31 +57,33 @@
 { "keys": ["super+alt+d"], "command": "expand_selection", "args": {"to": "indentation"} },
 { "keys": ["super+shift+d"], "command": "expand_selection", "args": {"to": "scope"} },
 
-// Expand Region
-{ "keys": ["super+shift+m"], "command": "expand_region" },
 { "keys": ["super+j"], "command": "join_lines" },
 { "keys": ["super+shift+j"], "command": "ace_jump_word" },
 
-{
-  "keys": ["super+u"],
-  "command": "expand_region",
-  "args": {"undo": true},
-  "context": [{ "key": "expand_region_soft_undo" }]
+// Expand Region
+{ "keys": ["super+shift+m"], "command": "expand_region" },
+{ "keys": ["super+u"], "command": "expand_region", "args": {"undo": true}, "context": [{ "key": "expand_region_soft_undo" }]
 },
 
 { "keys": ["super+ctrl+alt+]"], "command": "abacus" },
-{ "keys": ["super+ctrl+alt+'"], "command": "change_quotes" },
+{ "keys": ["super+ctrl+alt+["], "command": "align_tab", "args" : {"live_preview" : true} },
 
-{
-   "keys": ["super+ctrl+alt+["], "command": "align_tab",
-   "args" : {"live_preview" : true}
-},
+{ "keys": ["super+ctrl+alt+'"], "command": "change_quotes" },
 
 // Scope Hunter
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
 
 // ERB
 { "keys": ["control+shift+."], "command": "erb", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" } ] },
+
+// GitSavvy
+{ "keys": ["super+e", "super+e"], "command": "gs_show_status" },
+{ "keys": ["super+e", "super+b"], "command": "gs_blame" },
+{ "keys": ["super+e", "super+d"], "command": "gs_diff" },
+{ "keys": ["super+e", "super+f"], "command": "gs_inline_diff" },
+
+// Fold Comments
+{ "keys": ["super+k", "super+c"], "command": "toggle_fold_comments" },
 
 // GIT
 // { "keys": ["super+e", "super+a"], "command": "git_add_choice" },
@@ -98,11 +96,6 @@
 // { "keys": ["super+e", "super+s"], "command": "git_status" },
 // { "keys": ["super+e", "super+u"], "command": "git_push" },
 
-{ "keys": ["super+e", "super+e"], "command": "gs_show_status" },
-{ "keys": ["super+e", "super+b"], "command": "gs_blame" },
-{ "keys": ["super+e", "super+d"], "command": "gs_diff" },
-{ "keys": ["super+e", "super+f"], "command": "gs_inline_diff" },
-
 // SQL:
 // { "keys": ["super+e", "super+e"], "command": "sql_execute" },
 // { "keys": ["super+e", "super+w"], "command": "sql_pad" },
@@ -110,18 +103,17 @@
 // { "keys": ["alt+f3"], "command": "side_bar_new_file2" },
 // { "keys": ["super+f3"], "command": "side_bar_new_directory" },
 // { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
-// { "keys": ["super+k", "super+f"], "command": "js_format" },
-{ "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
 
-// Vintagous Mode
-{ "keys": ["j", "j"], "command": "_enter_normal_mode",
-                      "args": {"mode": "mode_insert"},
-                      "context": [{"key": "vi_insert_mode_aware"}] },
+// { "keys": ["super+k", "super+f"], "command": "js_format" },
+// { "keys": ["ctrl+shift+c"], "command": "coffee_compile"},
 
 // Ruby Test
 // { "keys": ["super+alt+control+r"], "command": "run_single_ruby_test",
 //           "context": [ { "key": "selector", "operator": "equal", "operand": "source.ruby, source.rspec, text.gherkin.feature"} ]
 // },
+
+// Vintagous Mode
+{ "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
 
 { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
     [
@@ -132,7 +124,6 @@
         { "match_all": true, "key": "is_abbreviation" }
     ]
 },
-
 
 // Auto insert ${} on typing $ inside ES6 string templates
 { "keys": ["$"], "command": "insert_snippet", "args": {"contents": "\\${${1:$SELECTION}}$0"},
