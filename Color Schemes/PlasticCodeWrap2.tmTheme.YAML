@@ -607,7 +607,7 @@ settings:
     settings:
         foreground: '#4DD2FF'
 -   name: PHP variable
-    scope: variable.other.php
+    scope: variable.other.php, keyword.operator.class.php
     settings:
         foreground: '#F8F8F8'
 -   name: PHP variable punctuation
@@ -618,3 +618,21 @@ settings:
     scope: variable.function.php
     settings:
         foreground: '#F6F080'
+-   name: PHP class
+    scope: meta.class.php storage.type.class.php, meta.class.php storage.modifier.extends.php, meta.class.php meta.block.php punctuation.definition.block.php
+    settings:
+        foreground: '#FFA826'
+-   name: PHP inherited-class
+    scope: entity.other.inherited-class.php
+    settings:
+        foreground: '#FF7A9A'
+
+-   name: PHP modifiers
+    scope: meta.class.php meta.block.php meta.function.php storage.modifier.php, meta.class.php meta.block.php storage.modifier.php
+    settings:
+        foreground: '#FFC266'
+-   name: PHP function punctuation
+    scope: meta.function.php meta.block.php punctuation.definition.block.end.php, meta.function.php meta.block.php punctuation.definition.block.begin.php
+    settings:
+        foreground: '#F6F080'
+

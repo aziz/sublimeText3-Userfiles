@@ -1482,7 +1482,7 @@ p.definitions {
       <key>name</key>
       <string>PHP variable</string>
       <key>scope</key>
-      <string>variable.other.php</string>
+      <string>variable.other.php, keyword.operator.class.php</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -1505,6 +1505,50 @@ p.definitions {
       <string>PHP variable function</string>
       <key>scope</key>
       <string>variable.function.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F6F080</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP class</string>
+      <key>scope</key>
+      <string>meta.class.php storage.type.class.php, meta.class.php storage.modifier.extends.php, meta.class.php meta.block.php punctuation.definition.block.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFA826</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP inherited-class</string>
+      <key>scope</key>
+      <string>entity.other.inherited-class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF7A9A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP modifiers</string>
+      <key>scope</key>
+      <string>meta.class.php meta.block.php meta.function.php storage.modifier.php, meta.class.php meta.block.php storage.modifier.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFC266</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP function punctuation</string>
+      <key>scope</key>
+      <string>meta.function.php meta.block.php punctuation.definition.block.end.php, meta.function.php meta.block.php punctuation.definition.block.begin.php</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
