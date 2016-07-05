@@ -635,4 +635,17 @@ settings:
     scope: meta.function.php meta.block.php punctuation.definition.block.end.php, meta.function.php meta.block.php punctuation.definition.block.begin.php
     settings:
         foreground: '#F6F080'
+-   name: PHP Behat keywords
+    scope: keyword.control.source.behat
+    settings:
+        foreground: '#CCB3FF'
+-   name: PHP Behat step
+    scope: keyword.operator.step.behat
+    settings:
+        foreground: '#4DD2FF'
+-   name: PHP Behat tables
+    scope: source.feature.generic string.quoted.examples.behat
+    settings:
+        foreground: '#9DF39F55'
+
 

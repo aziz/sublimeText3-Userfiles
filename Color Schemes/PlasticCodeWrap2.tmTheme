@@ -1555,6 +1555,39 @@ p.definitions {
         <string>#F6F080</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Behat keywords</string>
+      <key>scope</key>
+      <string>keyword.control.source.behat</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CCB3FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Behat step</string>
+      <key>scope</key>
+      <string>keyword.operator.step.behat</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4DD2FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Behat tables</string>
+      <key>scope</key>
+      <string>source.feature.generic string.quoted.examples.behat</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#9DF39F55</string>
+      </dict>
+    </dict>
   </array>
 </dict>
 </plist>
