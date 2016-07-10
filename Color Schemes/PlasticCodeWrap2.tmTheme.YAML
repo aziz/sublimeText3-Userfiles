@@ -355,6 +355,10 @@ settings:
     scope: variable.other.readwrite.import.es, entity.name.module.import.es
     settings:
         foreground: '#F8F8F8'
+-   name: ES6 decorators
+    scope: variable.other.readwrite.decorator.es, punctuation.definition.decorator.es
+    settings:
+        foreground: '#FFC266'
 -   name: JSX Embedded
     scope: meta.embedded.expression.jsx, meta.interpolation.jsx
     settings:
