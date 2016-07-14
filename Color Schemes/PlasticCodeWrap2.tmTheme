@@ -598,7 +598,7 @@ p.definitions {
 			<key>name</key>
 			<string>JS function calls punctuations</string>
 			<key>scope</key>
-			<string>punctuation.definition.arguments.begin.es, punctuation.definition.arguments.end.es, meta.function-call meta.brace.round.js</string>
+			<string>punctuation.definition.arguments.begin.es, punctuation.definition.arguments.end.es, meta.function-call meta.brace.round.js, meta.function-call.method.js meta.group.js punctuation.definition.group.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -631,7 +631,7 @@ p.definitions {
 			<key>name</key>
 			<string>JS object punctuations</string>
 			<key>scope</key>
-			<string>punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es, source.js meta.object-literal.js meta.brace.curly.js</string>
+			<string>punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es, source.js meta.object-literal.js meta.brace.curly.js, meta.object-literal.js punctuation.definition.block.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -673,9 +673,9 @@ p.definitions {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>ES6/Commonjs module keywords</string>
+			<string>ES6/Commonjs  module keywords</string>
 			<key>scope</key>
-			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es</string>
+			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -719,7 +719,7 @@ p.definitions {
 			<key>name</key>
 			<string>ES6 class and extends</string>
 			<key>scope</key>
-			<string>source.js meta.class.js storage.type.class.js,source.js meta.class.js storage.type.extends.js, storage.type.class.es, storage.type.extends.js storage.modifier.extends.es, punctuation.definition.class.body.begin.es, punctuation.definition.class.body.end.es</string>
+			<string>source.js meta.class.js storage.type.class.js,source.js meta.class.js storage.type.extends.js, storage.type.class.es, storage.type.extends.js storage.modifier.extends.es, punctuation.definition.class.body.begin.es, punctuation.definition.class.body.end.es, storage.modifier.extends.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -752,7 +752,7 @@ p.definitions {
 			<key>name</key>
 			<string>ES6 Destructuring puctuations</string>
 			<key>scope</key>
-			<string>punctuation.definition.binding.object.begin.es, punctuation.definition.binding.object.end.es, punctuation.definition.module-binding.begin.es, punctuation.definition.module-binding.end.es, constant.other.object.key.js punctuation.separator.property-binding.es, punctuation.separator.object-member.binding.es, punctuation.separator.module-binding.es, punctuation.definition.binding.object.parameter.end.es, punctuation.definition.binding.object.parameter.begin.es</string>
+			<string>punctuation.definition.binding.object.begin.es, punctuation.definition.binding.object.end.es, punctuation.definition.module-binding.begin.es, punctuation.definition.module-binding.end.es, constant.other.object.key.js punctuation.separator.property-binding.es, punctuation.separator.object-member.binding.es, punctuation.separator.module-binding.es, punctuation.definition.binding.object.parameter.end.es, punctuation.definition.binding.object.parameter.begin.es, meta.import.js punctuation.definition.block.js, meta.import.js punctuation.separator.comma.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
