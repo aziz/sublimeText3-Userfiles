@@ -7,7 +7,6 @@
 { "keys": ["super+shift+control+e"], "command": "slurp_replace_string" },
 // Navigating between files
 { "keys": ["super+alt+up"], "command": "jump_back" },
-{ "keys": ["super+alt+up"], "command": "open_nav_panel"},
 
 { "keys": ["super+v"], "command": "paste_and_indent", "context": [{ "key": "selector", "operator": "not_equal", "operand": "text.dired" }] },
 { "keys": ["super+shift+v"], "command": "paste" },
