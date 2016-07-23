@@ -3,7 +3,7 @@
   "inline_diff_auto_scroll": true,
   "graph_show_more_commit_info": false,
   "vintageous_friendly": true,
-  "hide_help_menu": true,
+  "hide_help_menu": false,
   "dev_mode": true,
   "global_flags": {
     "show": ["--format=full"],

@@ -75,15 +75,12 @@
 }
 body {
   background-color: #00161B;
-  font-size: 1em;
   font-family: "consolas";
   padding: 0.2em;
 }
 a {
   color: #4DD2FF;
   font-family: "consolas";
-  font-size: 15px;
-  line-height: 1.5;
 }
 .error, .deleted {
   color: #D8290D;
@@ -97,10 +94,9 @@ a {
   color: #FFDD33;
   font-family: "consolas";
 }
-
-p.definitions {
+.definitions {
   font-family: "consolas";
-  font-size: 11px;
+  font-size: 13px;
   color: #CCB3FF;
 }
 </string>

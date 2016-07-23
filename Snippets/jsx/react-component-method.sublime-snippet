@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+render${1:something} () {
+  return (
+    ${2:<div></div>}
+  );
+},
+]]></content>
+  <tabTrigger>rcm</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

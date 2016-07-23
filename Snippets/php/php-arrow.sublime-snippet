@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[->]]></content>
+  <tabTrigger>..</tabTrigger>
+  <scope>embedding.php</scope>
+</snippet>

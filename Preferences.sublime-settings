@@ -34,7 +34,8 @@
 		"dist/"
 	],
 	"bold_folder_labels": false,
-	"caret_extra_top": 2,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap2.tmTheme",
@@ -65,17 +66,13 @@
 		".svn",
 		".yardoc"
 	],
-	"font_face": "consolas",
+	"font_face": "source code pro",
 	"font_options":
 	[
-		"no_round",
+		"subpixel_antialias",
 		"directwrite"
 	],
-	"font_size": 17,
-	"hayaku_CSS_prefixes_only":
-	[
-		""
-	],
+	"font_size": 18,
 	"hayaku_use_default_cycling_keymaps": false,
 	"ignored_packages":
 	[
@@ -87,6 +84,7 @@
 		"Base64 Fold",
 		"Batch File",
 		"Block Cursor Everywhere",
+		"BracketHighlighter",
 		"C#",
 		"C++",
 		"CleanCSS",
@@ -119,12 +117,12 @@
 		"Material Theme",
 		"Matlab",
 		"Minify",
-		"ModuleReloader",
 		"nginx",
 		"Objective-C",
 		"OCaml",
 		"OmniMarkupPreviewer",
 		"orgmode",
+		"PackageReloader",
 		"PackageResourceViewer",
 		"Pascal",
 		"Perl",
@@ -207,8 +205,8 @@
 		"node_modules*",
 		"tmp"
 	],
-	"line_padding_bottom": -2,
-	"line_padding_top": 4,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"overlay_scroll_bars": "enabled",
 	"polyfill.experimental_features": true,
 	"preview_on_click": false,
