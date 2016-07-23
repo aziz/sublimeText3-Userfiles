@@ -35,7 +35,7 @@
 	],
 	"bold_folder_labels": false,
 	"caret_extra_bottom": 1,
-	"caret_extra_top": 1,
+	"caret_extra_top": 6,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap2.tmTheme",
@@ -66,7 +66,7 @@
 		".svn",
 		".yardoc"
 	],
-	"font_face": "source code pro",
+	"font_face": "consolas",
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -205,8 +205,8 @@
 		"node_modules*",
 		"tmp"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_top": 6,
+	"line_padding_bottom": -2,
 	"overlay_scroll_bars": "enabled",
 	"polyfill.experimental_features": true,
 	"preview_on_click": false,
