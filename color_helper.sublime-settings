@@ -4,4 +4,5 @@
     "click_color_box_to_pick": "palette_picker",
     "use_color_picker_package": true,
     "inline_previews": true,
+    "inline_preview_offset": -6,
 }

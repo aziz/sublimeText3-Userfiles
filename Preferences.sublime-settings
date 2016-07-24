@@ -205,8 +205,8 @@
 		"node_modules*",
 		"tmp"
 	],
+	"line_padding_bottom": 0,
 	"line_padding_top": 6,
-	"line_padding_bottom": -2,
 	"overlay_scroll_bars": "enabled",
 	"polyfill.experimental_features": true,
 	"preview_on_click": false,
