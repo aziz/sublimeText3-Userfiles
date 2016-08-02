@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[var(--${1:myvar});$0]]></content>
+  <tabTrigger>v</tabTrigger>
+  <scope>source.css</scope>
+</snippet>

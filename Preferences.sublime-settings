@@ -73,7 +73,6 @@
 		"directwrite"
 	],
 	"font_size": 17,
-	"hayaku_use_default_cycling_keymaps": false,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -109,6 +108,7 @@
 		"Haskell",
 		"Hex to HSL Color Converter",
 		"Java",
+		"JSCS-Formatter",
 		"Keymaps",
 		"LaTeX",
 		"LESS",

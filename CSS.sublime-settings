@@ -4,5 +4,12 @@
 		"selector {",
 		"  property: value;",
 		"}"
-	]
+	],
+  "hayaku_syntax_aliases": {
+    "z": "z-index",
+  },
+  "hayaku_CSS_newline_after_expand": true,
+  "hayaku_CSS_prefixes_disable": true,
+  "hayaku_use_default_cycling_keymaps": false,
+  "hayaku_CSS_colors_case": "lowercase",
 }
