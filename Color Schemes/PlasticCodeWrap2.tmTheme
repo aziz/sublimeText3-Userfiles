@@ -66,6 +66,17 @@
 				<string>1</string>
 				<key>stackGuide</key>
 				<string>#ffe79222</string>
+				<key>popupCss</key>
+				<string>
+					html {
+					  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+					}
+					body {
+						margin: 0;
+						padding: 0;
+						font-family: var(--font);
+					}
+				</string>
 			</dict>
 		</dict>
 		<dict>
