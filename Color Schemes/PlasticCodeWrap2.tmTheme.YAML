@@ -29,39 +29,6 @@ settings:
         shadow: '#00161B'
         shadowWidth: '1'
         stackGuide: '#ffe79222'
-        popupCss: |
-            html {
-              background-color: #00161B;
-              font-family: "consolas";
-              color: #F8F8F8;
-              padding: 0;
-            }
-            body {
-              background-color: #00161B;
-              font-family: "consolas";
-              padding: 0.2em;
-            }
-            a {
-              color: #4DD2FF;
-              font-family: "consolas";
-            }
-            .error, .deleted {
-              color: #D8290D;
-              font-family: "consolas";
-            }
-            .success, .inserted {
-              color: #4EE161;
-              font-family: "consolas";
-            }
-            .warning, .modified {
-              color: #FFDD33;
-              font-family: "consolas";
-            }
-            .definitions {
-              font-family: "consolas";
-              font-size: 13px;
-              color: #CCB3FF;
-            }
 -   name: Comment
     scope: comment, comment.block.python string.quoted, string.quoted.docstring.multi.python
     settings:
