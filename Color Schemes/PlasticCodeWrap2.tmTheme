@@ -69,7 +69,7 @@
 				<key>popupCss</key>
 				<string>
 					html {
-					  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+					  --font: "sf mono", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 					}
 					body {
 						margin: 0;

@@ -5,5 +5,5 @@
   "show_simulated_alpha_colors": true,
   "selectors": true,
   "highlight_style": "outline",
-  "extent_points": true
+  "extent_points": false
 }
