@@ -8,6 +8,7 @@ from os.path import join, dirname, basename, isdir
 
 callbacks = vars(vars()['sublime_plugin'])
 
+
 def get_packages_uris():
     PC_URI = "https://packagecontrol.io/packages/"
     pc = sublime.load_settings("Package Control.sublime-settings")
