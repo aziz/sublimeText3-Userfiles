@@ -20,8 +20,8 @@ def get_url(u):
     try:
         json_str = request.urlopen(u).read().decode("utf-8")
         j = json.loads(json_str)
-        last_modified = time.strptime(j["last_modified"], "%Y-%m-%dT%H:%M:%SZ")
-        return j["name"], last_modified
+        last_modified = time.strftime("%Y-%m-%d", time.strptime(j["last_modified"], "%Y-%m-%dT%H:%M:%SZ"))
+        return j["name"], last_modified, j["installs_rank"], j["installs"]["total"]
     except:
         return "error", u
 
@@ -118,7 +118,7 @@ class PackStatsLastupdateCommand(sublime_plugin.TextCommand):
         concurrent = 200
         self.data = []
         self.q = queue.Queue(concurrent * 2)
-        self.Row = namedtuple('Row', ['Package', 'Last_Update'])
+        self.Row = namedtuple('Row', ['Package', 'Last_Update', 'Installs_Rank', 'Downloads'])
 
         for _ in range(concurrent):
             t = Thread(target=self.doWork)
@@ -126,14 +126,13 @@ class PackStatsLastupdateCommand(sublime_plugin.TextCommand):
             t.start()
 
         urls = get_packages_uris()
-        print(len(urls))
         for u in urls:
             self.q.put(u)
         self.q.join()
         self.data.sort(key=lambda x: x[1], reverse=True)
         rows = []
         for d in self.data:
-            rows.append(self.Row(d[0], time.strftime("%Y-%m-%d", d[1])))
+            rows.append(self.Row(*d))
         results = pprinttable(rows)
         out = self.view.window().get_output_panel("stats")
         self.view.window().run_command("show_panel", {"panel": "output.stats"})
@@ -142,11 +141,11 @@ class PackStatsLastupdateCommand(sublime_plugin.TextCommand):
     def doWork(self):
         while True:
             url = self.q.get()
-            name, last_modified = get_url(url)
-            if name == "error":
-                print("Error: " + last_modified)
+            data = get_url(url)
+            if data[0] == "error":
+                print("Error: " + data[1])
             else:
-                self.data.append((name, last_modified))
+                self.data.append(tuple(data))
             self.q.task_done()
 
 
