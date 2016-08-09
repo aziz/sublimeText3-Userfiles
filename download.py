@@ -3,11 +3,10 @@ from threading import Thread
 from collections import namedtuple
 import sublime, sublime_plugin
 import time, queue, json, re
-from os import listdir
-from os.path import join, dirname
+from os import listdir, walk
+from os.path import join, dirname, basename, isdir
 
 callbacks = vars(vars()['sublime_plugin'])
-
 
 def get_packages_uris():
     PC_URI = "https://packagecontrol.io/packages/"
@@ -64,11 +63,28 @@ def pprinttable(rows):
     return "\n".join(result)
 
 
+def get_user_packages():
+    user = set()
+    for fname in listdir(sublime.packages_path()):
+        path = join(sublime.packages_path(), fname)
+        if isdir(path) and not(fname.startswith('.')):
+            user.add(fname)
+    return user
+
+
+def get_dependencies():
+    dependecies = set()
+    for root, dirs, files in walk(sublime.packages_path()):
+        if 'dependency-metadata.json' in files:
+            dependecies.add(basename(root))
+    return dependecies
+
+
 class PackStatsTableCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         def_path = join(dirname(sublime.executable_path()), 'Packages')
         default = set([re.sub(r'\.sublime-package', '', p) for p in listdir(def_path)])
-        user = set(listdir(sublime.packages_path()))
+        user = get_user_packages() - get_dependencies()
         pc = set([re.sub(r'\.sublime-package', '', p) for p in listdir(sublime.installed_packages_path())])
         disabled = set(sublime.load_settings('Preferences.sublime-settings').get('ignored_packages', []))
         ignored = set(["User", "bz2", "0_package_control_loader", ".DS_Store"])
