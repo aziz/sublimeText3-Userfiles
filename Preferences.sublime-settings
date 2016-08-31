@@ -25,13 +25,15 @@
 		"*.exe",
 		"*.ttf",
 		"*.woff",
-		".cask",
+		"*.woff2",
 		"bower_components/",
 		"coverage/",
+		"dist/",
 		"node_modules/",
+		"thirdparty/",
 		"tmp/",
-		"vendor/",
-		"dist/"
+		"tools/",
+		"vendor/"
 	],
 	"bold_folder_labels": false,
 	"caret_extra_bottom": 2,
