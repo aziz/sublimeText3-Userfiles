@@ -15,6 +15,7 @@ GitHub.sublime-settings
 GitSavvy/
 GoSublime-aux.*
 GoSublime/*
+oscrypto-ca-bundle.crt
 Package Control.*-ca-bundle
 Package Control.last-run
 Projects/
