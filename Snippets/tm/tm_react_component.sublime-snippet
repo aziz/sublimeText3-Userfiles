@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+const T = React.PropTypes;
+
+module.exports = React.createClass({
+  displayName: '$1',
+
+  propTypes: {
+
+  },
+
+  render () {
+    return (
+      <div></div>
+    );
+  }
+});
+]]></content>
+  <tabTrigger>rc</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

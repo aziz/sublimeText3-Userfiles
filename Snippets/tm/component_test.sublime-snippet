@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import {shallow} from 'enzyme';
+import {expect} from 'chai';
+import $1 from '..';
+
+describe('$1', () => {
+  it('has a module', () => {
+    expect($1).to.be.ok;
+  });
+
+  it('renders', () => {
+    const comp = shallow(<$1 />);
+    expect(comp.type()).not.to.equal(null);
+  });
+});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ct</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
