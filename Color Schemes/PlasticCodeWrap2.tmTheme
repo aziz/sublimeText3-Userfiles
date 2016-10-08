@@ -67,16 +67,15 @@
 				<key>stackGuide</key>
 				<string>#ffe79222</string>
 				<key>popupCss</key>
-				<string>
-					html {
-					  --font: "sf mono", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-					}
-					body {
-						margin: 0;
-						padding: 0;
-						font-family: var(--font);
-					}
-				</string>
+				<string>html {
+  --font: "sf mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1541,9 +1540,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Behat keywords</string>
+			<string>Cucumber keywords</string>
 			<key>scope</key>
-			<string>keyword.control.source.behat</string>
+			<string>keyword.control.source.behat, keyword.language.gherkin.feature.scenario, keyword.language.gherkin.feature</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1552,9 +1551,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Behat step</string>
+			<string>Cucumber Scenario Title</string>
 			<key>scope</key>
-			<string>keyword.operator.step.behat</string>
+			<string>string.language.gherkin.scenario.title.title, string.language.gherkin.feature.title</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC266</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cucumber step</string>
+			<key>scope</key>
+			<string>keyword.operator.step.behat, keyword.language.gherkin.feature.step</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1563,13 +1573,37 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Behat tables</string>
+			<string>Cucumber table punctuation</string>
 			<key>scope</key>
-			<string>source.feature.generic string.quoted.examples.behat</string>
+			<string>source.feature.generic string.quoted.examples.behat, text.gherkin.feature keyword.control.cucumber.table</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#9DF39F55</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cucumber vars</string>
+			<key>scope</key>
+			<string>source.feature.generic string.interpolated.behat</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF7A9A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cucumber table content</string>
+			<key>scope</key>
+			<string>text.gherkin.feature keyword.control.cucumber.table source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+				<key>background</key>
+				<string>#9DF39F00</string>
 			</dict>
 		</dict>
 	</array>

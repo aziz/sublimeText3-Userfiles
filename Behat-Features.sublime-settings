@@ -1,3 +1,4 @@
 {
-  "show_definitions": false,
+	"enable_table_editor": true,
+	"show_definitions": false
 }
