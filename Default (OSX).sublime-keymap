@@ -41,7 +41,8 @@
 { "keys": ["super+f10"],  "command": "side_bar_rename" },
 { "keys": ["f11"],        "command": "toggle_distraction_free" },
 { "keys": ["shift+f11"],  "command": "max_pane" },
-{ "keys": ["f12"],        "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
+{ "keys": ["f12"],        "command": "goto_definition" },
+{ "keys": ["shift+f12"],  "command": "side_bar_files_open_with", "args": {"application": "Google Chrome.app", "extensions":".*" } },
 { "keys": ["super+f12"],  "command": "markdown_preview",  "args": {"parser": "markdown", "target": "browser"} },
 
 { "keys": ["super+f6"],  "command": "color_helper", "args": { "mode": "info" } },
