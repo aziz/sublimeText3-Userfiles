@@ -150,6 +150,7 @@
 		"SmartMarkdown",
 		"sublime-autodistractionfree",
 		"SublimeLinter-coffeelint",
+		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-phplint",
 		"TCL",
 		"Textile",
