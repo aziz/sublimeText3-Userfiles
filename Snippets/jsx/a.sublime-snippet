@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[<a href="$1">$0</a>]]></content>
+  <tabTrigger>a</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

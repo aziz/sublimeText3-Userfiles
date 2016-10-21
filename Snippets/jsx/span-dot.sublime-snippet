@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[<span className=${1:"foo"}>$2</span>$0]]></content>
+  <content><![CDATA[<span>$1</span>$0]]></content>
   <tabTrigger>span</tabTrigger>
-  <scope>source.js string.text.jsx</scope>
+  <scope>source.js</scope>
 </snippet>

@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[<input type="$1" name="$2" />]]></content>
+  <tabTrigger>input</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
