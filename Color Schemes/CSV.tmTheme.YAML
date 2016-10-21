@@ -20,6 +20,7 @@ settings:
     scope: meta.delimiter.advanced_csv
     settings:
         foreground: '#4a454322'
+        background: '#4a454322'
 -   name: quoted
     scope: meta.quoted.advanced_csv
     settings:

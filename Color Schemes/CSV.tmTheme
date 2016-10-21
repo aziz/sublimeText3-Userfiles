@@ -56,6 +56,8 @@
       <dict>
         <key>foreground</key>
         <string>#4a454322</string>
+        <key>background</key>
+        <string>#4a454322</string>
       </dict>
     </dict>
     <dict>
