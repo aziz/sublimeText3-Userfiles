@@ -82,6 +82,7 @@
 	"ignored_packages":
 	[
 		"ActionScript",
+		"Anaconda",
 		"AngularJS",
 		"ANSIescape",
 		"AppleScript",
@@ -142,7 +143,6 @@
 		"RestructuredText",
 		"Ruby Debugger",
 		"RubyTest",
-		"Rust",
 		"Scala",
 		"SideBarFolders",
 		"SmartMarkdown",
