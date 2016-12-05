@@ -1,7 +1,6 @@
 {
 	"default_browser": "chrome",
   "close_affected_buffers_when_deleting_even_if_dirty": true,
-  "version": "setting no longer updated",
   "auto_add_folders_for_opened_files_when_project_is_empty": false,
   "auto_add_folders_for_opened_files": false,
   "blacklist_for_auto_add_folders_for_opened_files": [
