@@ -68,6 +68,7 @@
 		".git",
 		".hg",
 		".idea",
+		".vscode",
 		".svn",
 		".yardoc"
 	],
