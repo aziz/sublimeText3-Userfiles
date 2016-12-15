@@ -669,7 +669,7 @@ body {
 			<key>name</key>
 			<string>ES6 fn punctuations</string>
 			<key>scope</key>
-			<string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es, punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es</string>
+			<string>punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es, punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es, meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js punctuation.definition.parameters.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -823,7 +823,7 @@ body {
 			<key>name</key>
 			<string>JSX attribures operators</string>
 			<key>scope</key>
-			<string>meta.jsx.js keyword.operator.assignment.jsx, punctuation.separator.attribute-value.jsx, meta.interpolation.jsx punctuation.definition.interpolation.begin.jsx, meta.interpolation.jsx punctuation.definition.interpolation.end.jsx, meta.interpolation.jsx punctuation.definition.attribute.begin.jsx</string>
+			<string>meta.jsx.js keyword.operator.assignment.jsx, punctuation.separator.attribute-value.jsx, meta.interpolation.jsx punctuation.definition.interpolation.begin.jsx, meta.interpolation.jsx punctuation.definition.interpolation.end.jsx, meta.interpolation.jsx punctuation.definition.attribute.begin.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

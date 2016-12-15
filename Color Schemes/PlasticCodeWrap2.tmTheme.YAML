@@ -280,7 +280,8 @@ settings:
         punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es,
         punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es,
         punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es,
-        punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es
+        punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es,
+        meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js punctuation.definition.parameters.end.js
     settings:
         foreground: '#F6F080'
 -   name: ES6 Arrow fn
@@ -351,7 +352,8 @@ settings:
 -   name: JSX attribures operators
     scope: meta.jsx.js keyword.operator.assignment.jsx, punctuation.separator.attribute-value.jsx,
         meta.interpolation.jsx punctuation.definition.interpolation.begin.jsx, meta.interpolation.jsx
-        punctuation.definition.interpolation.end.jsx, meta.interpolation.jsx punctuation.definition.attribute.begin.jsx
+        punctuation.definition.interpolation.end.jsx, meta.interpolation.jsx punctuation.definition.attribute.begin.jsx,
+        punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
     settings:
         foreground: '#65A4A4'
 -   name: JSX Text
