@@ -28,6 +28,7 @@
 		"*.woff",
 		"*.woff2",
 		"/Users/allen/Ticketmaster/mnxweb/htdocs_www/static/styles/**/*.css",
+		"/Users/allen/Ticketmaster/mnxweb/htdocs_www/static/scripts/components/*",
 		"bower_components/",
 		"coverage/",
 		"dist/",
@@ -78,11 +79,10 @@
 		"subpixel_antialias",
 		"directwrite"
 	],
-	"font_size": 15,
+	"font_size": 14,
 	"hayaku_CSS_prefixes_disable": true,
 	"ignored_packages":
 	[
-		"ActionScript",
 		"Anaconda",
 		"AngularJS",
 		"ANSIescape",
@@ -109,6 +109,7 @@
 		"Erlang",
 		"ExportHtml",
 		"FindKeyConflicts",
+		"FlowIDE",
 		"Git",
 		"Go",
 		"GoSublime",
@@ -215,7 +216,6 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
-	"overlay_scroll_bars": "enabled",
 	"polyfill.experimental_features": true,
 	"preview_on_click": false,
 	"scroll_past_end": true,
