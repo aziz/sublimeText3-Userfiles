@@ -84,6 +84,12 @@
 // Fold Comments
 { "keys": ["super+k", "super+c"], "command": "toggle_fold_comments" },
 
+// HyperClick
+{
+  "keys": ["super+alt+down"], "command": "hyper_click_jump",
+  "context": [{ "key": "hyper_click_jump_line", "operand": true }]
+},
+
 // GIT
 // { "keys": ["super+e", "super+a"], "command": "git_add_choice" },
 // { "keys": ["super+e", "super+b"], "command": "git_blame" },
