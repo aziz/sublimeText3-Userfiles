@@ -28,7 +28,6 @@
 		"*.woff",
 		"*.woff2",
 		"/Users/allen/Ticketmaster/mnxweb/htdocs_www/static/styles/**/*.css",
-		"/Users/allen/Ticketmaster/mnxweb/htdocs_www/static/scripts/components/*",
 		"bower_components/",
 		"coverage/",
 		"dist/",
