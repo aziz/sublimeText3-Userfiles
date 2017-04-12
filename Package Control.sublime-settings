@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Abacus",
 		"AceJump",
 		"Advanced CSV",
@@ -102,7 +103,6 @@
 		"Rsync SSH",
 		"Ruby Debugger",
 		"RubyTest",
-		"Schemr",
 		"ScopeHunter",
 		"SerializedDataConverter",
 		"SideBarEnhancements",
@@ -138,7 +138,6 @@
 		"Theme - El Capitan",
 		"Theme - One Dark",
 		"Theme - Sea Lion",
-		"Themr",
 		"Typewriter",
 		"Vale",
 		"VimL",
