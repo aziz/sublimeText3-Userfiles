@@ -70,7 +70,8 @@
 		".idea",
 		".vscode",
 		".svn",
-		".yardoc"
+		".yardoc",
+		".sass-cache"
 	],
 	"font_face": "sf mono regular",
 	"font_options":
