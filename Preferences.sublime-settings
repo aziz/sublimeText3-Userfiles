@@ -76,7 +76,7 @@
 	"font_face": "sf mono regular",
 	"font_options":
 	[
-		"subpixel_antialias",
+		"no_round",
 		"directwrite"
 	],
 	"font_size": 14,
