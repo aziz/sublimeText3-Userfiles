@@ -1,7 +1,6 @@
 *.bin.gz
 *.cache
 *.pyc
-*.sublime-theme
 .DS_Store
 .SublimeREPLHistory
 ANSIescape/
