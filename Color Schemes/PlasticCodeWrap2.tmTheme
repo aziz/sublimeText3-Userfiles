@@ -950,20 +950,20 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON level1</string>
+			<string>JSON Strings</string>
 			<key>scope</key>
-			<string>source.json meta.structure string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json - meta.structure.dictionary.key.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9DF39F</string>
+				<string>#4EE161</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON level2</string>
+			<string>JSON level 1</string>
 			<key>scope</key>
-			<string>source.json meta meta.structure string</string>
+			<string>source.json meta.structure meta.structure string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -972,20 +972,9 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON level3</string>
+			<string>JSON level 2</string>
 			<key>scope</key>
-			<string>source.json meta  meta meta.structure string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFC266</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON level4</string>
-			<key>scope</key>
-			<string>source.json meta meta  meta meta.structure string</string>
+			<string>source.json meta.structure meta.structure meta.structure string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -994,9 +983,20 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON level5</string>
+			<string>JSON level 3</string>
 			<key>scope</key>
-			<string>source.json meta meta meta meta meta.structure string</string>
+			<string>source.json meta.structure meta.structure meta.structure meta.structure string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC266</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level 4</string>
+			<key>scope</key>
+			<string>source.json meta.structure meta.structure meta.structure meta.structure meta.structure string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1005,20 +1005,9 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON level6</string>
+			<string>JSON level 5</string>
 			<key>scope</key>
-			<string>source.json meta  meta meta meta meta meta.structure string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4DD2FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON level7</string>
-			<key>scope</key>
-			<string>source.json meta  meta meta  meta meta meta meta.structure string</string>
+			<string>source.json meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1027,9 +1016,20 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON level8</string>
+			<string>JSON level 6</string>
 			<key>scope</key>
-			<string>source.json meta meta  meta meta  meta meta meta meta.structure string</string>
+			<string>source.json meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DD2FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON level 7</string>
+			<key>scope</key>
+			<string>source.json meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

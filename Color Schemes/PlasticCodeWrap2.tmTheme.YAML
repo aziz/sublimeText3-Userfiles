@@ -228,8 +228,8 @@ settings:
         foreground: '#F8F8F8'
 -   name: JS function calls punctuations
     scope: punctuation.definition.arguments.begin.es, punctuation.definition.arguments.end.es,
-        meta.function-call meta.brace.round.js,
-        meta.function-call.method.js meta.group.js punctuation.definition.group.js
+        meta.function-call meta.brace.round.js, meta.function-call.method.js meta.group.js
+        punctuation.definition.group.js
     settings:
         foreground: '#FFC266'
 -   name: JS Object key-value punctuation separator
@@ -284,7 +284,8 @@ settings:
         punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es,
         punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es,
         punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es,
-        meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js punctuation.definition.parameters.end.js
+        meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js
+        punctuation.definition.parameters.end.js
     settings:
         foreground: '#F6F080'
 -   name: ES6 Arrow fn
@@ -400,36 +401,42 @@ settings:
     scope: comment.block.coffee storage.type.annotation.coffeescript
     settings:
         foreground: '#4DD2FF'
--   name: JSON level1
-    scope: source.json meta.structure string
+-   name: JSON Strings
+    scope: meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json
+        - meta.structure.dictionary.key.json
     settings:
-        foreground: '#9DF39F'
--   name: JSON level2
-    scope: source.json meta meta.structure string
+        foreground: '#4EE161'
+-   name: JSON level 1
+    scope: source.json meta.structure meta.structure string
     settings:
         foreground: '#F6F080'
--   name: JSON level3
-    scope: source.json meta  meta meta.structure string
-    settings:
-        foreground: '#FFC266'
--   name: JSON level4
-    scope: source.json meta meta  meta meta.structure string
+-   name: JSON level 2
+    scope: source.json meta.structure meta.structure meta.structure string
     settings:
         foreground: '#FF7A9A'
--   name: JSON level5
-    scope: source.json meta meta meta meta meta.structure string
+-   name: JSON level 3
+    scope: source.json meta.structure meta.structure meta.structure meta.structure
+        string
+    settings:
+        foreground: '#FFC266'
+-   name: JSON level 4
+    scope: source.json meta.structure meta.structure meta.structure meta.structure
+        meta.structure string
     settings:
         foreground: '#CCB3FF'
--   name: JSON level6
-    scope: source.json meta  meta meta meta meta meta.structure string
-    settings:
-        foreground: '#4DD2FF'
--   name: JSON level7
-    scope: source.json meta  meta meta  meta meta meta meta.structure string
+-   name: JSON level 5
+    scope: source.json meta.structure meta.structure meta.structure meta.structure
+        meta.structure meta.structure string
     settings:
         foreground: '#FFDD33'
--   name: JSON level8
-    scope: source.json meta meta  meta meta  meta meta meta meta.structure string
+-   name: JSON level 6
+    scope: source.json meta.structure meta.structure meta.structure meta.structure
+        meta.structure meta.structure meta.structure string
+    settings:
+        foreground: '#4DD2FF'
+-   name: JSON level 7
+    scope: source.json meta.structure meta.structure meta.structure meta.structure
+        meta.structure meta.structure meta.structure meta.structure string
     settings:
         foreground: '#FFA826'
 -   name: Ruby method arguments
@@ -605,24 +612,27 @@ settings:
     settings:
         foreground: '#F6F080'
 -   name: PHP class
-    scope: meta.class.php storage.type.class.php, meta.class.php storage.modifier.extends.php, meta.class.php meta.block.php punctuation.definition.block.php
+    scope: meta.class.php storage.type.class.php, meta.class.php storage.modifier.extends.php,
+        meta.class.php meta.block.php punctuation.definition.block.php
     settings:
         foreground: '#FFA826'
 -   name: PHP inherited-class
     scope: entity.other.inherited-class.php
     settings:
         foreground: '#FF7A9A'
-
 -   name: PHP modifiers
-    scope: meta.class.php meta.block.php meta.function.php storage.modifier.php, meta.class.php meta.block.php storage.modifier.php
+    scope: meta.class.php meta.block.php meta.function.php storage.modifier.php, meta.class.php
+        meta.block.php storage.modifier.php
     settings:
         foreground: '#FFC266'
 -   name: PHP function punctuation
-    scope: meta.function.php meta.block.php punctuation.definition.block.end.php, meta.function.php meta.block.php punctuation.definition.block.begin.php
+    scope: meta.function.php meta.block.php punctuation.definition.block.end.php,
+        meta.function.php meta.block.php punctuation.definition.block.begin.php
     settings:
         foreground: '#F6F080'
 -   name: Cucumber keywords
-    scope: keyword.control.source.behat, keyword.language.gherkin.feature.scenario, keyword.language.gherkin.feature
+    scope: keyword.control.source.behat, keyword.language.gherkin.feature.scenario,
+        keyword.language.gherkin.feature
     settings:
         foreground: '#CCB3FF'
 -   name: Cucumber Scenario Title
@@ -634,7 +644,8 @@ settings:
     settings:
         foreground: '#4DD2FF'
 -   name: Cucumber table punctuation
-    scope: source.feature.generic string.quoted.examples.behat, text.gherkin.feature keyword.control.cucumber.table
+    scope: source.feature.generic string.quoted.examples.behat, text.gherkin.feature
+        keyword.control.cucumber.table
     settings:
         foreground: '#9DF39F55'
 -   name: Cucumber vars
@@ -646,4 +657,3 @@ settings:
     settings:
         foreground: '#9DF39F'
         background: '#9DF39F00'
-

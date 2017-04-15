@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 { {{'.string'|css}} }
 blockquote { {{'.comment'|css}} }
 a { {{'.support.function'|css('color')}} }
 hr { {{'.comment'|css('color')|background}} }
-body { {{'.foreground'|css}}{{'.background'|css}} }
+body { {{'.foreground'|css}}{{'.background'|css|brightness(1.05)}} }
 .admonition { {{ '.support.function'|css('color')|background|fade(0.8) }} }
 .hint, .tip { {{ '.keyword'|css('color')|background|fade(0.8) }} }
 .danger { {{ '.entity.name.tag'|css('color')|background|fade(0.8) }} }
