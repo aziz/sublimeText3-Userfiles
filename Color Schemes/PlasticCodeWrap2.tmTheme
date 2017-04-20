@@ -71,7 +71,7 @@
 				<key>minimapBorder</key>
 				<string>#FFA826</string>
 				<key>accent</key>
-				<string>#D8290D</string>
+				<string>#4DD2FF</string>
 				<key>popupCss</key>
 				<string>html {
   --font: "sf mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
