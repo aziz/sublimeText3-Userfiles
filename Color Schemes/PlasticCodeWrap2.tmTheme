@@ -1302,61 +1302,6 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Warning Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF000050</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#DF940050</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF4A5250</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#ffffff33</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF000050</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>SublimeLinter Annotations</string>
 			<key>scope</key>
 			<string>sublimelinter.outline.notes</string>
@@ -1364,17 +1309,6 @@ body {
 			<dict>
 				<key>background</key>
 				<string>#FFFFAA50</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF000050</string>
 			</dict>
 		</dict>
 		<dict>

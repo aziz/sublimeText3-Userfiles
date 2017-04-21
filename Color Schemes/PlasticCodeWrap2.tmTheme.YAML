@@ -538,34 +538,10 @@ settings:
     scope: sublimelinter.mark.warning
     settings:
         foreground: '#FFDD33'
--   name: SublimeLinter Warning Underline
-    scope: sublimelinter.underline.warning
-    settings:
-        background: '#FF000050'
--   name: SublimeLinter Warning Outline
-    scope: sublimelinter.outline.warning
-    settings:
-        background: '#DF940050'
--   name: SublimeLinter Outline
-    scope: sublimelinter.outline.illegal
-    settings:
-        background: '#FF4A5250'
--   name: SublimeLinter Violation Outline
-    scope: sublimelinter.outline.violation
-    settings:
-        background: '#ffffff33'
--   name: SublimeLinter Violation Underline
-    scope: sublimelinter.underline.violation
-    settings:
-        background: '#FF000050'
 -   name: SublimeLinter Annotations
     scope: sublimelinter.outline.notes
     settings:
         background: '#FFFFAA50'
--   name: SublimeLinter Underline
-    scope: sublimelinter.underline.illegal
-    settings:
-        background: '#FF000050'
 -   name: Embedded Source
     scope: text source
     settings:
