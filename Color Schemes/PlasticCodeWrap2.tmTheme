@@ -1337,7 +1337,7 @@ body {
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalid</string>
+			<string>invalid, message.error</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>

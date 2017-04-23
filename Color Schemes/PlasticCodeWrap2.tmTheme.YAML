@@ -551,7 +551,7 @@ settings:
     settings:
         background: '#B1B3BA21'
 -   name: Invalid
-    scope: invalid
+    scope: invalid, message.error
     settings:
         background: '#D8290D'
 -   name: Block Cursor
