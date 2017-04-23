@@ -83,6 +83,7 @@
 	"hayaku_CSS_prefixes_disable": true,
 	"ignored_packages":
 	[
+		"A File Icon",
 		"Anaconda",
 		"AngularJS",
 		"ANSIescape",
@@ -224,6 +225,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": true,
 	"word_wrap": false
 }
