@@ -1,3 +1,5 @@
 {
   "vale_binary": "/usr/local/bin/vale",
+  "vale_alert_style": "squiggly_underline",
+  "vale_highlight_scope": "vale"
 }

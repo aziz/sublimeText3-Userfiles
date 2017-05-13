@@ -69,7 +69,7 @@
 				<key>misspelling</key>
 				<string>#D8290D</string>
 				<key>minimapBorder</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 				<key>accent</key>
 				<string>#4DD2FF</string>
 				<key>popupCss</key>
@@ -136,7 +136,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +165,7 @@ body {
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable.language</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -468,7 +468,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -534,7 +534,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -629,9 +629,9 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS return keyword</string>
+			<string>JS, Python return keyword</string>
 			<key>scope</key>
-			<string>keyword.control.flow.return.es</string>
+			<string>keyword.control.flow.return.es, keyword.control.flow.return.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -646,14 +646,14 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>ES6/Commonjs  module keywords</string>
 			<key>scope</key>
-			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js</string>
+			<string>source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js, keyword.control.import</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -662,9 +662,9 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>ES6 fn variables</string>
+			<string>ES6, python fn variables</string>
 			<key>scope</key>
-			<string>source.js variable.parameter.function.js, variable.parameter.es</string>
+			<string>source.js variable.parameter.function.js, variable.parameter.es, variable.parameter.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -701,7 +701,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -750,9 +750,9 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>ES6 dot separators</string>
+			<string>ES6, python dot separators</string>
 			<key>scope</key>
-			<string>keyword.operator.accessor.js, keyword.operator.accessor.es, source.js punctuation.accessor.js</string>
+			<string>keyword.operator.accessor.js, keyword.operator.accessor.es, source.js punctuation.accessor.js, punctuation.accessor.dot</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -923,7 +923,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1033,7 +1033,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1154,7 +1154,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1359,6 +1359,17 @@ body {
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Grammar Error</string>
+			<key>scope</key>
+			<string>vale</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DD2FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP tags punctuation</string>
 			<key>scope</key>
 			<string>embedding.php text.html.basic punctuation.section.embedded</string>
@@ -1442,7 +1453,7 @@ body {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA826</string>
+				<string>#FF9600</string>
 			</dict>
 		</dict>
 		<dict>

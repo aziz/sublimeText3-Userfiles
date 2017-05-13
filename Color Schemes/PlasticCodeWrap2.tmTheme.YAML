@@ -30,7 +30,7 @@ settings:
         shadowWidth: '1'
         stackGuide: '#ffe79222'
         misspelling: '#D8290D'
-        minimapBorder: '#FFA826'
+        minimapBorder: '#FF9600'
         accent: '#4DD2FF'
         popupCss: |
             html {
@@ -60,7 +60,7 @@ settings:
 -   name: Keyword
     scope: keyword
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: String
     scope: string
     settings:
@@ -70,7 +70,7 @@ settings:
     settings:
         foreground: '#9DF39F'
 -   name: Variable
-    scope: variable
+    scope: variable.language
     settings:
         foreground: '#FF7A9A'
 -   name: Entity inherited-class
@@ -188,7 +188,7 @@ settings:
 -   name: LESS @at-rule
     scope: meta.preprocessor.at-rule keyword.control.at-rule
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: Sass attribute-name pseudo-class
     scope: source.scss entity.other.attribute-name.pseudo-class.css.sass
     settings:
@@ -212,7 +212,7 @@ settings:
 -   name: Sass keywords
     scope: source.scss entity.name.tag.reference.scss
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: Sass string interpolations
     scope: source.scss support.function.interpolation.sass
     settings:
@@ -255,25 +255,25 @@ settings:
         storage.type.function.arrow.es
     settings:
         foreground: '#FFDD33'
--   name: JS return keyword
-    scope: keyword.control.flow.return.es
+-   name: JS, Python return keyword
+    scope: keyword.control.flow.return.es, keyword.control.flow.return.python
     settings:
         foreground: '#4DD2FF'
 -   name: 'JS case : punctuation'
     scope: punctuation.separator.case-statements.es
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: ES6/Commonjs  module keywords
     scope: source.js keyword.operator.module.js, source.js support.type.object.module.js,
         storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js
         storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js,
         keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es,
         support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es,
-        keyword.control.import-export.js
+        keyword.control.import-export.js, keyword.control.import
     settings:
         foreground: '#AE81FF'
--   name: ES6 fn variables
-    scope: source.js variable.parameter.function.js, variable.parameter.es
+-   name: ES6, python fn variables
+    scope: source.js variable.parameter.function.js, variable.parameter.es, variable.parameter.python
     settings:
         foreground: '#FFC266'
 -   name: ES6 fn punctuations
@@ -299,7 +299,7 @@ settings:
         punctuation.definition.class.body.begin.es, punctuation.definition.class.body.end.es,
         storage.modifier.extends.js
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: ES6 Class Properties
     scope: meta.class.property.js variable.other.property.js
     settings:
@@ -321,8 +321,8 @@ settings:
     scope: entity.other.property-binding.es
     settings:
         foreground: '#F8F8F888'
--   name: ES6 dot separators
-    scope: keyword.operator.accessor.js, keyword.operator.accessor.es, source.js punctuation.accessor.js
+-   name: ES6, python dot separators
+    scope: keyword.operator.accessor.js, keyword.operator.accessor.es, source.js punctuation.accessor.js, punctuation.accessor.dot
     settings:
         foreground: '#FFC266'
 -   name: ES6 Template Strings Punctuations
@@ -392,7 +392,7 @@ settings:
 -   name: Coffee dots
     scope: meta.delimiter.method.period.coffee
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: Coffee curleys
     scope: meta.brace.curly.coffee
     settings:
@@ -438,7 +438,7 @@ settings:
     scope: source.json meta.structure meta.structure meta.structure meta.structure
         meta.structure meta.structure meta.structure meta.structure string
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: Ruby method arguments
     scope: meta.function.method.with-arguments.ruby variable.parameter.function.ruby
     settings:
@@ -484,7 +484,7 @@ settings:
     scope: meta.class.ruby entity.name.type.class.ruby entity.other.inherited-class.ruby
         punctuation.separator.inheritance.ruby
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: ERB Punctuations
     scope: text.html.ruby text.html.basic source.ruby.rails.embedded.html punctuation.section.embedded.ruby
     settings:
@@ -559,6 +559,10 @@ settings:
     settings:
         background: '#FF5E00'
         foreground: '#F8F8F8'
+-   name: Grammar Error
+    scope: vale
+    settings:
+        foreground: '#4DD2FF'
 -   name: PHP tags punctuation
     scope: embedding.php text.html.basic punctuation.section.embedded
     settings:
@@ -591,7 +595,7 @@ settings:
     scope: meta.class.php storage.type.class.php, meta.class.php storage.modifier.extends.php,
         meta.class.php meta.block.php punctuation.definition.block.php
     settings:
-        foreground: '#FFA826'
+        foreground: '#FF9600'
 -   name: PHP inherited-class
     scope: entity.other.inherited-class.php
     settings:

@@ -16,9 +16,15 @@
 	"always_show_minimap_viewport": true,
 	"atomic_save": false,
 	"auto_complete": true,
-	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
-	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"} ],
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		}
+	],
 	"binary_file_patterns":
 	[
 		"**/node_modules/**",

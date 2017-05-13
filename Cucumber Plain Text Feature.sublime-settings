@@ -1,4 +1,5 @@
 {
   "enable_table_editor": true,
-  "show_definitions": false
+  "show_definitions": false,
+  "spell_check": true
 }
