@@ -70,7 +70,7 @@ settings:
     settings:
         foreground: '#9DF39F'
 -   name: Variable
-    scope: variable.language, text.gherkin.feature variable.other
+    scope: variable.language, text.gherkin.feature variable.other, variable.other.readwrite.property.class.es
     settings:
         foreground: '#FF7A9A'
 -   name: Entity inherited-class

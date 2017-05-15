@@ -165,7 +165,7 @@ body {
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, text.gherkin.feature variable.other</string>
+			<string>variable.language, text.gherkin.feature variable.other, variable.other.readwrite.property.class.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
