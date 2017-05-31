@@ -637,3 +637,25 @@ settings:
     settings:
         foreground: '#9DF39F'
         background: '#9DF39F00'
+-   name: Merge Conflicts Delimiter Our Changes
+    scope: invalid.merge-conflict.delimiter.our-changes
+    settings:
+        background: '#178BFB'
+-   name: Merge Conflicts Delimiter Their Changes
+    scope: invalid.merge-conflict.delimiter.their-changes
+    settings:
+        background: '#2CB585'
+-   name: Merge Conflicts Our Changes Content
+    scope: invalid.merge-conflict.our-changes
+    settings:
+        background: '#178BFB33'
+-   name: Merge Conflicts Thier Changes Content
+    scope: invalid.merge-conflict.thier-changes
+    settings:
+        background: '#2CB58533'
+-   name: Merge Conflicts Separator
+    scope: invalid.merge-conflict.delimiter.separator
+    settings:
+        background: '#00161B'
+        foreground: '#5A707577'
+

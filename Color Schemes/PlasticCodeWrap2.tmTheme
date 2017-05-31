@@ -1557,6 +1557,63 @@ body {
 				<string>#9DF39F00</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Merge Conflicts Delimiter Our Changes</string>
+			<key>scope</key>
+			<string>invalid.merge-conflict.delimiter.our-changes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#178BFB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Merge Conflicts Delimiter Their Changes</string>
+			<key>scope</key>
+			<string>invalid.merge-conflict.delimiter.their-changes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2CB585</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Merge Conflicts Our Changes Content</string>
+			<key>scope</key>
+			<string>invalid.merge-conflict.our-changes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#178BFB33</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Merge Conflicts Thier Changes Content</string>
+			<key>scope</key>
+			<string>invalid.merge-conflict.thier-changes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2CB58533</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Merge Conflicts Separator</string>
+			<key>scope</key>
+			<string>invalid.merge-conflict.delimiter.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00161B</string>
+				<key>foreground</key>
+				<string>#5A707577</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
