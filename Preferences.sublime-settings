@@ -189,6 +189,7 @@
 		"SmartMarkdown",
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-sqlint",
+		"SublimeLinter-flake8",
 		"SublimeLinter-phplint",
 		"SwiftKitten",
 		"SyncedSidebarBg",
