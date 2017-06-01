@@ -650,7 +650,7 @@ settings:
     settings:
         background: '#178BFB33'
 -   name: Merge Conflicts Thier Changes Content
-    scope: invalid.merge-conflict.thier-changes
+    scope: invalid.merge-conflict.their-changes
     settings:
         background: '#2CB58533'
 -   name: Merge Conflicts Separator

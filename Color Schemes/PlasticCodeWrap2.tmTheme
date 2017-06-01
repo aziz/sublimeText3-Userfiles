@@ -1594,7 +1594,7 @@ body {
 			<key>name</key>
 			<string>Merge Conflicts Thier Changes Content</string>
 			<key>scope</key>
-			<string>invalid.merge-conflict.thier-changes</string>
+			<string>invalid.merge-conflict.their-changes</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
