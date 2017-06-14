@@ -4,6 +4,7 @@
 .DS_Store
 .SublimeREPLHistory
 ANSIescape/
+AutoFoldCode.sublime-settings
 CalendarEvents/
 Color Highlighter
 ColorSchemeEditorTemp
@@ -20,10 +21,10 @@ Package Control.*-ca-bundle
 Package Control.last-run
 Projects/
 RubyTest.last-run
+sassSolution.sublime-settings
 Side Bar Folders.sublime-settings
 Side Bar Folders/
 SQLExec.sublime-settings
 subclrschm
 subclrschm.log
 SublimeLinter/
-sassSolution.sublime-settings
