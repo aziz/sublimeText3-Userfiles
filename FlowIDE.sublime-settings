@@ -1,0 +1,8 @@
+{
+    "flow_path": "flow",
+    "use_npm_flow": true,
+    "omit_function_parameters": false,
+    "show_sublime_autocomplete_suggestions": true,
+    "show_coverage": true,
+    "debounce_ms": 300
+}
