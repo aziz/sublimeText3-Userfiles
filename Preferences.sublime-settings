@@ -39,6 +39,7 @@
 		"*.jar",
 		"*.jpeg",
 		"*.jpg",
+		"*.snap",
 		"*.map",
 		"*.pdf",
 		"*.png",
