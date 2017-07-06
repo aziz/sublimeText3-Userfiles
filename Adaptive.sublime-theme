@@ -15,7 +15,16 @@
   {
       "class": "icon_folder",
       "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
-      "layer0.tint": [255, 255, 255],
-      "layer0.opacity": 0.5,
+      "layer0.tint": [220, 182, 122],
+      "layer0.opacity": 0.9,
+  },
+  {
+      "class": "sidebar_tree",
+      "row_padding": [6, 1, 6, 1]
+  },
+  {
+      "class": "sidebar_label",
+      "font.size": 11,
+      "font.face": "SF Mono"
   },
 ]
