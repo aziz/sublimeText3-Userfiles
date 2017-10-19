@@ -11,12 +11,14 @@
   {
       "class": "sidebar_heading",
       "fg": ["background", 0, 0, 0, 0.25],
+      "shadow_offset": [0, 0],
+      "font.size": 14
   },
   {
       "class": "icon_folder",
       "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
       "layer0.tint": [220, 182, 122],
-      "layer0.opacity": 0.9,
+      "layer0.opacity": 0.9
   },
   {
       "class": "sidebar_tree",
