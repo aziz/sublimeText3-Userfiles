@@ -13,6 +13,7 @@
 		"async",
 		"popup"
 	],
+	"adaptive_dividers": false,
 	"always_show_minimap_viewport": true,
 	"atomic_save": false,
 	"auto_complete": true,
