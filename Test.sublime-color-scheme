@@ -1,0 +1,785 @@
+{
+    "defaults": {
+        "active_guide": "#FFE79255",
+        "background": "var(background)",
+        "caret": "#FF5E00",
+        "find_highlight": "#ffe792",
+        "find_highlight_foreground": "var(background)",
+        "foreground": "var(white)",
+        "guide": "#28364266",
+        "gutter": "var(background)",
+        "gutter_foreground": "#5A707577",
+        "inactive_selection": "#C5DFE933",
+        "invisibles": "#F3FFB51A",
+        "line_highlight": "#FFFFFF11",
+        "selection": "#C5DFE988",
+        "selection_border": "#C5DFE988",
+        "shadow": "var(background)",
+        "shadow_width": "1",
+        "stack_guide": "#ffe79222",
+        "misspelling": "#D8290D",
+        "minimap_border": "var(orange)",
+        "accent": "var(blue)",
+        "popup_css":
+            "html {\n  --font: \"sf mono\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n}\nbody {\n    margin: 0;\n    padding: 0;\n    font-family: var(--font);\n}\n"
+    },
+    "variables": {
+        "white": " #F8F8F8",
+        "background": " #00161B",
+        "comment": " #406A80",
+        "green": " #4EE161",
+        "green_light": " #9DF39F",
+        "pink": " #FF3A83",
+        "pink_light": " #FF7A9A",
+        "yellow": " #FFDD33",
+        "yellow_light": " #F6F080",
+        "orange": " #FF9600",
+        "orange_light": " #FFC266",
+        "purple": " #AE81FF",
+        "purple_light": " #CCB3FF",
+        "blue": " #4DD2FF",
+        "blue_light": ""
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope":
+                "comment, comment.block.python string.quoted, string.quoted.docstring.multi.python",
+            "foreground": "var(comment)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Entity",
+            "scope": "entity",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Support",
+            "scope": "support",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "Variable",
+            "scope":
+                "variable.language, text.gherkin.feature variable.other, variable.other.readwrite.property.class.es",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "Entity inherited-class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "String embedded-source",
+            "scope": "string.quoted source, string constant, string source.ruby.embedded",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "String regexp",
+            "scope": "string.regexp - source.regexp",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "String variable",
+            "scope": "string variable",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Support function",
+            "scope": "support.function",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "Support constant",
+            "scope": "support.constant",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "Tag",
+            "scope":
+                "declaration.tag, declaration.tag entity, meta.tag, entity.name.tag, entity.name.tag.jsx",
+            "foreground": "#9EFFFFAB"
+        },
+        {
+            "name": "HTML attributes inline CSS and JS",
+            "scope":
+                "text.html meta.tag meta.attribute-with-value source.js, text.html meta.tag meta.attribute-with-value source.css",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "HTML id",
+            "scope": "entity.other.attribute-name.id.html",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "HTML attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.jsx",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "HTML Class attributes",
+            "scope": "entity.other.attribute-name.class.html",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "HTML punctuations tags",
+            "scope":
+                "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
+            "foreground": "#65A4A487"
+        },
+        {
+            "name": "HTML entities",
+            "scope": "constant.character.entity.html",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "HTML script tags",
+            "scope": "entity.name.tag.script.html",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "HTML style tags and attributes",
+            "scope": "entity.name.tag.style.html, entity.other.attribute-name.style.html",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "CSS/Less/Sass html-tag",
+            "scope":
+                "meta.selector.css entity.name.tag, source.less entity.name.tag.css, keyword.control.html.elements, source.scss entity.name.tag.scss, source.scss entity.name.tag.css.sass.symbol",
+            "foreground": "#9EFFFF"
+        },
+        {
+            "name": "CSS/Less/Sass ID",
+            "scope":
+                "meta.selector.css entity.other.attribute-name.id, source.less entity.other.attribute-name.id.css, source.scss entity.other.attribute-name.id.css",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "CSS/Less/Sass class",
+            "scope":
+                "meta.selector.css entity.other.attribute-name.class, source.less entity.other.attribute-name.class.css, source.scss entity.other.attribute-name.class.css",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "CSS property name",
+            "scope": "support.type.property-name.css",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "CSS @import",
+            "scope": "keyword.control.at-rule.import.css",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "CSS additional-constants",
+            "scope":
+                "meta.property-value support.constant.named-color.css, meta.property-value constant",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "CSS/Less/Sass Units",
+            "scope":
+                "keyword.other.unit.css, source.less keyword.unit.css, source.scss keyword.other.unit.scss",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "CSS/Sass !important",
+            "scope": "keyword.other.important.css, source.scss keyword.other.important.scss",
+            "fontStyle": "bold",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Less/Sass variables and CSS custom property",
+            "scope":
+                "support.type.custom-property.css, source.less variable.other.less, source.less variable.declaration.less, source.scss variable.scss, source.scss meta.property-list.css.sass variable.other.value, source.scss sass-script-maps variable.other",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "CSS custom property punctuations",
+            "scope": "support.type.custom-property.css punctuation.definition.custom-property.css",
+            "foreground": "#CCB3FF88"
+        },
+        {
+            "name": "CSS custom property punctuations",
+            "scope": "entity.other.pseudo-class.css punctuation.definition.entity.css",
+            "foreground": "#FFDD3388"
+        },
+        {
+            "name": "LESS @at-rule",
+            "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Sass attribute-name pseudo-class",
+            "scope": "source.scss entity.other.attribute-name.pseudo-class.css.sass",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Sass Color",
+            "scope": "source.scss constant.other.color.rgb-value.css.sass",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "Sass comma punctuations",
+            "scope": "source.scss comment.punctuation.comma.sass",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Sass @mixins",
+            "scope":
+                "source.scss support.function.name.sass.no-completions keyword.control.at-rule.css.sass",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Sass @included",
+            "scope":
+                "source.scss support.function.name.sass.library keyword.control.at-rule.css.sass",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Sass keywords",
+            "scope": "source.scss entity.name.tag.reference.scss",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Sass string interpolations",
+            "scope": "source.scss support.function.interpolation.sass",
+            "foreground": "var(green_light)",
+            "background": "#9DF39F22"
+        },
+        {
+            "name": "JS vars",
+            "scope":
+                "variable.other.readwrite.js, variable.other.object.js, variable.other.readwrite.es",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "JS function calls",
+            "scope": "variable.function.js, meta.function-call meta.invocation.es",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "JS function calls punctuations",
+            "scope":
+                "punctuation.definition.arguments.begin.es, punctuation.definition.arguments.end.es, meta.function-call meta.brace.round.js, meta.function-call.method.js meta.group.js punctuation.definition.group.js",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "JS Object key-value punctuation separator",
+            "scope":
+                "source.js punctuation.separator.key-value.js, variable.other.readwrite.property.es, punctuation.separator.key-value.es",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "JS object key",
+            "scope":
+                "constant.other.object.key.js string.unquoted.label.js, variable.other.readwrite.property.shorthand.es, constant.other.object.key.js string.unquoted.label.js variable.other.readwrite.property.object-literal.es, source.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "JS object punctuations",
+            "scope":
+                "punctuation.definition.object.begin.es, punctuation.definition.object.end.es, punctuation.definition.accessor.begin.es, punctuation.definition.accessor.end.es, punctuation.separator.object-member.es, source.js meta.object-literal.js meta.brace.curly.js, meta.object-literal.js punctuation.definition.block.js",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "JS constructor",
+            "scope":
+                "variable.function.constructor.js, entity.name.method.es variable.other.readwrite.property.es, storage.type.function.arrow.es",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "JS, Python return keyword",
+            "scope": "keyword.control.flow.return.es, keyword.control.flow.return.python",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "JS case : punctuation",
+            "scope": "punctuation.separator.case-statements.es",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "ES6/Commonjs  module keywords",
+            "scope":
+                "source.js keyword.operator.module.js, source.js support.type.object.module.js, storage.type.module.import.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.from.es, storage.type.module.export.es keyword.operator.module.js, keyword.operator.module.js storage.modifier.module.default.es, support.function.node.require.es, support.variable.node.module.es, keyword.operator.module.js storage.modifier.module.as.es, keyword.control.import-export.js, keyword.control.import",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "ES6, python fn variables",
+            "scope":
+                "source.js variable.parameter.function.js, variable.parameter.es, variable.parameter.python",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "ES6 fn punctuations",
+            "scope":
+                "punctuation.definition.function.arrow.body.begin.es, punctuation.definition.function.arrow.body.end.es, punctuation.definition.parameters.function.arrow.begin.es, punctuation.definition.parameters.function.arrow.end.es, punctuation.definition.function.body.begin.es, punctuation.definition.function.body.end.es, punctuation.definition.method.body.begin.es, punctuation.definition.method.body.end.es, punctuation.definition.parameters.method.begin.es, punctuation.definition.parameters.method.end.es, punctuation.definition.parameters.function.begin.es, punctuation.definition.parameters.function.end.es, punctuation.definition.constructor.body.begin.es, punctuation.definition.constructor.body.end.es, meta.function.arrow.js punctuation.definition.parameters.begin.js, meta.function.arrow.js punctuation.definition.parameters.end.js",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "ES6 Arrow fn",
+            "scope":
+                "meta.function.arrow.js storage.type.function.arrow.js, variable.other.readwrite.allCap.es entity.name.function.es",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "ES6 class and extends",
+            "scope":
+                "source.js meta.class.js storage.type.class.js,source.js meta.class.js storage.type.extends.js, storage.type.class.es, storage.type.extends.js storage.modifier.extends.es, punctuation.definition.class.body.begin.es, punctuation.definition.class.body.end.es, storage.modifier.extends.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "ES6 Class Properties",
+            "scope": "meta.class.property.js variable.other.property.js",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "ES6 constants",
+            "scope": "source.js variable.other.constant.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "ES6 Destructuring puctuations",
+            "scope":
+                "punctuation.definition.binding.object.begin.es, punctuation.definition.binding.object.end.es, punctuation.definition.module-binding.begin.es, punctuation.definition.module-binding.end.es, constant.other.object.key.js punctuation.separator.property-binding.es, punctuation.separator.object-member.binding.es, punctuation.separator.module-binding.es, punctuation.definition.binding.object.parameter.end.es, punctuation.definition.binding.object.parameter.begin.es, meta.import.js punctuation.definition.block.js, meta.import.js punctuation.separator.comma.js",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "ES6 Destructuring variables not binding to",
+            "scope": "entity.other.property-binding.es",
+            "foreground": "#F8F8F888"
+        },
+        {
+            "name": "ES6, python dot separators",
+            "scope":
+                "keyword.operator.accessor.js, keyword.operator.accessor.es, source.js punctuation.accessor.js, punctuation.accessor.dot",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "ES6 Template Strings Punctuations",
+            "scope":
+                "source.js string.interpolated.js keyword.other.template.begin.js, source.js string.interpolated.js keyword.other.template.end.js, source.js string.interpolated.js keyword.other.substitution.begin.js, source.js string.interpolated.js keyword.other.substitution.end.js, string.interpolated.es punctuation.definition.string.interpolated.element.begin.es, string.interpolated.es punctuation.definition.string.interpolated.element.end.es",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "ES6 import vars",
+            "scope": "variable.other.readwrite.import.es, entity.name.module.import.es",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "ES6 decorators",
+            "scope": "variable.other.readwrite.decorator.es, punctuation.definition.decorator.es",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "JSX Embedded",
+            "scope": "meta.embedded.expression.jsx, meta.interpolation.jsx",
+            "background": "#B0B3BA14"
+        },
+        {
+            "name": "JSX punctuation",
+            "scope": "punctuation.section.embedded.jsx",
+            "foreground": "#9EFFFF"
+        },
+        {
+            "name": "JSX attribures names",
+            "scope": "meta.jsx.js entity.other.attribute-name.jsx, variable.other.attribute.jsx",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "JSX attribures operators",
+            "scope":
+                "meta.jsx.js keyword.operator.assignment.jsx, punctuation.separator.attribute-value.jsx, meta.interpolation.jsx punctuation.definition.interpolation.begin.jsx, meta.interpolation.jsx punctuation.definition.interpolation.end.jsx, meta.interpolation.jsx punctuation.definition.attribute.begin.jsx, punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx",
+            "foreground": "#65A4A4"
+        },
+        {
+            "name": "JSX Text",
+            "scope": "string.text.jsx",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Angular",
+            "scope": "entity.other.attribute-name.angular.html",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Angular embedded",
+            "scope": "source.angular.embedded.html ",
+            "background": "var(background)",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "Coffee instance var",
+            "scope": "variable.other.readwrite.instance.coffee",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "Coffee brace",
+            "scope": "meta.brace.round.coffee,meta.brace.square.coffee",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Coffee embeded",
+            "scope": "punctuation.section.embedded.coffee",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Coffee vars",
+            "scope": "variable.assignment.coffee variable.assignment.coffee",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Coffee dots",
+            "scope": "meta.delimiter.method.period.coffee",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Coffee curleys",
+            "scope": "meta.brace.curly.coffee",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "Coffee comment annotation",
+            "scope": "comment.block.coffee storage.type.annotation.coffeescript",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "JSON Strings",
+            "scope":
+                "meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json - meta.structure.dictionary.key.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "JSON level 1",
+            "scope": "source.json meta.structure meta.structure string",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "JSON level 2",
+            "scope": "source.json meta.structure meta.structure meta.structure string",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "JSON level 3",
+            "scope":
+                "source.json meta.structure meta.structure meta.structure meta.structure string",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "JSON level 4",
+            "scope":
+                "source.json meta.structure meta.structure meta.structure meta.structure meta.structure string",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "JSON level 5",
+            "scope":
+                "source.json meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure string",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "JSON level 6",
+            "scope":
+                "source.json meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure string",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "JSON level 7",
+            "scope":
+                "source.json meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure meta.structure string",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Ruby method arguments",
+            "scope": "meta.function.method.with-arguments.ruby variable.parameter.function.ruby",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Ruby method arguments punctuations",
+            "scope":
+                "meta.function.method.with-arguments.ruby variable.parameter.function.ruby punctuation.separator.object.ruby",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Ruby special string quotes",
+            "scope": "string.quoted.other punctuation.definition",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "Ruby Symbols",
+            "scope": "source.ruby constant.other.symbol",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "Ruby Class",
+            "scope": "entity.name.type.class.ruby",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "Ruby Module",
+            "scope": "entity.name.type.module.ruby",
+            "foreground": "var(green_light)"
+        },
+        {
+            "name": "Ruby Module Punctuations",
+            "scope": "punctuation.separator.inheritance.ruby",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Ruby Constant",
+            "scope": "variable.other.constant.ruby",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "Ruby Lang Vars",
+            "scope": "variable.language.ruby, keyword.other.special-method.ruby",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "Ruby Block Variable",
+            "scope": "variable.other.block.ruby",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Ruby inheritance symbol",
+            "scope":
+                "meta.class.ruby entity.name.type.class.ruby entity.other.inherited-class.ruby punctuation.separator.inheritance.ruby",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "ERB Punctuations",
+            "scope":
+                "text.html.ruby text.html.basic source.ruby.rails.embedded.html punctuation.section.embedded.ruby",
+            "foreground": "#FF7A9A87"
+        },
+        {
+            "name": "RSpec String Descriptions",
+            "scope":
+                "source.ruby.rspec meta.rspec string.quoted, source.ruby.rspec meta.rspec string.ruby",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "RSpec Keywords",
+            "scope": "keyword.other.rspec",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "RSpec Block Keywords, describe, context and it",
+            "scope": "keyword.other.rspec.behaviour, keyword.other.rspec.example",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "YAML array punctuation",
+            "scope": "punctuation.definition.entry.yaml, entity.name.tag.yaml",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "INI Property",
+            "scope": "source.ini keyword.name.ini",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "INI Section",
+            "scope": "source.ini entity.section.ini",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "INI Section Punc.",
+            "scope": "source.ini punctuation.definition.section.ini",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "Regexp normal",
+            "scope": "source.regexp string",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Embedded Regexp group",
+            "scope": "string.regexp punctuation.definition.group",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "#D8290D"
+        },
+        {
+            "name": "SublimeLinter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "SublimeLinter Annotations",
+            "scope": "sublimelinter.outline.notes",
+            "background": "#FFFFAA50"
+        },
+        {
+            "name": "Embedded Source",
+            "scope": "text source",
+            "background": "#B0B3BA14"
+        },
+        {
+            "name": "Embedded Source (Bright)",
+            "scope": "text.html.ruby source",
+            "background": "#B1B3BA21"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid, message.error",
+            "background": "#D8290D"
+        },
+        {
+            "name": "Block Cursor",
+            "scope": "block_cursor",
+            "background": "#FF5E00",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Grammar Error",
+            "scope": "vale",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "PHP tags punctuation",
+            "scope": "embedding.php text.html.basic punctuation.section.embedded",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "PHP tags bg",
+            "scope": "embedding.php text.html.basic meta.embedded source.php",
+            "background": "var(background)"
+        },
+        {
+            "name": "PHP namespace separator",
+            "scope": "punctuation.separator.namespace.php",
+            "foreground": "#9DF39F66"
+        },
+        {
+            "name": "PHP doc keywords",
+            "scope": "comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "PHP variable",
+            "scope": "variable.other.php, keyword.operator.class.php",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "PHP variable punctuation",
+            "scope": "punctuation.definition.variable.php",
+            "foreground": "#FF7A9A99"
+        },
+        {
+            "name": "PHP variable function",
+            "scope": "variable.function.php",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "PHP class",
+            "scope":
+                "meta.class.php storage.type.class.php, meta.class.php storage.modifier.extends.php, meta.class.php meta.block.php punctuation.definition.block.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "PHP inherited-class",
+            "scope": "entity.other.inherited-class.php",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "PHP modifiers",
+            "scope":
+                "meta.class.php meta.block.php meta.function.php storage.modifier.php, meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "PHP function punctuation",
+            "scope":
+                "meta.function.php meta.block.php punctuation.definition.block.end.php, meta.function.php meta.block.php punctuation.definition.block.begin.php",
+            "foreground": "var(yellow_light)"
+        },
+        {
+            "name": "Cucumber keywords",
+            "scope":
+                "keyword.control.source.behat, keyword.language.gherkin.feature.scenario, keyword.language.gherkin.feature",
+            "foreground": "var(purple_light)"
+        },
+        {
+            "name": "Cucumber Scenario Title",
+            "scope":
+                "string.language.gherkin.scenario.title.title, string.language.gherkin.feature.title",
+            "foreground": "var(orange_light)"
+        },
+        {
+            "name": "Cucumber step",
+            "scope": "keyword.operator.step.behat, keyword.language.gherkin.feature.step",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Cucumber table punctuation",
+            "scope":
+                "source.feature.generic string.quoted.examples.behat, text.gherkin.feature keyword.control.cucumber.table",
+            "foreground": "#9DF39F55"
+        },
+        {
+            "name": "Cucumber vars",
+            "scope": "source.feature.generic string.interpolated.behat",
+            "foreground": "var(pink_light)"
+        },
+        {
+            "name": "Cucumber table content",
+            "scope": "text.gherkin.feature keyword.control.cucumber.table source",
+            "foreground": "var(green_light)",
+            "background": "#9DF39F00"
+        },
+        {
+            "name": "Merge Conflicts Delimiter Our Changes",
+            "scope": "invalid.merge-conflict.delimiter.our-changes",
+            "background": "#178BFB"
+        },
+        {
+            "name": "Merge Conflicts Delimiter Their Changes",
+            "scope": "invalid.merge-conflict.delimiter.their-changes",
+            "background": "#2CB585"
+        },
+        {
+            "name": "Merge Conflicts Our Changes Content",
+            "scope": "invalid.merge-conflict.our-changes",
+            "background": "#178BFB33"
+        },
+        {
+            "name": "Merge Conflicts Thier Changes Content",
+            "scope": "invalid.merge-conflict.their-changes",
+            "background": "#2CB58533"
+        },
+        {
+            "name": "Merge Conflicts Separator",
+            "scope": "invalid.merge-conflict.delimiter.separator",
+            "background": "var(background)",
+            "foreground": "#5A707577"
+        }
+    ]
+}

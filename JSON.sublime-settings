@@ -6,6 +6,7 @@
 		"sublime-workspace",
 		".eslintrc",
 		".babelrc",
-		".stylelintrc"
+		".stylelintrc",
+		"sublime-color-scheme"
 	]
 }

@@ -1,4 +1,5 @@
 {
+	"adaptive_dividers": false,
 	"added_words":
 	[
 		"plugins",
@@ -13,7 +14,6 @@
 		"async",
 		"popup"
 	],
-	"adaptive_dividers": false,
 	"always_show_minimap_viewport": true,
 	"atomic_save": false,
 	"auto_complete": true,
@@ -61,7 +61,7 @@
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap2.tmTheme",
+	"color_scheme": "Packages/User/Test.sublime-color-scheme",
 	"enable_tab_scrolling": false,
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
