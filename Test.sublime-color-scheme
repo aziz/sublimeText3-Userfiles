@@ -1,5 +1,5 @@
 {
-    "defaults": {
+    "globals": {
         "active_guide": "#FFE79255",
         "background": "var(background)",
         "caret": "#FF5E00",
@@ -24,21 +24,22 @@
             "html {\n  --font: \"sf mono\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n}\nbody {\n    margin: 0;\n    padding: 0;\n    font-family: var(--font);\n}\n"
     },
     "variables": {
-        "white": " #F8F8F8",
-        "background": " #00161B",
-        "comment": " #406A80",
-        "green": " #4EE161",
-        "green_light": " #9DF39F",
-        "pink": " #FF3A83",
-        "pink_light": " #FF7A9A",
-        "yellow": " #FFDD33",
-        "yellow_light": " #F6F080",
-        "orange": " #FF9600",
-        "orange_light": " #FFC266",
-        "purple": " #AE81FF",
-        "purple_light": " #CCB3FF",
-        "blue": " #4DD2FF",
-        "blue_light": ""
+        "white": "#F8F8F8",
+        "background": "#00161B",
+        "comment": "#406A80",
+        "green": "#4EE161",
+        "green_light": "#9DF39F",
+        "pink": "#FF3A83",
+        "pink_light": "#FF7A9A",
+        "yellow": "#FFDD33",
+        "yellow_light": "#F6F080",
+        "orange": "#FF9600",
+        "orange_light": "#FFC266",
+        "purple": "#AE81FF",
+        "purple_light": "#CCB3FF",
+        "blue": "#4DD2FF",
+
+        "blue_light": "#FFF"
     },
     "rules": [
         {
