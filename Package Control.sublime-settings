@@ -1,11 +1,7 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
-		"Abacus",
 		"AceJump",
 		"Advanced CSV",
 		"AlignTab",
@@ -73,7 +69,6 @@
 		"React ES6 Snippets",
 		"ScopeHunter",
 		"SerializedDataConverter",
-		"SideBarFolders",
 		"SideBarTools",
 		"Sort Lines (Numerically)",
 		"SqlBeautifier",
