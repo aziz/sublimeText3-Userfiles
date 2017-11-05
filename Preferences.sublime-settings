@@ -135,6 +135,7 @@
 		"ElasticsearchClient",
 		"Elm Language Support",
 		"Erlang",
+		"FindKeyConflicts",
 		"Flow",
 		"FlowIDE",
 		"Gherkin Auto-Complete Plus",

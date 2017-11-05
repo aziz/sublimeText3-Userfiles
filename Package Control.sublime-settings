@@ -1,5 +1,8 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AceJump",
@@ -32,6 +35,7 @@
 		"Emmet",
 		"ES6-Toolkit",
 		"ExpandRegion",
+		"FindKeyConflicts",
 		"Flow",
 		"FlowIDE",
 		"Fold Comments",
