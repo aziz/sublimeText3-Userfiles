@@ -1,5 +1,5 @@
 {
-	"dired_hijack_new_window": "jump_list",
+  "dired_hijack_new_window": false,
 	"dired_jump_points":
 	{
 		"ST/BetterFindBuffer": "/Users/allen/Library/Application Support/Sublime Text 3/Packages/BetterFindBuffer/",
