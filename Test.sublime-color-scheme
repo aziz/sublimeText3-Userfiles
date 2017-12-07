@@ -397,6 +397,11 @@
             "background": "#B0B3BA14"
         },
         {
+            "name": "JSX Components",
+            "scope": "source.js source.es entity.name.class.jsx",
+            "foreground": "var(blue)"
+        },
+        {
             "name": "JSX punctuation",
             "scope": "punctuation.section.embedded.jsx",
             "foreground": "#9EFFFF"
